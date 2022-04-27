@@ -71,7 +71,8 @@ else:
         loss_acc_coef=args.loss_acc_coef,
         efi_coef=args.ensemble_filtering_intent_coef,
         efs_coef=args.ensemble_filtering_slot_coef,
-        mean_teacher=True
+        mean_teacher=True,
+        n_sample_train=len(nlu_datasource.train_processor.list_intents)
     )
 
 
