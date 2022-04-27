@@ -1,0 +1,1382 @@
+,text,old_intent,is_diff,new_intent,is_diff_relabel,relabel_intent
+0,tăng bóng 3 26 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+1,hãy tăng thêm độ sáng phòng ngủ con trai lên 91 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+2,giúp mình tăng đèn âm trần thứ 2 lên 10 phần trăm ở phòng con nhỏ 4 tầng 5 nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+3,bạn có thể tăng giúp mình bóng chùm thứ 3 lên mức 21 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+4,tăng bình nóng lạnh 5 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+6,tăng đèn cảnh lên 23 phần trăm ở khách 2 6,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+7,bạn có thể giúp mình tăng mức độ của đèn màu bên phòng giặt ủi 4 lên 8 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+8,bạn tăng đèn hắt tường thứ 1 ở phòng sách 5 lên 13 phần trăm giúp mình nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+9,tăng đèn treo tường lên 7 phần trăm giúp mình,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+11,tăng thêm độ sáng bóng trụ cổng 3 lễ tân 4 lên 82 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+12,tăng điện thứ 1 lên 5 phần trăm giúp mình,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+13,tăng hắt trần thứ 2 lên 22 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+14,tăng bóng kiểng thứ 3 lên 1 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+15,tăng thêm ánh sáng bóng hắt tường 2 lên mức 51 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+16,bạn tăng bóng led 3 ở phòng tắm xông hơi 2 phòng 10 lên 26 phần trăm hộ mình với bôi đen bạn bỏ dấu ngoặc kép ra nhé v,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+17,tăng lên đèn làm việc cổng chính thêm 10 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+18,bạn tăng đèn vườn 4 ở phòng làm việc 5 7 lên 5 phần trăm hộ mình với bôi đen bạn bỏ dấu ngoặc kép ra nhé v,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+19,hãy tăng giúp ta cái đèn ngủ thứ 4 ở phòng nam,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+20,tăng đèn chùm 4 15 phần trăm tại phòng chánh 5 phòng 7,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+21,tăng lên đèn lồng thứ 1 sân vườn thêm 24 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+22,tăng đèn trụ cổng 4 29 phần trăm tại phòng thực hành lầu trệt 9,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+24,tăng độ sáng điện thêm 8 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+25,tăng lên độ sáng led 1 phòng hội nghị 4 lên 72 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+26,bạn tăng bóng ốp tường thứ 1 ở phòng ngủ con lên 4 phần trăm giúp mình nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+27,bạn giúp mình tăng bóng 4 lên 3 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+28,bạn có thể giúp mình tăng mức độ của bóng hắt bên phòng thờ lên 23 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+29,ơi bạn đèn tuýp tăng lên 29 phần trăm ná,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+30,bạn giúp mình tăng rèm đôi thứ 4 lên 19 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+31,bạn có thể tăng giúp mình đèn tường 1 lên mức 7 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+33,ơi bạn đèn ngủ tăng lên 18 phần trăm ná,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+34,giúp mình tăng bóng để bàn lên 3 phần trăm ở khách 3 phòng 2 nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+36,bật loa đài thứ 1 đi trợ lý,smart.home.increase.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+37,ốp trần 2 thêm 29 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+38,tăng bóng tuýp thứ 4 lên 17 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+39,bạn giúp mình tăng bóng đứng thứ 4 lên 15 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+41,hãy tăng giúp ta cái van nước 2 ở sân sau,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+42,ơi bạn quạt treo tường 3 tăng lên 19 phần trăm ná,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+43,bật đèn để bàn thứ 2 đi trợ lý,smart.home.increase.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+44,tăng độ sáng đèn đứng phòng là lên 96 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+45,trợ lí ngốc nghếch tôi muốn tăng mức độ động cơ thứ 3,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+46,bạn có thể giúp mình tăng mức độ của bóng tuýp thứ 3 bên phòng nghiên cứu 2 lên 13 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+47,tăng đến ánh sáng đèn led lên mức 77 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+48,tăng đến mỗi tvs thứ 2 lên 95 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+49,giúp tôi tăng đến đèn nhiều màu thứ 2 phòng tắm 1 thêm 14 phần trăm nữa,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+50,bạn tăng đèn vách ở phòng xông hơi 3 9 lên 4 phần trăm hộ mình với bôi đen bạn bỏ dấu ngoặc kép ra nhé v,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+51,bạn có thể tăng giúp mình bóng hắt tường 3 lên mức 27 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+52,bạn có thể tăng giúp mình van nước 2 lên mức 27 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+53,bạn tăng đèn cảnh ở ga ra phòng 1 lên 18 phần trăm hộ mình với bôi đen bạn bỏ dấu ngoặc kép ra nhé v,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+54,làm ơn tăng thêm đèn âm trần 4 lên 81 phần trăm giúp tôi,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+55,trợ lí ngốc nghếch tôi muốn tăng mức độ rèm cửa,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+57,trợ lý béo tăng đèn ốp tường thứ 4 lên 10 phần trăm ở phòng cuối 5 phòng 3,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+58,ơi bạn bóng tiết kiệm điện tăng lên 6 phần trăm ná,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+59,bạn tăng âm thanh đa vùng ở phòng ăn trưa lên 7 phần trăm giúp mình nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+60,rèm ngang đại sảnh tăng thêm lên 92 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+61,tăng đến quạt treo tường 2 phòng giặt đến 95 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+63,em tăng giúp anh rèm ngang thứ 1 nhé,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+64,trợ lý béo tăng đèn tường thứ 2 lên 7 phần trăm ở tiền sảnh 5 10,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+65,hãy tăng đến độ sáng quầy lễ tân lên 65 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+66,bạn có thể tăng giúp mình độ sáng đèn tuýp thứ 4 lên được không,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+67,tăng quạt hút mùi thứ 2 lên 10 phần trăm ở phòng bếp 4 lầu trệt 2,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+68,trợ lí ngốc nghếch tôi muốn tăng mức độ đèn compact 2,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+69,hãy tăng giúp ta cái đèn bàn thứ 2 ở tủ giữ đồ,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+71,tăng thêm đèn treo tường thứ 4 phòng giặt ủi đến 94 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+72,tăng lên quạt thông gió thứ 4 lên 73 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+73,mình muốn tăng mức độ của đèn sợi đốt 1,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+74,em tăng giúp anh bóng ngủ thứ 4 nhé,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+75,mình cần tăng thiết bị đèn ốp trần lên 19 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+76,tăng nút ấn 20 phần trăm tại phòng chung 2 4,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+77,tăng ánh sáng bóng đứng lên mức 95 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+80,bật kịch bản 3 đi trợ lý,smart.home.increase.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+81,trợ lí ngốc nghếch tôi muốn tăng mức độ đèn tuýp thứ 2,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+82,giúp mình tăng rèm ngang khách 4 lên 74 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+83,trợ lý béo tăng downlight thứ 2 lên 4 phần trăm ở sân sau phòng 8,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+84,bóng tiết kiệm điện phòng tiếp đón tăng thêm lên 54 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+85,tăng độ sáng ốp tường phòng dành cho nam 4 lên 89 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+86,tăng rèm đôi thứ 4 4 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+87,mình cần tăng thiết bị tvs thứ 4 lên 10 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+88,hãy tăng thêm độ sáng phòng ngủ con lên 55 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+89,giúp mình tăng đèn cổng thứ 2 lên 22 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+90,giúp mình tăng đèn vách vườn sau 3 lên 76 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+91,mình muốn tăng mức độ của tivi 3,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+92,tăng bóng sân 3 lên 19 phần trăm ở văn phòng 7,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+93,tăng lên đèn chùm 4 phòng dành cho nữ 5 thêm 22 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+94,tăng thêm hết nút nhấn lên 79 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+95,tăng đèn màu phòng vệ sinh 5 đến 66 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+96,giúp mình tăng đèn ốp tường 1 lên 12 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+97,mình muốn tăng mức độ của nút ấn 2,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+98,bạn tăng bóng led 1 ở phòng họp gia đình lên 9 phần trăm giúp mình nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+99,em tăng giúp anh đèn treo tường 4 nhé,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+100,giúp mình tăng bóng hắt tường phòng trẻ con 3 lên 98 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+101,mình muốn tăng quạt lên 21 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+102,tăng đèn trần thứ 2 lên 22 phần trăm giúp mình,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+103,tăng độ sáng bóng vườn thêm 7 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+104,tăng đến ánh sáng bóng rủ 1 lên mức 91 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+105,tăng huỳnh quang thứ 3 3 phần trăm tại khách 5 phòng 5,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+106,làm ơn tăng tvs 3 lên 52 phần trăm giúp tôi,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+107,giúp mình tăng đèn học thứ 2 lên 25 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+109,giúp mình tăng bóng để bàn lên 4 phần trăm ở phòng ngủ con trai 7 nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+110,tăng bóng vách phòng ông bà 1 đến 50 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+111,giúp mình tăng tivi 1 lên 15 phần trăm ở phòng trẻ con 4 phòng 3 nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+112,bật bóng âm trần 3 đi trợ lý,smart.home.increase.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+113,bạn có thể giúp mình tăng mức độ của kiểng bên ban công lên 23 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+115,led phòng nghỉ ngơi 2 tăng đến lên 51 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+116,ơi bạn bóng hắt tăng lên 30 phần trăm ná,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+117,hãy tăng độ sáng phòng bố mẹ lên 73 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+118,tăng độ sáng quạt thứ 2 thêm 27 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+119,bạn tăng đèn thả 3 ở phòng thực hành 1 lên 19 phần trăm giúp mình nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+120,tăng đèn led 3 12 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+121,cửa cuốn thêm 23 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+122,giúp tôi tăng rèm cửa thứ 3 phòng xông hơi 4 thêm 6 phần trăm nữa,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+123,trợ lý béo tăng bóng led 4 lên 6 phần trăm ở phòng tắm 2 phòng 6,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+124,bạn có thể tăng giúp mình đèn hắt tường thứ 2 lên mức 12 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+125,tăng độ sáng rèm ngang 3 thêm 22 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+126,tăng đèn 4 lên 14 phần trăm giúp mình,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+127,tăng lên mành đôi 3 lên 89 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+128,mình muốn tăng bóng huỳnh quang 1 lên 24 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+129,mình muốn tăng đèn huỳnh quang lên 6 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+130,tăng đến đèn vách lên 64 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+131,em tăng giúp anh quạt treo tường 2 nhé,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+132,giúp mình tăng lên bóng vách 2 khách 3 lên 55 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+133,tăng bóng sân 2 5 phần trăm tại phòng đợi 6,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+134,mình cần tăng thiết bị bóng hắt tường lên 23 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+135,tăng thêm hết đèn flash thứ 2 lên 100 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+136,bạn có thể tăng giúp mình độ sáng đèn tròn thứ 3 lên được không,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+137,em tăng giúp anh cửa cuốn thứ 3 nhé,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+138,tăng đèn thờ 4 lên 22 phần trăm ở phòng ăn trưa phòng 10,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+139,nút nhấn 2 phòng nghiên cứu 1 tăng lên 50 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+140,giúp tôi tăng thêm đèn lồng thứ 1 phòng là thêm 10 phần trăm nữa,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+141,tăng tvs thứ 1 lên 21 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+142,giúp tôi tăng lên đèn treo tường thứ 4 sân sau thêm 28 phần trăm nữa,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+143,giúp mình tăng màn cửa đôi 4 lên 10 phần trăm ở phòng nam tầng thượng 5 nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+144,giúp tôi tăng thêm bóng ốp tường thứ 4 phòng con nhỏ 1 thêm 20 phần trăm nữa,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+145,bạn có thể giúp mình tăng mức độ của van nước thứ 2 bên phòng chánh 4 lên 10 phần trăm được không,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+147,tăng độ sáng đèn rủ 2 thêm 4 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+148,giúp mình tăng led lên 17 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+149,bạn giúp mình tăng bóng thả 1 lên 10 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+150,tăng đến bóng tường sân sau đến 68 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+151,bạn tăng đèn thờ thứ 1 ở phòng ngủ con 1 phòng 8 lên 3 phần trăm hộ mình với bôi đen bạn bỏ dấu ngoặc kép ra nhé v,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+153,tăng bóng vách lên 14 phần trăm ở phòng ăn 5 1,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+154,mình muốn tăng mức độ của đèn sân 2,smart.home.increase.percentage,True,smart.home.increase.level,True,smart.home.increase.level
+155,tăng thêm mọi đèn cây 4 lên 50 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+156,làm ơn tăng đến đèn vườn 4 lên 75 phần trăm giúp tôi,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+157,hãy tăng thêm độ sáng phòng chung 3 lên 52 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+158,làm ơn tăng thêm đèn hoa thứ 2 lên 96 phần trăm giúp tôi,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+159,tăng thêm đèn thả lên 66 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+160,làm ơn tăng mành cuốn thứ 3 lên 51 phần trăm giúp tôi,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+162,mình cần tăng thiết bị quạt thông gió lên 27 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+163,tăng thêm quạt thông gió thứ 4 vườn 3 thêm 24 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+164,tăng bóng đứng 4 lên 27 phần trăm giúp mình,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+165,đèn treo tường thứ 4 thêm 22 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+166,tăng thêm bóng rủ 3 lên 61 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+167,cửa cuốn thứ 3 thêm 15 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+168,giúp mình tăng huỳnh quang 1 lên 17 phần trăm nhé,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+169,mình cần tăng thiết bị nút ấn thứ 3 lên 15 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+170,trợ lý béo tăng đèn rọi thứ 2 lên 30 phần trăm ở khách 5 phòng 3,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+171,bật bóng trang trí thứ 1 đi trợ lý,smart.home.increase.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+172,tăng tivi 3 lên 3 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+173,giúp mình tăng bóng ngủ phòng khách 3 lên 99 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+175,tăng lên độ sáng quạt trần 1 phòng ông chủ 5 lên 81 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+176,mình muốn tăng quạt treo tường thứ 2 lên 5 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+177,tăng hết đèn sắc màu lên 60 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+178,bạn giúp mình tăng mành đôi thứ 4 lên 30 phần trăm với,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+179,bóng đứng thứ 3 phòng ăn trưa 3 tăng đến lên 68 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+180,vô tuyến 1 thêm 6 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+181,tăng đến đèn 3 phòng hội nghị thêm 27 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+182,tăng ánh sáng bóng học thứ 4 lên mức 53 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+183,mình muốn tăng ti vi thứ 3 lên 26 phần trăm,smart.home.increase.percentage,0,smart.home.increase.percentage,0,smart.home.increase.percentage
+185,tôi muốn chuyển loa đài thứ 3 ở phòng ngủ con trai 3,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+186,trợ lý à ở phòng nam 5 có cái đèn trụ cổng 1 ý thay đổi hộ lên nhé,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+189,bạn kiểm tra cho tôi đèn thờ 2,smart.home.set.level,True,smart.home.check.status,True,smart.home.check.status
+195,đặt đèn tranh 4 mức 1 ở phòng ngủ 4,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+197,đặt huỳnh quang 1 cầu thang cấp 5,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+200,bật thiết bị van tưới trong phòng giặt 3 ở mức độ 2,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+208,bật bóng downlight 2 lên bạn ơi,smart.home.set.level,True,smart.home.increase.level,True,smart.home.device.onoff
+211,trợ lý béo đặt cho tao đèn thờ ở phòng lễ tân 5 ở mức 3,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+219,trợ lý béo thay cho tao đèn màu ở phòng sách 4 ở mức 2,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+220,hãy thay đổi nút nhấn 3 ở mức 5,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+221,thay đổi bóng huỳnh quang phòng dành cho nữ cấp 1,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+223,mành đôi thứ 1 phòng con nhỏ 5 ở mức 5,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+225,điều chỉnh hộ tớ cái đèn hắt 4 ở phòng dành cho nam 1 ở mức 1 nào cậu,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+227,trợ lý à ở sân vườn 4 có cái đèn bếp ý bật hộ lên nhé,smart.home.set.level,True,smart.home.device.onoff,True,smart.home.device.onoff
+229,thay đổi bóng downlight thứ 4 phòng em nhỏ 1 cấp 2,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+230,chuyển hắt tường 4 phòng ngủ 1 mức 4,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+238,mình muốn chuyển công tắc 1 ở phòng làm việc 5,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+241,bật đèn sân 2 phòng ngủ ông bà 1 số 1,smart.home.set.level,True,smart.home.device.onoff,True,smart.home.device.onoff
+243,điều chỉnh đèn led 3 mức 4 ở phòng ngủ con trai 3,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+244,thay đổi thiết bị đèn vách thứ 1 trong phòng tắm xông hơi 2 ở mức độ 5,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+247,chuyển đèn tuýp 3 phòng lễ tân 5 cấp 1,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+250,thay đổi hộ tớ cái đèn ốp trần 1 1 ở phòng là 1 ở mức 1 nào cậu,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+256,thay đổi mành cuốn 3 phòng nghiên cứu 1 xố 5,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+257,điều chỉnh hộ tớ cái bóng học 5 ở phòng đợi ở mức 1 nào cậu,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+262,bật điện lên bạn ơi,smart.home.set.level,True,smart.home.increase.level,True,smart.home.device.onoff
+264,thay thiết bị công tắc trong phòng ngủ con trai ở mức độ 3,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+271,thay bóng rọi 4 phòng chánh 3 số 1,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+272,trợ lý à ở phòng họp gia đình có cái bóng trụ cổng ý cài đặt hộ lên nhé,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+275,tôi muốn chuyển bóng treo tường ở vườn sau 2,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+285,tôi muốn đặt đèn rủ 1 ở phòng sinh hoạt chung,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+296,thay đổi thiết bị đèn màu sắc 4 trong phòng họp ở mức độ 5,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+297,tôi muốn thay đổi đèn huỳnh quang thứ 2 ở phòng sếp,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+299,bật rèm đơn phòng con nhỏ 3 mức 1,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+302,trợ lý béo thay đổi cho tao đèn tròn thứ 1 ở phòng em nhỏ 4 ở mức 5,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+305,thay thiết bị công tắc 2 trong cổng chính 5 ở mức độ 5,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+306,bạn kiểm tra cho tôi đèn lồng thứ 2,smart.home.set.level,True,smart.home.check.status,True,smart.home.check.status
+311,thay đổi bóng huỳnh quang 1 phòng bếp 5 số 4,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+312,chuyển đèn màu sắc 3 phòng giặt xố 1,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+315,đổi mành cuốn 4 2 phòng hội nghị cấp 1,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+318,mình muốn bật nút ấn,smart.home.set.level,True,smart.home.device.onoff,True,smart.home.device.onoff
+325,bật giúp mình đèn ngủ thứ 3 ở phòng vệ sinh 1 nhá,smart.home.set.level,True,smart.home.set.percentage,True,smart.home.device.onoff
+329,trợ lý béo cài đặt cho tao màn cuốn 2 ở phòng ông bà 3 ở mức 2,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+332,mình muốn đặt mành đôi thứ 4 ở phòng họp gia đình,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+334,mình muốn bật bóng rủ 3,smart.home.set.level,True,smart.home.device.onoff,True,smart.home.device.onoff
+335,mình muốn chỉnh bóng huỳnh quang ở phòng chánh,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+338,bạn kiểm tra cho tôi đèn đứng thứ 1,smart.home.set.level,True,smart.home.check.status,True,smart.home.check.status
+343,chuyển đèn trang trí thứ 1 ở phòng sếp 4,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+346,bạn kiểm tra cho tôi bóng rọi 3,smart.home.set.level,True,smart.home.check.status,True,smart.home.check.status
+349,mình muốn bật đèn âm trần 4,smart.home.set.level,True,smart.home.device.onoff,True,smart.home.device.onoff
+355,đặt hộ tớ cái cột đèn 1 4 ở phòng ngủ con trai 3 ở mức 1 nào cậu,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+356,bóng hắt tường phòng trẻ em ở mức 4,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+358,chỉnh cửa cuốn ở phòng là,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+359,đèn cảnh phòng tắm ở mức 4,smart.home.set.level,0,smart.home.set.level,0,smart.home.set.level
+373,hạ xuống độ sáng bóng sợi đốt 4 xuống 9 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+374,trong phòng ông bà 2 hãy giảm đèn bàn 4 xuống 5 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+375,tôi cần hạ ốp trần 2 lầu trệt 9 đi 19 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+376,cho cái đèn học thứ 4 xuống 8 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+377,giảm bóng thờ thứ 4 về 11 phần trăm ở phòng sinh hoạt chung,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+380,tôi đang cần giảm mức độ đèn bóng trần phòng,smart.home.decrease.percentage,True,smart.home.decrease.level,True,smart.home.decrease.level
+381,nút nhấn 2 sân sau nên được giảm đi xuống mức 38 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+382,bạn giúp mình giảm kịch bản đi 21 phần trăm được không mình cảm ơn,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+383,hãy giảm tivi 3 trong phòng sếp xuống 16 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+385,tôi cần giảm đi đèn học tầng trệt 10 đi 27 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+386,giảm đèn vách thứ 4 về 30 phần trăm ở trong vườn,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+387,giảm cho mình loa thứ 3 ở phòng nghỉ ngơi 4 xuống 29 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+388,cho mình giảm bóng treo tường thứ 2 ở công ty mức 22 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+391,device đèn sân room tủ giữ đồ phần trăm 9 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+394,giảm hộ mình nút ấn 4 xuống 3 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+395,hạ xuống độ sáng bóng huỳnh quang 1 xuống 22 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+396,giảm hộ mình đèn vách xuống 5 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+398,bạn giúp mình giảm led 3 đi 23 phần trăm được không mình cảm ơn,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+399,giảm giúp mình màn cửa đơn thứ 3 tại phòng chính 4 xuống 19 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+400,giảm hộ anh bóng treo tường ở phòng họp gia đình 5 21 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+401,giảm giúp mình bóng thả 3 tại phòng chờ xuống 14 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+402,mình cần sự trợ giúp trong việc giảm đèn trang trí 2,smart.home.decrease.percentage,True,smart.home.decrease.level,True,smart.home.decrease.level
+403,giảm hộ mình van nước thứ 1 xuống 27 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+405,giảm mành thứ 2 đầu hè xuống 21 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+406,giảm động cơ 4 về 27 phần trăm ở phòng nam,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+407,hãy giảm huỳnh quang thứ 3 trong tiền sảnh 5 xuống 29 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+409,device rèm ngang thứ 2 room cầu thang phần trăm 22 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+410,đèn tường thứ 2 cơ quan nên được hạ xuống mức 11 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+411,giảm hắt tường thứ 3 về 26 phần trăm ở trong phòng sếp,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+412,giảm hộ anh đèn sưởi 1 ở phòng thực hành 2 2 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+413,device bóng treo tường thứ 2 room phòng giặt ủi phần trăm 21 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+415,giảm bóng huỳnh quang 3 ở phòng ngủ các con xuống 5 phần trăm cho mình với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+416,tôi cần giảm đi mành cuốn 3 tầng thượng 3 đi 24 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+417,thôi vào việc nhé màn cửa nhìn ngứa mắt quá giảm cho anh xuống 9 phần trăm nhé à cái loa nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+420,giảm đi độ sáng phòng giặt ủi 1 đi 11 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+421,có thể hạ thấp đèn rọi thứ 2 đỡ đi 3 phần trăm không,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+422,device đèn nhiều màu room phòng chung 2 phần trăm 3 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+423,giảm độ sáng công ty đi 16 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+424,cho mình giảm bóng học thứ 1 ở ga ra 5 mức 10 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+426,giảm bớt đèn lồng thứ 4 vườn 5 xuống 11 phần trăm nữa,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+427,đèn vách 1 phòng bếp 4 hạ thấp 15 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+428,giảm cho mình ti vi thứ 3 ở đại sảnh xuống 20 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+429,giúp mình giảm đèn vườn xuống 27 phần trăm với ạ,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+430,giảm loa còi thứ 4 về 15 phần trăm ở phòng lễ tân,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+431,giảm giúp mình bóng ốp trần 1 nhé,smart.home.decrease.percentage,True,smart.home.decrease.level,True,smart.home.decrease.level
+432,giảm giúp mình cảnh tại nhà tắm 4 xuống 13 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+433,cho cái bóng hắt tường thứ 3 xuống 7 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+436,giảm giúp mình điện thứ 3 nhé,smart.home.decrease.percentage,True,smart.home.decrease.level,True,smart.home.decrease.level
+437,giúp tôi hạ thấp bóng đứng phòng lễ tân xuống 22 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+438,giảm hộ mình đèn đứng 4 xuống 3 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+439,đèn đứng thứ 4 cổng chính hạ thấp 23 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+440,thôi vào việc nhé màn cửa nhìn ngứa mắt quá giảm cho anh xuống 8 phần trăm nhé à cái rèm đơn nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+441,bóng trụ cổng 3 phòng trẻ em nên được hạ xuống xuống mức 9 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+443,hello giảm giúp mình bóng thứ 3 ở phòng sếp xuống 14 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+445,thôi vào việc nhé màn cửa nhìn ngứa mắt quá giảm cho anh xuống 5 phần trăm nhé à cái mành đôi 2 nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+447,có thể giảm bớt công tắc 1 đỡ đi 24 phần trăm không,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+448,có thể hạ thấp tvs 1 đỡ đi 14 phần trăm không,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+449,giảm bóng treo tường 1 ở phòng ông bà 2 xuống 17 phần trăm cho mình với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+450,hạ xuống độ sáng phòng vệ sinh 2 đi 4 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+452,có thể hạ thấp van nước thứ 2 đỡ đi 22 phần trăm không,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+453,cho cái đèn sưởi thứ 4 xuống 17 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+454,hạ độ sáng nóng lạnh 1 xuống 50 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+455,giảm bớt độ sáng tủ giữ đồ 2 đi 14 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+456,cho cái kịch bản 2 xuống 4 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+457,giảm hộ mình bóng kiểng thứ 2 xuống 7 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+458,có thể hạ hắt trần thứ 3 đỡ đi 8 phần trăm không,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+459,giảm giúp mình loa đài thứ 3 nhé,smart.home.decrease.percentage,True,smart.home.decrease.level,True,smart.home.decrease.level
+460,hạ xuống loa thứ 4 ga ra 3 xuống 11 phần trăm nữa,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+461,mình cần sự trợ giúp trong việc giảm đèn học,smart.home.decrease.percentage,True,smart.home.decrease.level,True,smart.home.decrease.level
+462,hello giảm giúp mình loa còi 3 ở phòng em nhỏ 3 xuống 28 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+463,giảm bóng để bàn thứ 2 thư viện 29 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+464,mành cuốn thứ 2 sảnh hạ thấp 47 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+466,giảm đi rèm cửa xuống mức độ sáng 1 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+467,giảm hộ anh bóng học thứ 1 ở phòng dành cho nam 4 3 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+469,giảm cho mình đèn cây 4 ở phòng em bé xuống 20 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+470,ok bạn ơi giảm cho mình đèn treo tường 4 xuống 23 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+472,giảm độ sáng phòng là 1 đi 30 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+473,giảm rèm đôi ở phòng là xuống 26 phần trăm cho mình với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+474,quạt 3 sân trước nên được hạ xuống xuống mức 30 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+475,giảm bớt hắt tường thứ 3 phòng nghiên cứu 3 xuống 2 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+476,em làm ơn giúp tôi giảm rèm cửa thứ 2 xuống 1 phần trăm tôi hơi bị chói mắt,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+477,hãy giảm loa trong hè sau 4 xuống 29 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+478,đèn ngủ phòng sinh hoạt chung 2 nên được giảm bớt xuống mức 34 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+479,giúp tôi giảm nút ấn thứ 2 đầu hè 3 xuống 49 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+480,ok bạn ơi giảm cho mình kịch bản xuống 9 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+481,giảm bớt bóng vách 1 nhà để xe 3 xuống 38 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+482,giúp tôi giảm cửa cuốn thứ 1 phòng giám đốc xuống 40 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+483,giảm hộ anh bóng hoa 2 ở đại sảnh 15 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+484,giảm bóng hoa phòng ngủ các con xuống 19 phần trăm nữa,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+485,giúp mình giảm công tắc 2 xuống 10 phần trăm với ạ,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+486,giảm bớt bóng hắt tường 4 xuống mức độ sáng 45 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+487,hạ thấp đèn thả 4 phòng giặt ủi xuống 16 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+488,giúp mình giảm đèn tường thứ 4 xuống 8 phần trăm với ạ,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+489,hạ đèn học thứ 4 xuống mức độ sáng 10 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+491,đèn đứng phòng hội nghị giảm bớt 25 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+492,thôi vào việc nhé màn cửa nhìn ngứa mắt quá giảm cho anh xuống 27 phần trăm nhé à cái bóng sợi đốt nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+495,giảm kịch bản về 23 phần trăm ở trong phòng chánh,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+496,tôi cần hạ thấp đèn thứ 1 tầng 7 đi 3 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+497,em làm ơn giúp tôi giảm đèn hoa thứ 4 xuống 18 phần trăm tôi hơi bị chói mắt,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+498,em làm ơn giúp tôi giảm bình nóng lạnh 1 xuống 16 phần trăm tôi hơi bị chói mắt,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+500,bạn giúp mình giảm đèn làm việc đi 2 phần trăm được không mình cảm ơn,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+501,trong hành lang 2 hãy giảm bóng trụ cổng xuống 27 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+502,giúp mình giảm đèn tiết kiệm điện 2 xuống 6 phần trăm với ạ,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+503,giảm cho mình bóng vách 2 ở phòng tắm xuống 24 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+504,em làm ơn giúp tôi giảm led 2 xuống 21 phần trăm tôi hơi bị chói mắt,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+505,giảm quạt hút mùi thứ 1 ở phòng lễ tân xuống 28 phần trăm cho mình với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+506,hạ xuống độ sáng đèn tranh 3 xuống 18 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+507,giảm hộ anh loa thứ 1 ở sảnh 4 4 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+508,giảm giúp mình đèn sợi đốt 4 tại ga ra xuống 6 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+509,giúp tôi hạ thấp đèn tuýp phòng ông chủ 2 xuống 15 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+510,giảm bóng sưởi phòng cuối 29 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+511,giảm cho mình hắt trần ở vườn xuống 11 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+512,hạ xuống quạt trần xuống mức độ sáng 36 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+514,hạ thấp đèn tiết kiệm điện quầy lễ tân xuống 28 phần trăm nữa,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+515,trong phòng thu 1 hãy giảm đèn huỳnh quang thứ 1 xuống 23 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+516,giúp mình giảm đèn đứng 4 xuống 19 phần trăm với ạ,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+517,device downlight thứ 2 room đầu hè phần trăm 30 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+520,giảm giúp mình nút ấn thứ 1 nhé,smart.home.decrease.percentage,True,smart.home.decrease.level,True,smart.home.decrease.level
+521,giảm rèm đôi 3 xuống mức độ sáng 22 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+522,bạn giúp mình giảm bóng tròn đi 24 phần trăm được không mình cảm ơn,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+523,giảm giúp mình hắt tường thứ 3 tại phòng sách 5 xuống 4 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+524,cho mình giảm đèn học thứ 2 ở phòng ngủ ông bà 1 mức 20 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+526,cho mình giảm led 2 ở phòng dành cho nam 3 mức 29 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+527,cho mình giảm đèn hắt ở tiền sảnh 3 mức 21 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+528,giảm đi loa đài thứ 2 phòng ngủ các con xuống 31 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+529,mình cần sự trợ giúp trong việc giảm đèn ốp trần 3,smart.home.decrease.percentage,True,smart.home.decrease.level,True,smart.home.decrease.level
+531,giảm giúp mình bóng sợi đốt nhé,smart.home.decrease.percentage,True,smart.home.decrease.level,True,smart.home.decrease.level
+532,cho cái bóng làm việc thứ 3 xuống 16 phần trăm hộ tôi với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+533,giảm vô tuyến thứ 3 ở phòng ngủ ông bà xuống 2 phần trăm cho mình với,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+534,ok bạn ơi giảm cho mình đèn trang trí 4 xuống 11 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+535,tôi cần hạ thấp bóng hắt tường thứ 4 tầng thượng 8 đi 11 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+536,hello giảm giúp mình bóng treo tường 2 ở phòng cuối 2 xuống 4 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+537,giảm bóng trụ cổng 2 nhà vệ sinh 14 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+538,ok bạn ơi giảm cho mình đèn ốp tường thứ 4 xuống 24 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+539,trong phòng ngủ con trai hãy giảm bóng đứng thứ 4 xuống 17 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+540,hello giảm giúp mình quạt trần ở tủ giữ đồ xuống 7 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+541,giảm đi đèn vườn hè sau 3 xuống 24 phần trăm nữa,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+542,em làm ơn giúp tôi giảm đèn sưởi 2 xuống 14 phần trăm tôi hơi bị chói mắt,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+543,giảm đèn bàn thứ 4 phòng ông bà 5 27 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+544,giảm đèn tuýp thứ 2 phòng 1 20 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+545,bạn giúp mình giảm bình nóng lạnh đi 20 phần trăm được không mình cảm ơn,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+547,giảm đèn tròn 2 về 3 phần trăm ở trong cơ quan,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+548,giảm đèn sắc màu 4 về 4 phần trăm ở phòng đợi,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+550,đèn hắt phòng ngủ con hạ xuống 4 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+551,hello giảm giúp mình led 4 ở sân trước xuống 14 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+552,giúp tôi hạ thấp bóng đứng sân xuống 45 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+553,thôi vào việc nhé màn cửa nhìn ngứa mắt quá giảm cho anh xuống 27 phần trăm nhé à cái bóng để bàn nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+554,giảm rèm đôi về 12 phần trăm ở trong phòng dành cho nam 5,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+555,ok bạn ơi giảm cho mình downlight thứ 2 xuống 27 phần trăm nhé,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+557,trong phòng tắm xông hơi 1 hãy giảm đèn compact 4 xuống 29 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+558,hạ thấp độ sáng âm thanh đa vùng thứ 1 xuống 12 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+559,hãy giảm bóng huỳnh quang trong sân vườn xuống 19 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+560,hãy giảm bóng sợi đốt trong phòng là 3 xuống 6 phần trăm,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+561,giảm bóng ngủ thứ 2 về 29 phần trăm ở phòng thực hành,smart.home.decrease.percentage,0,smart.home.decrease.percentage,0,smart.home.decrease.percentage
+563,kiểm tra trạng thái của kiểng thứ 3,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+564,kiểm tra bóng thờ 2 phòng tắm,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+565,này giúp mình kiểm tra đèn sợi đốt 3 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+567,đúng không trạng thái đèn huỳnh quang ban công,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+568,thiết bị cửa cuốn room phòng em nhỏ 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+569,kiểm tra cho mình thiết bị ở phòng ngủ con,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+571,bạn kiểm tra giúp mình thiết bị bình nóng lạnh 4 ở nhà vệ sinh nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+572,kiểm tra mành cuốn thứ 2 ở phòng ăn 3 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+574,quét trạng thái rèm ngang nhà tắm 4,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+575,thông báo trạng thái đèn thả trên lầu thượng 7,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+576,tôi cần bạn giúp hãy thử kiểm tra giúp tôi cái đèn đứng thứ 1 ở phòng 2 xem nó đã bật chưa,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+578,đèn led phòng tiếp đón nhanh bot ơi giúp mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+579,kiểm tra trạng thái của đèn bàn thứ 3 ở phòng ngủ ông bà 2 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+580,kiểm tra giúp mình trạng thái của van nước nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+582,kiểm tra bóng huỳnh quang ở phòng thu nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+583,kiểm tra trạng thái bóng để bàn thứ 3 cho mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+585,kiểm tra cho mình đèn màu sắc 2 nhé chắc bị trục trặc gì rồi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+586,tôi cần bạn giúp hãy thử kiểm tra giúp tôi cái điều hoà 3 ở phòng nữ xem nó đã bật chưa,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+587,kiểm tra trạng thái của nút nhấn trong phòng ngủ con 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+589,kiểm tra trạng thái đèn thứ 3 trên tầng 9,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+590,đúng không trạng thái màn cuốn trên lầu 7,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+591,bạn kiểm tra cho mình bóng học thứ 1 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+592,kiếm tra giúp mình trạng thái của thiết bị đèn quảng cáo thứ 1 ở sân sau 2 nhée,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+593,tôi cần bạn giúp hãy thử kiểm tra giúp tôi cái đèn vách 2 ở phòng ngủ các con xem nó đã bật chưa,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+594,kiểm tra tvs thứ 1 ở phòng sếp 3 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+596,kiểm tra giúp mình trạng thái của nút ấn thứ 4 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+597,kiểm tra trạng thái của đèn hoa thứ 1 trong phòng hội nghị,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+598,chào bạn giúp mình kiểm tra ti vi 1 ở phòng ăn trưa nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+599,kiểm tra bóng rủ ở phòng chánh,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+600,giúp mình kiểm tra rèm cửa thứ 2 ở phòng là xem nó như thế nào nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+601,kiểm tra giúp mình trạng thái của ốp tường nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+602,kiểm tra giúp tôi mành thứ 1 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+603,kiểm tra downlight thứ 2 ở ga ra 3,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+604,chào bạn giúp mình kiểm tra đèn học 1 ở phòng thay đồ nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+605,kiểm tra giúp tôi bóng treo tường 1 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+606,bạn có thế kiểm tra công tắc 1 ở phòng lễ tân được không,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+607,kiểm tra trạng thái của thiết bị device là đèn cổng room là sân trước nhé bạn eei,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+608,kiểm tra cho mình thiết bị ở sân vườn 2,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+609,bạn có thế kiểm tra đèn để bàn thứ 2 ở phòng đợi được không,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+610,chào bạn giúp mình kiểm tra bóng ốp trần 1 ở phòng nghiên cứu 5 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+611,kiểm tra rèm cửa thứ 2 hè,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+612,trợ lý ơi giúp mình kiểm tra cái quạt trần thứ 1 tại phòng ủi nhé báo lại trạng thái giúp mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+613,cho mình xem trạng thái của đèn vách ở sảnh 4,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+614,kiểm tra bình nóng lạnh thứ 3 giúp tôi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+615,xin chào t thấy rèm cửa 2 đang có vấn đề bạn kiểm tra giúp với trong sân nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+616,kiểm tra hộ mình van tưới ở phòng ông bà 2,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+620,tôi cần bạn giúp hãy thử kiểm tra giúp tôi cái bóng kiểng thứ 3 ở phòng ăn sáng xem nó đã bật chưa,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+621,kiểm tra trạng thái kịch bản,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+622,kiểm tra hộ mình kiểng ở phòng ủi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+624,kiểm tra trạng thái của đèn thờ 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+625,kiểm tra trạng thái của đèn vườn 2 ở phòng ông chủ 3 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+626,giúp mình kiểm tra loa thứ 4 ở sân vườn xem nó như thế nào nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+627,kiểm tra bóng kiểng 4 ở bếp 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+629,hi bạn mình muốn kiểm tra trạng thái thiết bị rèm cửa,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+631,kiểm tra trạng thái của đèn sợi đốt 4,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+632,bạn kiểm tra cho mình đèn trần với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+633,em ơi check giúp anh xem kịch bản 1 có bật không nhá,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+634,xin chào t thấy đèn led thứ 1 đang có vấn đề bạn kiểm tra giúp với trong phòng chánh nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+636,kiểm tra trạng thái của downlight thứ 4 ở phòng hội nghị nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+637,xin chào hãy kiểm tra hộ mình màn cuốn 2 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+638,hi bạn mình muốn kiểm tra trạng thái thiết bị đèn led,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+639,bạn ơi kiểm tra cho mình bóng sưởi với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+641,kiểm tra bình nóng lạnh phòng vệ sinh 2,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+643,kiểm tra trạng thái bóng thờ giúp mình với ạ,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+644,hey kiểm tra giúp tôi trạng thái của rgb với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+646,hey kiểm tra giúp tôi trạng thái của bóng sân với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+647,chào bạn giúp mình kiểm tra đèn chùm 3 ở phòng sếp 1 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+648,kiểm tra giúp anh đồ ở cổng 3 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+650,trợ lý ơi giúp mình kiểm tra cái đèn nhiều màu 2 tại phòng đợi 3 nhé báo lại trạng thái giúp mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+651,kiếm tra giúp mình trạng thái của thiết bị bóng học thứ 4 ở phòng nữ nhée,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+653,bạn kiểm tra giúp mình thiết bị đèn ốp tường ở phòng dành cho nữ 3 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+654,cho mình xem trạng thái của bóng tường ở lễ tân 3,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+655,bạn ơi kiểm tra cho mình bóng hắt 2 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+656,kiểm tra trạng thái của hắt tường thứ 3 trong đầu hè 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+657,kiểm tra trạng thái downlight thứ 4 cho mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+658,kiểm tra cho mình thiết bị ở phòng họp,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+659,trợ lý kiểm tra giúp tôi đèn tường 2 ở vườn nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+660,bạn có thế kiểm tra đèn treo tường ở hội trường 1 được không,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+661,trợ lý ơi giúp mình kiểm tra cái đèn nhiều màu tại phòng ngủ con trai 1 nhé báo lại trạng thái giúp mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+662,kiểm tra bóng làm việc 4 giúp tôi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+663,trợ lý ơi giúp mình kiểm tra cái đèn màu sắc thứ 3 tại quầy lễ tân 4 nhé báo lại trạng thái giúp mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+665,bạn ơi kiểm tra bóng âm trần 3 ở nhà để xe 4 dùm mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+666,kiểm tra đèn treo tường 1 giúp tôi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+667,kiểm tra cho mình thiết bị ở phòng tắm,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+668,kiểm tra giúp mình cái nút ấn thứ 1 ở sân trước nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+669,kiểm tra hồ mình bóng rọi 2 ở garage 3 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+670,mình muốn kiểm tra trạng thái của bóng ốp trần,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+671,bạn cho mình biết thông tin ốp trần 2 được không ạ,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+673,trợ lý kiểm tra giúp tôi đèn trần thứ 1 ở phòng thờ nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+674,trợ lý kiểm tra giúp tôi động cơ 3 ở phòng tắm 2 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+675,mình muốn kiểm tra trạng thái của đèn 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+676,hey kiểm tra giúp tôi trạng thái của quạt thứ 2 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+677,kiểm tra bình nóng lạnh thứ 4 ở phòng giám đốc nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+678,này giúp mình kiểm tra cảnh nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+679,kiểm tra giúp mình cái quạt trần 2 ở phòng họp gia đình 5 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+680,mình muốn kiểm tra trạng thái của điều hoà 2,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+682,kiểm tra trạng thái rèm ngang 2,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+683,kiểm tra trạng thái ốp tường giúp mình với ạ,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+684,xin chào hãy kiểm tra hộ mình ốp trần thứ 3 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+685,tôi muốn bạn kiểm tra cho tôi trạng thái của màn cửa đơn,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+686,bạn ơi kiểm tra đèn sắc màu ở phòng là 4 dùm mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+687,chào bạn giúp mình kiểm tra bóng thả 1 ở sân sau nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+688,bạn ơi kiểm tra bóng compact thứ 1 ở nhà bếp 3 dùm mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+689,tôi muốn bạn kiểm tra cho tôi trạng thái của âm thanh đa vùng thứ 4,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+691,này giúp mình kiểm tra ốp trần 4 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+692,kiểm tra đèn âm trần 1 phòng ủi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+693,bạn kiểm tra cho mình quạt treo tường thứ 4 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+696,kiểm tra giúp anh đồ ở phòng nam 5 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+697,này giúp mình kiểm tra vô tuyến 3 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+699,xin chào hãy kiểm tra hộ mình nóng lạnh 2 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+701,mình muốn kiểm tra trạng thái của đèn cổng,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+702,kiểm tra giúp mình cái bóng học ở phòng ngủ con 1 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+703,kiểm tra cho mình cảnh nhé chắc bị trục trặc gì rồi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+705,tôi cần bạn giúp hãy thử kiểm tra giúp tôi cái nút nhấn 4 ở phòng ăn sáng xem nó đã bật chưa,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+706,giúp mình kiểm tra đèn treo tường thứ 3 ở phòng em nhỏ xem nó như thế nào nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+707,em ơi check giúp anh xem van nước có bật không nhá,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+708,cho mình xem trạng thái của mành đôi 1 ở phòng thờ,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+709,kiểm tra trạng thái bóng cho mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+710,kiểm tra trạng thái quạt thông gió cho mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+711,kiểm tra cho mình thiết bị ở nhà tắm 5,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+712,kiểm tra trạng thái của thiết bị device là điều hoà 1 room là phòng tắm xông hơi 5 nhé bạn eei,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+715,kiểm tra trạng thái của bóng thờ 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+716,kiểm tra bóng chùm thứ 4 ở sân vườn 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+718,bạn có thế kiểm tra màn cuốn 3 ở phòng giặt ủi 4 được không,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+719,kiểm tra trạng thái đèn tuýp giúp mình với ạ,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+720,xin chào hãy kiểm tra hộ mình bóng ngủ với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+722,kiểm tra giúp anh đồ ở thư viện nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+723,kiểm tra giúp tôi đèn vườn 1 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+724,hey kiểm tra giúp tôi trạng thái của đèn màu sắc thứ 3 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+725,kiểm tra giúp anh đồ ở phòng bố mẹ nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+727,tôi muốn bạn kiểm tra cho tôi trạng thái của điều hòa thứ 2,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+728,mình muốn kiểm tra đèn sắc màu 1 ở phòng,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+729,kiểm tra hồ mình bòng hắt trần ở phòng chính 5 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+731,bạn ơi kiểm tra bóng thờ 3 ở phòng nghỉ ngơi 3 dùm mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+732,kiểm tra điều hoà 2 phòng ngủ con trai 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+733,kiểm tra trạng thái vô tuyến 3 giúp mình với ạ,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+734,cho mình xem trạng thái của huỳnh quang 1 ở phòng trẻ em 3,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+735,kiểm tra hộ mình đèn nhiều màu 2 ở sân vườn,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+736,bạn kiểm tra cho mình bóng hắt 3 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+737,em ơi check giúp anh xem cảnh có bật không nhá,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+739,kiểm tra trạng thái bóng hắt tường 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+740,kiểm tra trạng thái của van nước trong phòng tắm 5,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+741,kiểm tra đèn tường 3 ở sảnh,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+742,kiểm tra hộ mình bóng sợi đốt ở phòng sếp 2,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+744,mình muốn kiểm tra bóng để bàn thứ 3 ở tiền sảnh 4,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+746,kiểm tra trạng thái của ốp tường 2,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+747,mình muốn kiểm tra rèm ngang ở phòng họp,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+748,kiểm tra trạng thái ốp tường cho mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+749,kiểm tra giúp mình trạng thái của đèn cổng nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+750,bạn ơi kiểm tra cho mình loa còi thứ 2 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+751,kiểm tra hộ mình nóng lạnh 2 ở nhà vệ sinh,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+752,bóng tròn phòng làm việc 1 nhanh bot ơi giúp mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+753,đúng không trạng thái quạt thông gió thứ 3 trên tầng 5,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+755,kiểm tra kiểng 3 giúp tôi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+756,tôi muốn bạn kiểm tra cho tôi trạng thái của công tắc,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+757,kiếm tra giúp mình trạng thái của thiết bị đèn quảng cáo ở phòng sếp nhée,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+758,kiểm tra trạng thái của tivi ở sân vườn 3 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+759,kiểm tra trạng thái cột đèn 4,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+760,mình muốn kiểm tra bóng ngủ ở phòng tắm,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+761,này giúp mình kiểm tra bóng trụ cổng nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+762,bạn kiểm tra giúp mình thiết bị điều hoà 1 ở phòng chính 1 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+763,kiểm tra hồ mình bóng âm trần 2 ở phòng giặt ủi 4 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+764,hi bạn mình muốn kiểm tra trạng thái thiết bị đèn downlight,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+765,kiểm tra trạng thái đèn 2 phòng sinh hoạt chung 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+766,kiểm tra kiểng thứ 3 ở phòng nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+767,kiểm tra hồ mình đèn âm trần thứ 4 ở phòng 2 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+768,kiểm tra trạng thái của rèm ngang thứ 4 ở phòng sinh hoạt chung nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+769,kiểm tra giúp mình cái rèm đơn ở phòng con 4 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+770,kiểm tra bóng kiểng thứ 3 hiên sau,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+771,kiểm tra cho mình nút ấn nhé chắc bị trục trặc gì rồi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+774,kiểm tra trạng thái nút ấn 3 giúp mình với ạ,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+775,kiểm tra cho mình bóng compact thứ 4 nhé chắc bị trục trặc gì rồi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+776,xin chào t thấy rèm đôi 3 đang có vấn đề bạn kiểm tra giúp với trong phòng nam 1 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+777,bóng sợi đốt thứ 2 phòng giặt nhanh bot ơi giúp mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+778,quét trạng thái đèn trần thứ 1 garage 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+779,kiểm tra giúp mình trạng thái của hắt trần nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+780,trợ lý ơi giúp mình kiểm tra cái cảnh tại vườn 1 nhé báo lại trạng thái giúp mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+781,thiết bị đèn rủ room phòng ăn tối 3,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+782,đèn thả 4 phòng ngủ ông bà nhanh bot ơi giúp mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+783,kiểm tra giúp mình cái bóng làm việc 3 ở phòng thay đồ nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+785,trợ lý kiểm tra giúp tôi đèn bếp ở phòng thu 5 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+786,bạn ơi kiểm tra cho mình đèn sưởi thứ 1 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+787,cho mình xem trạng thái của bóng hoa ở phòng dành cho nữ,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+788,quét trạng thái bóng kiểng 1 phòng tiếp đón,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+789,nút ấn thứ 2 phòng hội nghị nhanh bot ơi giúp mình với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+790,tôi muốn bạn kiểm tra cho tôi trạng thái của rèm cửa thứ 4,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+791,kiểm tra trạng thái của thiết bị device là đèn màu room là phòng thí nghiệm nhé bạn eei,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+792,hi bạn mình muốn kiểm tra trạng thái thiết bị đèn sắc màu 3,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+794,bạn ơi kiểm tra cho mình rèm đôi thứ 2 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+795,kiểm tra giúp tôi bóng hoa với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+796,kiểm tra trạng thái đèn học 2 trên tầng thượng 10,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+798,kiểm tra trạng thái của thiết bị device là bóng tiết kiệm điện room là quầy lễ tân nhé bạn eei,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+799,giúp mình kiểm tra bóng thả 1 ở ga ra xem nó như thế nào nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+800,kiểm tra trạng thái của ốp trần 1 trong phòng thờ,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+801,bạn ơi kiểm tra đèn thả 2 ở cầu thang dùm mình,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+802,bạn kiểm tra cho mình đèn học với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+803,giúp mình kiểm tra đèn chùm 3 ở bếp 4 xem nó như thế nào nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+804,mình muốn kiểm tra trạng thái của ốp tường 4,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+805,mình muốn kiểm tra bóng rọi 1 ở phòng tắm 2,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+806,bạn kiểm tra giúp mình thiết bị đèn sưởi thứ 4 ở hội trường 3 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+807,bạn có thế kiểm tra nóng lạnh 3 ở phòng sếp 1 được không,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+809,kiểm tra giúp tôi tvs thứ 3 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+810,kiếm tra giúp mình trạng thái của thiết bị đèn led 4 ở tiền sảnh 2 nhée,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+811,trợ lý kiểm tra giúp tôi đèn trang trí thứ 1 ở đầu hè 1 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+812,hi bạn mình muốn kiểm tra trạng thái thiết bị đèn vách 1,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+813,kiểm tra hồ mình kiểng 2 ở phòng chánh 5 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+814,xin chào t thấy bóng vách 2 đang có vấn đề bạn kiểm tra giúp với trong hè nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+816,kiểm tra đèn quảng cáo giúp tôi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+817,xin chào hãy kiểm tra hộ mình nút ấn với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+818,xin chào t thấy đèn màu đang có vấn đề bạn kiểm tra giúp với trong nhà xe 5 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+819,kiểm tra cho mình bóng làm việc 1 nhé chắc bị trục trặc gì rồi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+821,bạn kiểm tra giúp mình thiết bị đèn vách ở phòng chính 4 nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+822,kiểm tra bóng học phòng ủi,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+823,kiểm tra giúp anh đồ ở phòng nữ nhé,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+824,kiểm tra trạng thái của thiết bị device là đèn sân thứ 2 room là hành lang 5 nhé bạn eei,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+825,kiếm tra giúp mình trạng thái của thiết bị cột đèn 1 ở sân trước nhée,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+826,kiểm tra trạng thái đèn tranh,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+827,hey kiểm tra giúp tôi trạng thái của bóng để bàn thứ 3 với,smart.home.check.status,0,smart.home.check.status,0,smart.home.check.status
+830,xin chào mình cần chạy màu đèn treo tường 3 sang màu đỏ,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+831,trợ lý fuck boi khởi chạy cho anh bóng để bàn sang màu xanh da trời trên sảnh 3 tầng hầm 4,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+832,tôi cần đổi màu sắc màu đèn quảng cáo sang màu tía,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+833,thay đổi màu sắc màn cửa đôi 4 phòng thu 3 tầng trệt 6 màu màu hồng,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+835,hãy đổi phòng họp gia đình màu đỏ,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+836,trợ lý béo thiết lập của bóng đứng thứ 2 sang màu màu cam ở tầng hầm 1 phòng xông hơi 3 giúp anh,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+837,giúp tôi kích hoạt bóng sân màu lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+838,bạn khởi chạy màu bóng hoa giúp mình nha,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+839,đặt bóng vách 4 phòng bếp 1 sang màu xanh lá giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+840,chuyển màn cuốn 1 sang trắng,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+841,thay đổi màu của vô tuyến 1 sang màu lam ở cổng 5 tầng hầm 5,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+842,bạn giúp tôi chuyển màu bóng đèn ốp trần 4 thành tím nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+843,command thiết bị đèn compact 2 sang tía ở hiên sau and tầng 3,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+844,hãy thiết lập nhà bếp 2 xanh nước biển,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+845,chỉnh quạt màu màu xanh da trời,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+847,giúp tôi command loa còi 4 màu màu tím,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+849,command quạt thông gió sáng màu violet,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+850,bắt đầu đèn trang trí thứ 3 phòng đọc sách tầng 7 màu màu xanh nước biển,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+851,chạy hắt trần sáng màu xám,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+852,bắt đầu bóng ốp trần màu lục,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+853,thay đổi màu sắc đèn rọi thứ 4 thành xám,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+854,chào bạn thiết lập giúp mình màu sắc của công tắc sang màu tím với,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+855,khởi chạy của rèm đơn sang màu đỏ giúp mình,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+856,tôi muốn đổi màu sắc của rèm ngang 4 trợ lí cute,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+858,bạn giúp tôi chuyển màu bóng hắt tường 4 thành tím nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+859,hãy kích hoạt ga ra màu tía,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+860,bóng thờ đỏ,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+861,em ơi có thể thay tvs 1 sang xám không,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+862,thiết lập quạt trần phòng sinh hoạt chung 3 tầng thượng 8 sang màu lục,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+863,bật đèn quảng cáo sáng màu hồng,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+864,bạn giúp mình command màu rèm đơn nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+865,đổi màu nút ấn 2 phòng ăn tối 3 thành lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+866,thiết lập đèn màu sắc 2 phòng bố mẹ sang màu xám giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+867,anh muốn em chế độ cho anh cái âm thanh đa vùng sang màu cam nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+868,cài đặt cảnh 1 thành xanh nước biển,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+869,nút nhấn phòng đọc sách màu màu lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+870,em ơi có thể thay đổi bóng trụ cổng sang trắng không,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+872,bạn giúp tôi chuyển màu bóng bóng treo tường 3 thành xanh lam nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+873,khởi chạy máy lạnh thứ 1 phòng đợi thành màu violet,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+875,thiết lập bóng sợi đốt thứ 4 phòng con 5 sang màu xanh da trời giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+876,thay đổi màu màu xanh nước biển bóng sợi đốt 2 phòng đọc lầu trệt 4,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+877,anh muốn em đổi màu sắc cho anh cái ti vi 2 sang màu xanh lá nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+878,thay đổi màu sắc bóng thả 1 phòng dành cho nữ 4 sang xanh da trời giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+879,command điện thứ 1 màu màu tím,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+880,chỉnh bình nóng lạnh 3 tủ giữ đồ 4 xanh nước biển được không,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+882,đổi màu tvs thứ 3 sang màu violet giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+884,tôi cần thiết lập màu quạt hút mùi thứ 4 sang màu lục,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+885,kích hoạt đèn nhiều màu thứ 4 sang xanh lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+886,đổi màu màu màu xám bóng hắt 3 thư viện tầng thượng 4,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+887,đổi màu đèn treo tường thứ 4 sang xám giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+888,em ơi có thể khởi chạy quạt sang trắng không,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+889,thiết lập đèn màu sắc 4 phòng nghỉ ngơi 4 sang màu cam giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+890,hãy giúp tôi đổi màu sắc màu đèn thả 1 thành màu xanh nước biển ở phòng ngủ con trai lầu trệt 8,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+891,thay đổi màu sắc bóng sưởi ở phòng lầu 8 sang màu hồng,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+892,chạy bóng thờ nhà xe 3 lầu thượng 2 màu tím,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+893,trợ lý fuck boi bắt đầu cho anh màn cửa đơn thứ 3 sang màu màu lam trên ga ra lầu thượng 7,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+894,màu đỏ là màu của đèn tròn 2,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+895,hãy chế độ phòng khách 4 màu xanh lá,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+897,anh muốn em command cho anh cái bóng hắt tường thứ 3 sang màu tía nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+898,thay đổi cho mình động cơ thứ 2 sang màu xanh da trời nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+899,thay đổi mọi quạt trần thứ 2 màu lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+900,bạn giúp mình thiết lập màu máy lạnh 3 nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+902,bạn giúp mình đổi màu đèn ốp trần sang đỏ nhá,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+903,thay đổi màu sắc đèn bếp đỏ,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+904,bắt đầu bóng hắt tường ở phòng đọc sách lầu trệt 3 sang màu xanh da trời,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+905,bạn khởi chạy màu cửa cuốn giúp mình nha,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+906,xin chào mình cần khởi chạy màu đèn để bàn thứ 2 sang màu tím,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+908,khởi chạy kiểng màu xanh nước biển,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+909,màu xanh nước biển là màu của bóng huỳnh quang,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+911,màu xanh lá là màu của bòng hắt trần 3,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+912,chuyển đèn hắt tường thứ 2 phòng nghỉ ngơi 1 tầng 10 sang lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+914,bóng kiểng 1 garage màu xám,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+915,màu tía là màu của quạt hút mùi thứ 2,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+916,đổi màu màu màu tím động cơ 3 phòng chánh lầu trệt 3,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+917,anh muốn em bật cho anh cái màn cửa đơn thứ 2 sang màu đỏ nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+918,hãy giúp tôi bắt đầu màu đèn sắc màu 4 thành màu xám ở sân vườn 5 lầu thượng 1,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+919,đổi màu bóng ốp tường thứ 1 sang màu lục giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+920,bắt đầu vô tuyến thứ 1 phòng chờ tầng trệt 10 sang màu violet,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+921,trợ lý fuck boi đổi màu cho anh tivi sang màu tía trên phòng thờ lầu trệt 3,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+922,thiết lập đèn sân 1 màu màu lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+923,thay đổi màu đèn đứng thứ 3 sang màu hồng,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+924,bật đèn trần garage lầu 2 màu xanh da trời,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+925,bạn giúp mình thay đổi màu sắc đèn rọi thứ 4 sang xanh lam nhá,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+926,trợ lý fuck boi thay đổi màu sắc cho anh quạt trần 4 sang màu màu cam trên phòng nam 1 tầng thượng 10,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+927,bạn kích hoạt màu van tưới giúp mình nha,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+928,thiết lập của rèm ngang thứ 1 sang xanh lam giúp mình,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+930,thay đổi màu sắc mỗi đèn làm việc màu màu xanh da trời,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+931,thay đổi màu bóng vườn sang màu tía,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+932,xin chào mình cần chế độ màu bóng rủ 4 sang màu lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+933,bắt đầu mọi bóng sợi đốt thứ 1 màu màu tím,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+936,thay đổi màu đèn bếp sang màu cam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+938,đèn đứng 3 phòng thu 2 màu màu xanh nước biển,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+939,đổi bóng để bàn thành tím,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+940,điều chỉnh bóng sưởi sang tía,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+941,màu lam là màu của đèn cảnh thứ 1,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+942,thay đổi đèn led thứ 2 phòng đọc sách màu xám được không,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+943,tôi cần command màu bóng huỳnh quang sang màu hồng,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+944,em ơi có thể thiết lập rèm ngang thứ 1 sang đỏ không,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+945,thiết lập điện thứ 1 sang màu đỏ,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+946,giúp tôi thay đổi bóng downlight 1 màu màu xanh lá,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+947,bạn giúp tôi chuyển màu bóng máy lạnh thứ 1 thành màu violet nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+948,thay đổi cho mình màn cửa đơn sang xanh da trời nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+949,quạt treo tường thứ 1 phòng làm việc 1 màu xám,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+951,đổi màu bóng hoa sang màu lục giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+954,bật bóng thờ sáng màu xanh da trời,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+955,trợ lý béo kích hoạt của bóng thứ 3 sang màu tím ở tầng hầm 8 phòng ủi giúp anh,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+956,đặt đèn học 1 cổng 2 tầng thượng 5 sang màu xanh lá,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+957,điện màu cam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+958,điều chỉnh thiết bị quạt trần thứ 3 sang màu lam ở thư viện and lầu trệt 3,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+959,đổi màu van nước thứ 4 sang trắng giúp tôi,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+960,anh muốn em bắt đầu cho anh cái quạt treo tường 2 sang đỏ nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+961,đổi màu bóng sân phòng lễ tân 5 thành lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+962,tôi cần thay màu bóng rọi 1 sang xanh nước biển,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+963,bạn giúp tôi chuyển màu bóng đèn sân thứ 1 thành xanh lam nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+964,mành thứ 4 màu đỏ,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+965,chào bạn khởi chạy giúp mình màu sắc của kịch bản 4 sang màu hồng với,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+966,trợ lý béo chế độ của đèn vách 2 sang màu màu xám ở lầu 2 phòng đọc sách giúp anh,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+967,đổi màu đèn thờ phòng là 1 tầng 9 màu xanh da trời,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+968,hãy giúp tôi kích hoạt màu van nước 1 thành màu xanh nước biển ở phòng chung 3 tầng hầm 9,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+969,chế độ thiết bị cửa cuốn thứ 1 sang màu lục ở phòng em nhỏ and tầng thượng 10,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+970,đổi màu điều hòa 2 màu xám,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+972,đổi màu sắc của bóng downlight thứ 4 sang tía giúp mình,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+973,trợ lý béo chạy của đèn sắc màu sang màu màu violet ở lầu trệt 5 tủ giữ đồ 2 giúp anh,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+974,bạn giúp mình chế độ màu đèn vách thứ 3 nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+975,thay đổi cho mình bóng led 4 sang màu tím nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+976,trợ lý fuck boi chế độ cho anh đèn tranh thứ 1 sang màu màu tía trên hành lang 2 tầng 4,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+977,thay đổi màu sắc đèn sân sảnh 2 tầng 9 sang xám,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+978,thiết lập của bóng ốp trần 4 sang trắng giúp mình,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+979,đổi mỗi công tắc 1 màu màu xám,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+980,hãy giúp tôi bắt đầu màu bóng hắt thành tía ở hè floornumber,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+982,chào bạn đổi màu sắc giúp mình màu sắc của điện sang màu violet với,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+983,bạn giúp mình thay đổi màu sắc van tưới sang lam nhá,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+984,chạy bóng sân ở cầu thang tầng hầm 6 sang màu xanh da trời,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+985,trợ lý béo chuyển của máy lạnh thứ 3 sang màu màu lục ở tầng 10 phòng ngủ con giúp anh,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+986,giúp tôi kích hoạt quạt màu màu xanh lá,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+987,bạn thay đổi màu mành cuốn thứ 4 giúp mình nha,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+988,thay đổi màu kiểng 3 sang màu cam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+989,thay khởi chạy của bóng sợi đốt 4 sang xanh da trời ở garage 5 floornumber,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+990,giúp tôi đổi màu sắc tivi màu màu đỏ,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+991,xin chào mình cần chạy màu đèn tiết kiệm điện sang màu xanh nước biển,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+992,tivi 4 room màu màu tía,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+993,bắt đầu bóng hoa 2 phòng xông hơi 5 thành màu xanh nước biển,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+994,bạn giúp mình thiết lập đèn chùm 2 sang màu tím nhá,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+995,tôi cần thay đổi màu sắc màu đèn màu sắc 3 sang xanh lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+996,kích hoạt bóng hắt tường 3 phòng giặt ủi màu lam được không,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+998,thay khởi chạy của đèn nhiều màu 2 sang màu hồng ở văn phòng tầng 10,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+999,điều chỉnh thiết bị bóng treo tường thứ 4 sang màu xám ở phòng dành cho nữ 3 and tầng hầm 2,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1000,em ơi có thể kích hoạt bóng treo tường sang màu xanh lá không,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1001,thay đổi màu sắc đèn tuýp ở vườn tầng thượng 8 sang màu tím,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1003,chỉnh máy lạnh 1 màu lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1004,chỉnh đèn sân 2 phòng cuối màu xanh nước biển được không,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1007,thay chạy của đèn màu sắc 4 sang màu đỏ ở sảnh 2 tầng 9,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1008,thay đổi cho mình đèn tiết kiệm điện 1 sang xám nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1010,đặt mỗi nút ấn 1 màu màu xanh da trời,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1011,bạn command màu đèn bàn thứ 2 giúp mình nha,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1012,bắt đầu đèn trần sang xanh lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1013,thay đổi màu đèn hắt trần sang màu tía,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1015,xin chào mình cần đổi màu sắc màu đèn thờ 2 sang màu lam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1017,thay command của đèn tuýp thứ 3 sang màu lục ở garage lầu trệt 6,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1018,bắt đầu rgb sáng xanh da trời,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1019,bóng hoa 3 màu cam,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1020,thay đổi màu sắc bóng chùm thứ 3 màu violet,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1023,bạn giúp mình đổi cảnh sang màu hồng nhá,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1026,khởi chạy của đèn học thứ 2 sang tím giúp mình,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1027,thay đổi cho mình đèn tường thứ 4 sang màu hồng nhé,smart.home.set.color,0,smart.home.set.color,0,smart.home.set.color
+1028,giảm đèn ốp tường xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1029,hạ thấp mọi rèm thứ 4 tiền sảnh 3 xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1030,bóng kiểng 3 nên được giảm đi xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1031,giảm mức quạt treo tường thứ 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1032,giảm mức quạt trần thứ 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1033,mình đang muốn giảm thiết bị đèn huỳnh quang thứ 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1034,mình ở phòng quầy lễ tân đang hơi lạnh bạn giúp mình giảm đèn thờ thứ 3 về mức 1 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1035,đèn tròn thứ 2 đại sảnh giảm bớt xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1036,mình đang muốn giảm thiết bị bóng ốp tường thứ 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1039,bạn giảm hộ mình bóng downlight thứ 2 xuống mức 2 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1040,bạn giảm hộ mình van nước 4 xuống mức 1 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1041,hạ thấp giúp tôi bóng tầng trệt 5 đi 3 mức nữa,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1042,em giúp tôi giảm đèn led 2 xuống mức 4 nhé anh hơi chói mắt,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1043,giảm đi hết bòng hắt trần 2 room xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1044,mình ở phòng phòng vệ sinh 5 đang hơi lạnh bạn giúp mình giảm bóng sợi đốt thứ 3 về mức 1 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1045,mình đang muốn giảm thiết bị đèn đứng,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1046,hạ xuống đèn sân 4 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1047,giảm thiết bị đèn flash thứ 1 xuống mức 5 giúp mình nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1048,giảm giúp tôi động cơ 3 xuống mức 4,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1049,giảm thiết bị rèm cửa 4 xuống mức 5 giúp mình nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1050,mình muốn giảm thiết bị đèn bàn thứ 4 xuống mức 2 bạn nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1051,tôi muốn giảm mức độ của thiết bị đèn ốp trần 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1052,hello ngày của tôi thật thảm họa bạn giúp tôi giảm bóng hoa xuống mức 1 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1053,giúp mình giảm mức độ đèn trần thứ 1 5 xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1054,milo giảm đèn ngủ thứ 1 xuống mức 3 thôi,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1055,loa còi 4 nên được hạ thấp xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1056,hello ngày của tôi thật thảm họa bạn giúp tôi giảm mành cuốn thứ 4 xuống mức 3 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1057,giảm thiết bị đèn âm trần 3 xuống mức 4 giúp mình nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1058,giảm đèn đứng 1 4 phòng ăn 1 tầng 4 cấp 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1059,bóng tiết kiệm điện hạ xuống đi 1 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1060,giảm device đèn sắc màu 3 xuống 1 ở quầy lễ tân và tầng hầm 6,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1061,giảm giúp mình đèn bàn 4 xuống mức 4,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1062,hạ thấp đèn tuýp thứ 3 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1064,giảm bóng đứng 4 5 phòng họp gia đình 5 tầng 6 cấp 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1065,bạn có thể giúp mình giảm độ sáng của đèn treo tường xuống được không,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1066,giảm giúp tôi đèn rủ xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1067,bạn giảm hộ mình đèn tiết kiệm điện xuống mức 2 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1070,giảm giúp mình đèn hắt tường thứ 4 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1071,bạn giúp mình giảm màn cuốn ở phòng cuối nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1072,mành đôi 2 hạ thấp đi 2 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1073,bóng ngủ thứ 4 hạ thấp đi 1 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1074,đèn ốp tường thứ 4 giảm đi đi 2 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1075,giảm đi hết đèn cổng thứ 2 phòng trẻ em xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1076,giảm đèn tranh thứ 1 số 1 phòng phòng chánh 5 tầng tầng hầm 10,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1077,giảm đi giúp tôi công tắc 8 đi 1 mức nữa,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1078,giảm giúp mình bóng đứng xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1079,ở phòng ăn trưa 3 tối tăm quá em giảm giúp anh 3 mức độ của đèn học 4 nhé à quên anh ở tầng tầng hầm 7 nhen,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1080,giảm thiết bị vô tuyến thứ 4 xuống mức 4 giúp mình nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1081,bạn giúp mình giảm bóng hoa 4 ở vườn nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1082,đèn led 1 phòng nam 3 giảm đi xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1083,hạ xuống giúp tôi điều hòa thứ 3 lầu 7 đi 2 mức nữa,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1084,giảm giúp tôi đèn hoa thứ 1 xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1085,giảm mức điều hòa 4,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1086,giúp mình giảm mức độ nút ấn 2 5 xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1087,đèn sân 1 phòng hạ xuống xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1088,giảm bớt độ sáng đèn thả phòng hội nghị 4 đi 1 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1089,giảm giúp tôi bóng chùm thứ 3 xuống mức 5,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1090,giảm bóng rủ phòng sách 5 tầng hầm 8 cấp 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1091,giảm ốp tường 2 phòng 1 xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1092,tôi muốn giảm mức độ của thiết bị đèn rủ,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1093,giảm đèn sân thứ 2 số 2 phòng phòng sinh hoạt chung 2 tầng tầng thượng 9,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1094,bạn giảm hộ mình rèm đôi thứ 3 với,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1095,hạ thấp độ sáng đèn tranh thứ 1 hành lang 4 đi 2 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1096,đèn cổng nên được hạ xuống xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1097,ở phòng dành cho nam 3 tối tăm quá em giảm giúp anh 2 mức độ của đèn bàn 4 nhé à quên anh ở tầng tầng 9 nhen,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1098,giảm giúp tôi đèn sắc màu 1 tầng hầm 8 đi 1 mức nữa,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1099,hello ngày của tôi thật thảm họa bạn giúp tôi giảm quạt treo tường thứ 3 xuống mức 5 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1100,milo hạ đèn thờ thứ 4 xuống mức 1 thôi,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1101,bạn có thể giúp mình giảm độ sáng của bóng tròn xuống được không,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1102,giảm cửa cuốn thứ 1 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1104,mình ở phòng phòng xông hơi 4 đang hơi lạnh bạn giúp mình giảm bóng ốp trần 2 về mức 2 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1105,quạt trần thứ 3 phòng làm việc 1 hạ xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1106,bạn giảm hộ mình màn cửa đôi 1 xuống mức 2 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1107,giảm giúp mình ti vi 2 xuống mức 4,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1108,hãy hạ động cơ thứ 1 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1109,giảm device đèn thả xuống 1 ở nhà tắm 5 và tầng 6,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1110,giảm device loa đài thứ 2 xuống 3 ở 5 và lầu trệt 10,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1111,ở phòng nghỉ ngơi tối tăm quá em giảm giúp anh 2 mức độ của quạt thông gió thứ 4 nhé à quên anh ở tầng lầu thượng 5 nhen,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1112,giảm device bóng làm việc 3 xuống 1 ở lễ tân 4 và 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1113,hạ thấp van nước thứ 3 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1115,giúp mình giảm mức độ cảnh 2 2 xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1117,em giúp tôi giảm đèn trụ cổng 2 xuống mức 2 nhé anh hơi chói mắt,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1118,mình ở phòng tủ giữ đồ đang hơi lạnh bạn giúp mình giảm đèn hoa thứ 2 về mức 5 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1119,hạ xuống hết bóng hắt tường phòng lễ tân 4 xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1120,tôi muốn giảm mức độ của thiết bị điện thứ 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1121,giúp mình giảm mức độ hắt trần 2 xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1122,giảm giúp tôi quạt treo tường 3 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1123,giảm đi công tắc phòng con 3 xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1124,milo hạ đèn hắt tường thứ 3 xuống mức 1 thôi,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1125,hãy hạ xuống đèn sân thứ 3 xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1126,giảm loa còi thứ 4 2 tầng hầm 7 cấp 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1127,giảm mức tvs 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1128,đèn ốp trần 2 sân giảm bớt xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1129,giảm quạt thứ 2 số 2 phòng cầu thang tầng tầng trệt 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1130,tôi muốn giảm mức độ của thiết bị bóng trang trí thứ 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1132,giúp mình giảm mức độ bóng tiết kiệm điện 2 xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1133,giảm nút ấn 3 room tầng hầm 3 cấp 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1134,tôi muốn giảm mức độ của thiết bị quạt 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1135,giảm bớt độ sáng đèn sợi đốt phòng giặt 3 đi 3 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1136,bạn giúp mình giảm cảnh 4 ở phòng chung 3 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1137,mình đang muốn giảm thiết bị đèn hắt trần,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1138,giảm màn cuốn 1 garage 5 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1139,giảm thiết bị hắt tường 3 xuống mức 2 giúp mình nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1140,hãy hạ thấp đèn ngủ xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1141,bạn có thể giúp mình giảm độ sáng của bình nóng lạnh thứ 3 xuống được không,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1142,mình muốn giảm thiết bị bóng làm việc thứ 4 xuống mức 5 bạn nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1143,giảm đèn tuýp thứ 1 số 2 phòng phòng ngủ con 3 tầng lầu trệt 9,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1147,ở sảnh tối tăm quá em giảm giúp anh 5 mức độ của đèn học nhé à quên anh ở tầng tầng thượng 9 nhen,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1148,hãy hạ xuống ti vi thứ 2 xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1149,em giúp tôi giảm bóng rủ xuống mức 2 nhé anh hơi chói mắt,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1150,bạn có thể giúp mình giảm độ sáng của van nước 3 xuống được không,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1151,bạn giảm hộ mình bóng tiết kiệm điện thứ 3 với,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1152,giảm đi độ sáng bóng ngủ sân đi 1 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1153,hạ xuống loa phòng họp gia đình 4 xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1154,giảm đèn treo tường phòng trẻ em 5 tầng trệt 9 cấp 5,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1155,giảm đèn hoa thứ 2 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1156,hạ thấp điện thứ 2 xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1157,milo hạ thấp màn cửa đơn thứ 4 xuống mức 3 thôi,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1158,bạn giảm hộ mình bòng hắt trần 4 với,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1159,hello ngày của tôi thật thảm họa bạn giúp tôi giảm đèn trần xuống mức 3 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1160,giảm đèn rọi thứ 1 xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1161,giảm bớt mỗi bóng tiết kiệm điện văn phòng 2 xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1162,hạ thấp giúp tôi đèn thả lầu trệt 8 đi 1 mức nữa,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1163,bóng học hạ đi 3 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1164,bóng downlight 4 nên được hạ xuống xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1165,đèn chùm thứ 1 nên được hạ xuống xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1166,mình ở phòng nhà tắm 2 đang hơi lạnh bạn giúp mình giảm đèn làm việc về mức 3 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1167,bạn giúp mình giảm loa còi thứ 1 ở ban công nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1168,em giúp tôi giảm âm thanh đa vùng thứ 4 xuống mức 2 nhé anh hơi chói mắt,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1169,giảm huỳnh quang thứ 1 2 7 cấp 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1170,hãy giảm đi màn cửa thứ 3 xuống mức 3,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1172,mình muốn giảm thiết bị bóng vách xuống mức 2 bạn nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1173,bạn giảm hộ mình đèn tròn thứ 4 với,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1175,hạ thấp độ sáng mành đôi 4 phòng họp gia đình 5 đi 3 mức,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1176,giảm mức loa còi 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1177,em giúp tôi giảm đèn cảnh thứ 4 xuống mức 1 nhé anh hơi chói mắt,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1178,giảm đèn bếp 1 phòng bếp 5 1 cấp 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1179,giảm giúp mình đèn ốp tường thứ 3 xuống mức 4,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1180,mình đang muốn giảm thiết bị bóng treo tường,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1181,ở phòng nghiên cứu 3 tối tăm quá em giảm giúp anh 1 mức độ của bóng huỳnh quang 2 nhé à quên anh ở tầng 9 nhen,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1182,hello ngày của tôi thật thảm họa bạn giúp tôi giảm loa đài thứ 3 xuống mức 1 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1183,giảm đèn sưởi 2 xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1184,hạ thấp bóng vườn xuống mức 1,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1185,bạn giúp mình giảm kịch bản ở phòng thực hành 3 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1186,milo hạ xuống bóng hắt 3 xuống mức 3 thôi,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1187,giảm đi cảnh 1 cổng 1 xuống mức 2,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1188,mình muốn giảm thiết bị đèn làm việc xuống mức 3 bạn nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1189,mình muốn giảm thiết bị đèn chùm thứ 1 xuống mức 2 bạn nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1190,bạn có thể giúp mình giảm độ sáng của đèn tuýp xuống được không,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1191,bạn giảm hộ mình đèn tranh 4 xuống mức 3 nhé,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1192,giảm đèn nhiều màu 3 số 3 phòng hội trường 3 tầng tầng 5,smart.home.decrease.level,0,smart.home.decrease.level,0,smart.home.decrease.level
+1193,bật đèn ốp tường 2 phòng ăn sáng thêm 2 mức nữa,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1194,tăng giúp mình bóng tường ở đầu hè lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1195,cho mình tăng đèn đứng 1 lên 1,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1196,tôi cần bạn tăng mức độ động cơ thứ 3 4 lên cấp 2 nha,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1197,tăng giúp tôi đèn tiết kiệm điện 4 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1198,tăng giúp mình độ sáng của đèn led thứ 4 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1199,giúp mình tăng thiết bị âm thanh đa vùng lên cấp độ 2 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1200,giúp tôi tăng lên bóng sưởi phòng trẻ con 4 thêm 3 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1201,bạn giúp mình tăng quạt 2 ở phòng là 5 lên mức 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1202,tăng đèn 4 thêm 2 số nữa,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1203,bật quạt treo tường 1 thêm 3 mức thôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1204,tăng mỗi đèn chùm thứ 3 lên số 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1205,bóng sưởi thứ 2 phòng ngủ ông bà tăng thêm 1 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1206,tăng thêm tốc độ van nước thứ 3 5 lên mức 3 ngay nhá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1207,tăng đèn nhiều màu 4 lên 1 bạn ơi thấp quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1208,giúp mình kéo ti vi thứ 4 lên mức 2 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1209,tăng giúp mình độ sáng của đèn nhiều màu 1 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1210,bạn có thể giúp mình thay đổi mức độ của kiểng được không tăng nó lên một chút,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1211,tăng tivi lên 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1212,giúp mình tăng thiết bị bóng compact thứ 4 lên cấp độ 1 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1213,tăng màn cửa đơn lên 4 hộ mình với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1214,tăng mỗi mành đôi 2 lên số 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1215,xin chào bạn ơi bạn giúp mình tăng cảnh 1 ở vườn sau 5 lên mức 5 nhớ,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1216,tăng đèn sân thứ 3 lên 4 hộ mình với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1217,tăng đèn trần thứ 3 4 lên 1 bạn ơi thấp quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1218,nhất bạn tăng đèn hoa thứ 1 lên một tí hộ bạn với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1219,bạn giúp mình tăng thiết bị quạt thông gió thứ 1 lên mức 5 ở văn phòng 3 giúp mình nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1220,giúp mình kéo bóng học lên mức 3 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1221,giúp mình kéo đèn thứ 4 lên mức 5 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1222,xin chào bạn ơi bạn giúp mình tăng đèn trang trí 2 ở nhà xe 1 lên mức 2 nhớ,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1223,tăng đèn ốp tường lên mức 2 tại nhà để xe 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1224,tăng giúp tôi bóng ngủ với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1225,bạn có thể giúp mình thay đổi mức độ của đèn cây 2 được không tăng nó lên một chút,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1226,tăng thêm đèn trụ cổng thứ 3 phòng ăn tối 3 lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1227,tăng giúp mình đèn làm việc ở phòng sinh hoạt chung 3 lên mức 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1228,kiểng thứ 1 phòng chờ bật thêm 3 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1229,tăng thêm bóng sợi đốt sân sau 3 lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1230,tăng đèn âm trần thứ 2 lên mức 3 tại 1,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1231,tăng lên bóng rủ quầy lễ tân 5 lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1232,tăng lên giúp mình bóng âm trần 3 lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1233,tăng giúp mình đèn 1 ở phòng họp gia đình lên mức 2,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1234,giúp mình tăng mức độ van nước,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1235,bạn có thể giúp mình thay đổi mức độ của bóng trụ cổng 3 được không tăng nó lên một chút,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1236,tăng rèm thứ 3 lên 2 hộ mình với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1237,giúp mình kéo bóng tường lên mức 1 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1238,tăng bóng thờ 2 2 lên 1 bạn ơi thấp quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1239,tăng bóng sân lên mức 1 tại nhà vệ sinh,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1240,tăng bòng hắt trần lên 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1241,tăng bóng treo tường 4 lên mức 3 giúp tôi với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1242,tvs 1 phòng tiếp đón tăng đến thêm 3 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1243,vậy tăng cái đèn tròn thứ 2 lên 2 hộ mình với tối quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1244,tăng thêm tốc độ đèn trang trí thứ 2 lên số 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1245,trợ lý ơi làm ơn tăng độ sáng van tưới lên giúp tôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1246,tăng bòng hắt trần phòng ngủ ông bà 3 đến mức 3 ngay lập tức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1247,bạn giúp mình tăng đèn cổng thứ 4 ở cơ quan lên mức 1,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1248,giúp tôi bật nút ấn phòng dành cho nữ thêm 3 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1250,giúp em tăng lên đèn trụ cổng 1 thêm 1 mức nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1251,giúp em tăng loa còi 1 thêm 3 mức nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1252,bạn giúp mình tăng đèn tranh lên mức 1 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1253,tôi cần bạn tăng mức độ đèn tròn thứ 4 3 lên cấp 2 nha,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1254,vậy tăng cái đèn âm trần thứ 2 lên 1 hộ mình với tối quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1255,đèn đứng bạn có thể giúp tôi tăng mức độ của nó lên không,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1256,bạn tăng đèn làm việc lên mức 3 tại room phòng thu nhé bạn,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1257,tăng tốc độ đèn tranh 2 phòng tắm xông hơi 3 lên mức 5 ngay nhá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1258,tăng tốc độ bóng phòng thí nghiệm lên mức 3 ngay nhá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1259,đèn downlight văn phòng tăng lên thêm 1 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1260,bạn giúp mình tăng đèn chùm thứ 4 ở sân vườn lên mức 1,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1261,bạn có thể giúp mình thay đổi mức độ của đèn vườn được không tăng nó lên một chút,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1262,nhất bạn tăng đèn hắt lên một tí hộ bạn với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1263,tăng đèn học thứ 4 lên 2 hộ mình với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1264,tôi cần bạn tăng mức độ bóng led 1 2 lên cấp 2 nha,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1265,hộ mình bật tốc độ mành cuốn thứ 1 lên mức 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1266,trợ lý ơi làm ơn tăng độ sáng bình nóng lạnh lên giúp tôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1267,bạn giúp mình tăng bóng hắt 2 lên mức 2 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1268,tăng thêm mọi đèn để bàn thứ 2 lên số 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1269,giúp tôi tăng lên đèn led 4 phòng ngủ con 1 thêm 1 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1270,âm thanh đa vùng bạn có thể giúp tôi tăng mức độ của nó lên không,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1271,tăng kiểng thứ 3 lên mức 5 tại phòng ông bà,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1273,tăng bóng hắt tường thứ 3 2 lên mức 3 giúp tôi với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1274,xin chào bạn ơi bạn giúp mình tăng loa thứ 3 ở phòng học 1 lên mức 5 nhớ,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1277,giúp mình tăng thiết bị máy lạnh thứ 1 lên cấp độ 4 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1278,tăng thêm bóng treo tường thứ 1 phòng thực hành lên mức 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1279,đèn cảnh bạn có thể giúp tôi tăng mức độ của nó lên không,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1280,tăng thêm bóng thả 3 thêm 3 mức thôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1281,trợ lý ơi làm ơn tăng độ sáng bóng tường lên giúp tôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1282,tăng đèn ốp tường 4 lên mức 3 giúp tôi với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1283,giúp tôi bật bóng downlight 4 phòng ăn trưa thêm 3 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1284,tăng rèm ngang 2 thêm 3 mức thôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1285,chỉnh đèn sắc màu giúp mình nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1286,tăng giúp tôi đèn thứ 2 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1287,tăng ốp trần thứ 1 phòng đọc thêm 1 mức nữa,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1288,giúp mình tăng mức độ kiểng 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1289,tăng giúp mình đèn tranh ở nhà xe 4 lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1290,cho mình tăng bóng kiểng thứ 2 lên 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1291,tăng đèn ngủ thứ 2 sân sau 1 thêm 1 mức nữa,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1292,chỉnh đèn bàn 4 giúp mình nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1293,tăng đến đèn tường 3 thêm 2 mức thôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1294,giúp em tăng lên mành đôi thứ 2 thêm 2 mức nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1295,bật giúp mình bóng làm việc 1 lên mức 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1297,tăng thêm động cơ 3 cổng chính đến mức 3 ngay lập tức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1298,tăng thêm bóng kiểng thứ 2 vườn 2 lên mức 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1299,trợ lý ơi làm ơn tăng độ sáng bóng ngủ thứ 2 lên giúp tôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1300,tăng bóng tiết kiệm điện thứ 3 ban công đến mức 3 ngay lập tức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1301,đèn rủ 2 bạn có thể giúp tôi tăng mức độ của nó lên không,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1302,tăng lên giúp mình đèn màu sắc thứ 4 lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1304,tăng đến tốc độ bóng ốp tường thứ 2 vườn lên mức 3 ngay nhá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1308,giúp mình tăng mức độ đèn vách thứ 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1309,tăng lên bóng chùm thứ 4 thêm 1 mức thôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1310,giúp em tăng màn cửa đôi 2 thêm 1 mức nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1311,hộ mình tăng đến tốc độ bóng tuýp thứ 1 lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1312,tăng rèm cửa 2 lên 1 bạn ơi thấp quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1314,chỉnh đèn hắt giúp mình nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1315,giúp mình tăng mức độ đèn trụ cổng thứ 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1316,hộ mình tăng tốc độ van tưới lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1317,bạn tăng bóng ốp trần lên mức 1 tại room công ty nhé bạn,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1319,tăng hắt trần thứ 1 1 lên 1 bạn ơi thấp quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1320,bạn giúp mình tăng thiết bị đèn sưởi 1 lên mức 2 ở phòng lễ tân giúp mình nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1321,bật tốc độ bóng kiểng 2 phòng ngủ con trai lên mức 5 ngay nhá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1322,giúp tôi tăng thêm đèn bàn 4 phòng ăn tối 5 thêm 3 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1323,tăng đèn treo tường lên 1 hộ mình với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1324,trợ lý ơi làm ơn tăng độ sáng đèn flash thứ 2 lên giúp tôi,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1325,tăng giúp mình độ sáng của ốp trần 2 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1327,tăng giúp tôi đèn sân với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1328,tăng lên loa còi 1 cổng chính 2 thêm 2 mức nữa,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1330,tăng giúp mình đèn huỳnh quang thứ 1 ở văn phòng lên mức 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1331,tăng giúp mình đèn cảnh thứ 3 lên mức 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1332,tăng rèm ngang 4 thêm 1 số nữa,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1333,tăng thêm mọi đèn trụ cổng thứ 1 lên số 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1334,tăng lên tốc độ điều hòa thứ 4 lên số 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1335,tăng quạt thông gió thứ 3 lên mức 5 tại room,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1336,giúp mình tăng thiết bị quạt 3 lên cấp độ 4 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1337,tăng mành cuốn 1 1 lên mức 3 giúp tôi với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1338,bạn có thể giúp mình thay đổi mức độ của đèn tranh được không tăng nó lên một chút,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1339,nhất bạn tăng đèn tranh 1 lên một tí hộ bạn với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1340,cho mình tăng đèn treo tường 1 lên 1,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1341,tăng giúp tôi đèn vách 2 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1342,tăng hết đèn led lên số 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1343,bạn tăng hắt trần thứ 1 lên mức 2 tại room đầu hè 2 nhé bạn,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1344,tăng đèn tường thứ 1 3 lên mức 3 giúp tôi với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1345,xin chào bạn ơi bạn giúp mình tăng đèn cổng ở phòng ăn 2 lên mức 4 nhớ,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1348,giúp mình kéo đèn led 2 lên mức 1 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1349,tăng thêm tốc độ bóng rủ lên số 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1350,tăng giúp mình độ sáng của động cơ 4 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1351,giúp mình tăng thiết bị đèn cảnh lên cấp độ 1 nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1352,vậy tăng cái bóng thứ 4 lên 1 hộ mình với tối quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1353,bạn giúp mình tăng đèn thứ 2 ở phòng đọc lên mức 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1355,tôi cần bạn tăng mức độ đèn cổng thứ 4 4 lên cấp 2 nha,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1356,hộ mình tăng đến tốc độ loa thứ 4 lên mức 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1357,bạn tăng đèn sân thứ 1 lên mức 1 tại room phòng chờ nhé bạn,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1358,bạn giúp mình tăng đèn tròn 1 lên mức 4 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1359,chỉnh bóng trang trí thứ 1 giúp mình nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1361,bạn giúp mình tăng thiết bị rèm đôi 3 lên mức 3 ở hành lang 2 giúp mình nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1362,nhất bạn tăng đèn vách thứ 1 lên một tí hộ bạn với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1363,giúp mình tăng mức độ bóng hắt,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1364,tăng giúp mình độ sáng của đèn huỳnh quang thứ 4 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1365,bạn giúp mình tăng thiết bị đèn hắt tường thứ 2 lên mức 5 ở phòng trẻ con 3 giúp mình nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1366,tăng lên tốc độ bóng ốp tường thứ 1 lên số 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1367,xin chào bạn ơi bạn giúp mình tăng rèm ngang thứ 3 ở phòng đợi 4 lên mức 3 nhớ,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1369,bạn tăng đèn tiết kiệm điện lên mức 3 tại room phòng thực hành nhé bạn,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1370,bạn giúp mình tăng đèn âm trần 2 lên mức 5 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1371,cho mình tăng van nước 4 lên 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1372,nhất bạn tăng mành thứ 3 lên một tí hộ bạn với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1373,tăng tốc độ kiểng lên số 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1374,tăng bóng thờ thứ 1 lên 1,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1375,hộ mình tăng thêm tốc độ bóng rủ lên mức 5,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1376,tôi cần bạn tăng mức độ rèm cửa 1 lên cấp 2 nha,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1377,bạn giúp mình tăng màn cuốn 1 ở phòng nam 4 lên mức 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1378,giúp em tăng thêm công tắc 3 thêm 2 mức nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1379,bóng tròn phòng em nhỏ bật thêm 1 mức,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1380,cho mình tăng van nước thứ 3 lên 3,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1381,vậy tăng cái đèn downlight lên 3 hộ mình với tối quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1382,bật giúp mình bóng kiểng 1 lên mức 4,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1383,bạn giúp mình tăng đèn màu sắc thứ 4 lên mức 5 với,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1384,bạn giúp mình tăng thiết bị rèm đơn lên mức 5 ở phòng ngủ 2 giúp mình nhé,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1385,vậy tăng cái máy lạnh 3 lên 4 hộ mình với tối quá,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1386,tăng đèn bàn 2 phòng đợi 3 thêm 2 mức nữa,smart.home.increase.level,0,smart.home.increase.level,0,smart.home.increase.level
+1390,bật bóng vườn tại phòng tắm 3,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1391,bật giúp tôi quạt hút mùi thứ 1 phòng con 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1392,mình muốn bật bóng sân 4 trong phòng họp,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1393,tắt bóng hoa 2 phòng thực hành 2,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1394,mình muốn bật đèn rủ 4 trong phòng cuối 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1396,tắt loa ngoài phòng chung 5,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1397,tắt hộ cái đèn sợi đốt,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1398,đèn trụ cổng thứ 4 phòng thờ tắt,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1399,bật cho mình bòng hắt trần ở phòng hội nghị 2 nhe hihiii,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1400,tắt hộ mình hắt tường thứ 1 ở sảnh,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1402,bật rèm đôi 4 ngoài phòng dành cho nam 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1403,tắt bóng âm trần 4 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1404,tắt đèn sắc màu 3 ở phòng dành cho nữ,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1405,bạn tắt hộ mình loa còi thứ 3 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1408,bật mọi bóng tiết kiệm điện trong phòng đọc,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1409,bật hộ mình cái đèn tiết kiệm điện ở phòng ông chủ 2,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1411,tắt luôn cái đèn bếp nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1412,tắt cho tôi quạt trần 1 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1413,tắt hộ cái đèn huỳnh quang,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1416,bực ghê trời thì sáng chang chang thế này giữa ban ngày bật đèn làm gì không biết em tắt dùm anh đèn rủ 2 ở sân trước với,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1417,tắt hết đèn downlight đi,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1421,trợ lý béo tắt bóng compact thứ 3 ở phòng thực hành,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1423,mình muốn tắt đèn thờ,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1424,bật hết màn cửa đôi 1 đi,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1425,mình muốn bật máy lạnh 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1426,bật cho mình đèn sắc màu ở phòng trẻ con 2 nhe hihiii,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1427,bật hộ mình đèn thả ở phòng sinh hoạt chung,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1428,bạn tắt hộ mình đèn ốp trần nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1429,bật hộ cái đèn cảnh thứ 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1430,tắt mọi rèm đôi trong phòng bố mẹ,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1435,làm ơn bật cho tôi đèn cảnh nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1436,tắt đèn hắt trần ở hành lang 2,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1437,bật luôn cái đèn huỳnh quang thứ 2 nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1438,làm ơn tắt ốp trần thứ 4 phòng ngủ con 5 lên,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1439,tắt thêm đèn sợi đốt nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1440,bật đèn quảng cáo thứ 4 tại phòng 5,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1441,bật thêm bóng ốp trần nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1442,trợ lý béo tắt đèn hắt trần ở phòng tắm,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1443,bật hộ mình hắt tường 1 ở phòng khách 1 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1444,xin mời tắt bóng ốp tường thứ 2 phòng thực hành 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1446,hãy tắt huỳnh quang 4 sân,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1447,tắt luôn cái tivi nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1448,mình muốn tắt bóng trang trí thứ 2,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1450,bật bóng 3 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1453,eey tắt hộ cái bóng ngủ nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1455,bật hắt trần ngoài phòng trẻ em 5,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1456,tắt giúp mình đèn led thứ 3 ở bên phòng thu 5 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1458,bạn bật hộ mình đèn vách thứ 2 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1459,bật hộ mình bóng treo tường thứ 1 ở phòng là nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1461,eey bật hộ cái đèn sưởi 2 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1462,bật hộ mình bóng làm việc thứ 4 ở phòng thực hành nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1463,đèn trần cổng 1 bật,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1466,làm ơn bật cho tôi rèm cửa thứ 3 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1467,bật đèn rọi thứ 4 ngoài cổng chính 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1470,tắt vô tuyến thứ 1 phòng nam,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1472,bật hộ mình cái đèn thờ 3 ở phòng ông chủ 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1473,tắt thêm ti vi 1 nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1474,hãy bật led 3 phòng ăn sáng,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1475,màn cuốn 1 phòng sếp 2 tắt,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1476,hãy bật màn cửa thứ 3 văn phòng 3,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1479,bật bóng thờ thứ 1 ở phòng cuối,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1480,bật cảnh 3 ngoài phòng ngủ 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1483,mình muốn tắt đèn ốp tường thứ 3 trong phòng ăn tối 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1484,bật điều hòa 3 phòng ăn trưa 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1486,tắt mỗi đèn sợi đốt trong phòng hội nghị,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1487,bật cho tôi đèn huỳnh quang nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1488,tắt đèn hắt nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1490,tắt mọi màn cửa đơn đi,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1491,hãy bật đèn tròn 3 phòng cuối 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1493,bật giúp tôi bóng huỳnh quang phòng cuối,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1495,mình cần bật thiết bị đèn trang trí 3 tại phòng ngủ ông bà nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1498,tắt thêm bóng 2 nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1499,tắt hộ mình cái đèn trang trí thứ 2 ở phòng thu,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1500,mình muốn tắt bóng downlight thứ 4 trong phòng ngủ ông bà 2,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1501,bật hộ mình rèm đôi 3 ở phòng đợi,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1502,tắt van nước 1 ở hội trường 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1503,bật mỗi đèn tiết kiệm điện đi,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1504,tắt luôn cái quạt nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1505,hãy bật cho tôi đèn kiểng,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1508,tắt device bóng compact thứ 4 room quầy lễ tân,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1509,mình muốn bật bóng treo tường thứ 4 trong phòng thay đồ,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1510,hãy bật cho tôi đèn nút nhấn 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1511,tắt luôn cái đèn downlight nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1513,em ơi tắt đèn sưởi thứ 2 phòng nam lên nào,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1515,tắt đèn tường thứ 2 ở công ty,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1516,eey bật hộ cái đèn đứng nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1517,bạn tắt hộ mình đèn trang trí 3 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1520,bực ghê trời thì sáng chang chang thế này giữa ban ngày bật đèn làm gì không biết em tắt dùm anh đèn tranh ở cơ quan với,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1522,xin mời bật bóng treo tường 3 phòng ông chủ 3,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1524,bật cho mình đèn màu ở phòng thu nhe hihiii,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1525,bực ghê trời thì sáng chang chang thế này giữa ban ngày bật đèn làm gì không biết em bật dùm anh âm thanh đa vùng ở phòng trẻ em với,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1526,tắt hộ mình màn cuốn ở phòng đợi 3 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1527,tắt hộ mình cái đèn ốp trần 1 ở hè sau 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1528,bật cho tôi hắt tường thứ 3 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1529,bóng hắt tường thứ 4 phòng thí nghiệm bật,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1530,làm ơn tắt cho tôi động cơ thứ 1 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1531,tắt hộ mình đèn sợi đốt ở sân trước,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1532,bật mọi bóng đi,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1533,bật cho mình đèn sợi đốt 2 ở phòng ngủ con trai 4 nhe hihiii,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1534,mình cần bật thiết bị đèn ngủ tại phòng tắm xông hơi 4 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1535,bạn bật hộ mình rèm cửa 1 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1536,trợ lý béo tắt rèm ngang ở nhà tắm 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1538,hãy bật cho tôi đèn kịch bản 3,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1539,xin mời bật mành thứ 2 quầy lễ tân 5,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1541,bật hộ cái van nước,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1542,eey bật hộ cái bóng sưởi thứ 4 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1543,xin mời bật đèn học vườn sau 2,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1544,bật hộ mình cái đèn đứng 3 ở phòng ăn trưa 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1545,tắt hắt tường 4 phòng giặt ủi,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1547,tắt quạt trần 3 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1548,tắt mọi đèn ốp trần trong phòng thay đồ,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1551,xin mời tắt công tắc sân vườn,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1552,bật mành đôi 3 tại cổng 3,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1554,bật device cảnh 1 room nhà xe 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1555,mình cần bật thiết bị nút nhấn tại phòng dành cho nữ nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1556,tắt bóng ốp trần ở phòng con 5,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1558,cửa cuốn phòng ăn trưa 2 tắt,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1559,tắt hộ mình động cơ thứ 4 ở phòng trẻ em 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1560,làm ơn tắt cho tôi đèn bàn 2 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1561,làm ơn tắt cho tôi bóng ngủ thứ 2 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1564,bật giúp tôi downlight thứ 1 phòng hội nghị 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1565,trợ lý béo tắt nóng lạnh 2 ở thư viện,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1566,bật device đèn compact 4 room hiên sau,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1568,tắt thêm ốp tường nữa,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1569,bực ghê trời thì sáng chang chang thế này giữa ban ngày bật đèn làm gì không biết em tắt dùm anh quạt ở vườn sau 5 với,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1570,tắt hộ cái quạt trần thứ 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1572,mình muốn tắt bóng compact thứ 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1574,hãy tắt đèn tường 4 phòng em nhỏ 4,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1575,bật giúp tôi bóng âm trần 1 phòng giặt,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1577,tắt quạt thứ 1 tại phòng sinh hoạt chung 2,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1578,tắt kịch bản 3 ở đại sảnh,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1579,bật ốp trần thứ 3 phòng lễ tân,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1580,hãy bật cho tôi đèn bóng làm việc thứ 1,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1581,eey tắt hộ cái tvs 2 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1582,tắt device bình nóng lạnh thứ 4 room phòng sinh hoạt chung,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1583,hãy bật cho tôi đèn đèn trần thứ 3,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1585,bật mọi bóng thờ 4 trong phòng giặt 5,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1586,bực ghê trời thì sáng chang chang thế này giữa ban ngày bật đèn làm gì không biết em tắt dùm anh loa ở văn phòng 3 với,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1587,tắt đèn âm trần thứ 1 tại nhà để xe 2,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1588,tắt device đèn rủ 4 room quầy lễ tân,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1589,tắt hộ mình đèn ngủ thứ 1 ở ban công nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1592,tắt cho tôi bóng sưởi thứ 3 nhé,smart.home.device.onoff,0,smart.home.device.onoff,0,smart.home.device.onoff
+1594,đóng giúp mình cột đèn 1 với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.device.onoff
+1596,đóng đèn treo tường thứ 3 tầng thượng 5 ở mức 47 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1597,đóng rèm ngang thứ 1 ở mức 71 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1599,giúp mình mở bóng rọi 4 ở 85 phần trăm tại phòng phòng chứa đồ 2 nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1600,bật 2 phần trăm đèn nhiều màu thứ 2 lại,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1602,bật đèn tường thứ 1 72 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1603,có thể mở rèm cửa ở mức 3 phần trăm không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1604,cài đặt giúp mình bóng hắt tường thứ 2 với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.set.level
+1605,đặt giúp mình đèn âm trần 3 với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.set.level
+1606,đặt quạt thứ 2 mức 78 phần trăm garage 1,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1607,tôi muốn bật đèn cảnh thứ 1,smart.home.set.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+1608,có thể mở bóng ngủ thứ 3 ở mức 46 phần trăm không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1609,bạn đóng giúp mình cái đèn tròn 4 được không,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.device.onoff
+1610,giúp tôi mở đèn ngủ ở mức 7 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1611,cài đặt bóng đứng ở mức 63 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1612,giúp tôi mở đèn màu sắc thứ 2 nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1613,có thể đặt led ở mức 75 phần trăm không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1614,có thể đóng máy lạnh 2 ở mức 88 phần trăm không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1615,cài đặt 55 phần trăm bóng rủ 4 lại,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1616,tôi muốn bật cột đèn 3,smart.home.set.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+1617,mình muốn đóng đèn chùm 1 ở mức 16 phần trăm mình ở phòng cuối 2 nhé bot này hơi lười nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1618,bật cho mình đèn treo tường 3 ở phòng giặt 1 37 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1619,bật cho mình đèn tranh ở tủ giữ đồ với mức độ 72 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1620,huỳnh quang 2 cài đặt ở mức 45 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1621,cài đặt giúp mình bóng vườn với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.set.level
+1625,bật bóng tròn 79 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1626,ồ bạn làm ơn mở hộ mình bóng chùm thứ 3 lên mức 16 phần trăm được không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1627,bạn mở giúp mình nóng lạnh 4 lên mức 62 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1628,mở bóng sân 3 cổng chính ở mức 52 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1629,bạn mở giúp mình bóng thứ 4 lên mức 94 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1631,em ơi cài đặt cho anh đèn học ở 45 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1633,em ơi đặt cho anh đèn tranh 1 ở 74 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1634,mình muốn cài đặt quạt 2 ở mức 59 phần trăm mình ở phòng thu 5 nhé bot này hơi lười nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1636,đóng đèn đứng thứ 2 tầng 1 ở mức 83 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1637,bật đèn sưởi thứ 4 mức 80 phần trăm room,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1638,ồ bạn làm ơn mở hộ mình quạt 1 lên mức 77 phần trăm được không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1639,đóng 55 phần trăm máy lạnh thứ 4 lại,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1640,bạn mở giúp mình đèn vườn 4 ở mức 46 phần trăm được không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1641,bật thiết bị bóng hoa 3 hộ anh,smart.home.set.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+1642,bật bóng downlight 3 mức 71 phần trăm phòng chứa đồ 4,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1643,đặt ti vi thứ 4 ở mức 50 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1644,đóng cho mình bóng để bàn thứ 4 ở cầu thang với mức độ 13 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1645,mình muốn cài đặt đèn trang trí thứ 3 ở mức 68 phần trăm mình ở phòng tiếp đón nhé bot này hơi lười nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1647,tôi cần đặt bóng downlight thứ 2 ở mức 90 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1648,đặt cho mình bóng đứng thứ 2 ở phòng lễ tân 3 mức độ 62 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1649,làm ơn cài đặt vô tuyến 1 trên tầng 5 ở mức 41 phần trăm thôi,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1650,có thể cài đặt đèn tiết kiệm điện ở mức 27 phần trăm không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1651,làm ơn mở mành đôi thứ 3 trên tầng thượng 2 ở mức 42 phần trăm thôi,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1652,đóng đèn flash thứ 1 ở mức 45 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1653,bóng trụ cổng cài đặt ở mức 27 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1654,mở bóng huỳnh quang 4 ở mức 85 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1655,mình muốn mở đèn quảng cáo ở mức 13 phần trăm mình ở room nhé bot này hơi lười nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1656,cài đặt cho mình bình nóng lạnh ở phòng em nhỏ với mức độ 10 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1657,cài đặt cho mình nút nhấn ở phòng chờ với mức độ 4 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1658,chào bạn cài đặt giúp mình đèn rủ 4 ở mức 47 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1660,giúp tôi đặt van nước nhé,smart.home.set.percentage,True,smart.home.check.status,True,smart.home.set.level
+1661,bật đèn màu phòng ngủ con ở mức 82 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1662,chào bạn bạn giúp mình bật màn cửa đôi 3 với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.device.onoff
+1663,ồ bạn làm ơn đóng hộ mình đèn sợi đốt lên mức 5 phần trăm được không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1664,chào bạn đóng giúp mình bóng thờ 3 ở mức 36 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1665,đóng cột đèn 1 47 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1667,mở bóng sưởi thứ 4 ở mức 40 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1668,chào bạn bạn giúp mình cài đặt đèn tiết kiệm điện 4 với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.set.level
+1669,đặt đèn nhiều màu phòng chứa đồ 4 ở mức 49 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1670,tôi cần đóng bóng tròn ở mức 78 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1672,cài đặt đèn trần thứ 1 15 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1673,mở bóng thứ 3 mức 2 phần trăm phòng,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1674,bạn đóng giúp mình cái màn cửa thứ 4 được không,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.device.onoff
+1675,đèn hắt trần đóng ở mức 42 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1677,giúp mình bật đèn học 3 ở 24 phần trăm tại phòng ga ra nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1678,bật thiết bị đèn trụ cổng thứ 2 hộ anh,smart.home.set.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+1680,đóng cho mình đèn quảng cáo thứ 3 ở phòng nữ 36 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1681,làm ơn cài đặt đèn tròn thứ 1 trên tầng trệt 8 ở mức 78 phần trăm thôi,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1682,chào bạn mở giúp mình đèn học ở mức 88 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1683,tôi muốn bật rèm thứ 4,smart.home.set.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+1684,bật đèn led bếp 3 ở mức 60 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1685,làm ơn cài đặt đèn compact 2 trên tầng 10 ở mức 55 phần trăm thôi,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1686,mở 16 phần trăm máy lạnh 3 lại,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1687,tôi cần mở hắt tường 2 ở mức 3 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1688,đặt đèn sân ở mức 2 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1689,giúp tôi mở rgb ở mức 95 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1690,mở giúp mình bóng đứng thứ 1 với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.device.onoff
+1691,làm ơn mở đèn 3 trên tầng 3 ở mức 70 phần trăm thôi,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1692,bạn mở giúp mình bóng vách ở mức 61 phần trăm được không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1694,bạn đặt giúp mình cái bóng hắt được không,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.set.level
+1696,cài đặt ti vi 2 tầng 10 ở mức 34 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1697,bạn mở giúp mình đèn vườn 1 lên mức 51 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1698,bạn cài đặt giúp mình cái rgb được không,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.set.level
+1699,chào bạn cài đặt giúp mình đèn treo tường thứ 1 ở mức 46 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1700,bật cho mình đèn để bàn thứ 1 ở phòng chứa đồ 5 với mức độ 32 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1702,bạn đóng giúp mình bóng hoa 1 ở mức 77 phần trăm được không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1704,chào bạn bạn giúp mình mở bóng treo tường với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.device.onoff
+1705,em ơi đóng cho anh bòng hắt trần 3 ở 68 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1706,cài đặt thiết bị đèn trần hộ anh,smart.home.set.percentage,True,smart.home.device.onoff,True,smart.home.set.level
+1707,cài đặt âm thanh đa vùng thứ 3 tầng 10 ở mức 27 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1713,bật đèn thờ thứ 2 tầng hầm 5 ở mức 72 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1714,bóng sân 4 cài đặt ở mức 37 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1715,bóng thờ thứ 1 đặt ở mức 75 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1717,đóng bóng sưởi thứ 4 mức 56 phần trăm phòng bếp 1,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1718,mở cho mình bóng đứng thứ 1 ở sân sau 1 76 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1720,giúp tôi mở đèn nhiều màu ở mức 36 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1721,đặt cho mình rgb ở phòng chứa đồ 1 mức độ 31 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1722,giúp mình bật quạt treo tường thứ 4 ở 18 phần trăm tại phòng phòng ăn sáng nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1724,chào bạn bạn giúp mình cài đặt bóng để bàn với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.set.level
+1725,giúp mình đóng đèn trụ cổng 2 ở 95 phần trăm tại phòng phòng ủi nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1726,tôi cần mở bóng để bàn thứ 1 ở mức 91 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1728,giúp tôi đóng đèn quảng cáo thứ 4 ở mức 60 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1729,giúp mình cài đặt đèn màu sắc thứ 2 ở 69 phần trăm tại phòng phòng cuối 5 nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1730,mở cho mình đèn thờ ở phòng đọc mức độ 13 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1731,giúp tôi mở đèn tiết kiệm điện 2 ở mức 40 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1733,tôi cần cài đặt bóng 2 ở mức 17 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1734,mở đèn nhiều màu thứ 1 lễ tân 5 ở mức 66 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1736,bạn đặt giúp mình bóng thờ thứ 4 ở mức 41 phần trăm được không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1737,ồ bạn làm ơn cài đặt hộ mình quạt thứ 3 lên mức 59 phần trăm được không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1738,bạn mở giúp mình đèn ngủ thứ 4 lên mức 7 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1739,đặt cho mình bóng sợi đốt thứ 2 ở phòng chứa đồ 3 30 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1740,mình muốn đóng quạt trần ở mức 95 phần trăm mình ở phòng sếp nhé bot này hơi lười nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1741,em ơi bật cho anh led ở 91 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1743,bật cho mình bóng thứ 4 ở tủ giữ đồ 4 mức độ 39 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1744,mở cho mình màn cửa thứ 2 ở sân vườn 2 mức độ 34 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1745,bạn bật giúp mình đèn trụ cổng thứ 3 ở mức 40 phần trăm được không,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1746,tôi muốn bật đèn ngủ,smart.home.set.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+1747,bật hắt tường thứ 3 53 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1748,đặt cho mình động cơ 4 ở phòng con nhỏ 5 21 phần trăm nha,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1749,mở rèm thứ 4 ở mức 61 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1752,em ơi mở cho anh đèn thờ ở 4 phần trăm nhé,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1753,chào bạn bạn giúp mình đóng đèn treo tường với,smart.home.set.percentage,True,smart.home.increase.level,True,smart.home.device.onoff
+1754,đóng nút nhấn ở mức 93 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1755,đóng hắt trần thứ 1 ở mức 69 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1756,tôi muốn bật bóng downlight thứ 1,smart.home.set.percentage,True,smart.home.device.onoff,True,smart.home.device.onoff
+1757,mở đèn trụ cổng 1 sáng 96 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1758,chào bạn bật giúp mình bóng sân ở mức 48 phần trăm,smart.home.set.percentage,0,smart.home.set.percentage,0,smart.home.set.percentage
+1760,em có đó không,greeting,0,greeting,0,greeting
+1761,ay trợ lí ảo,greeting,0,greeting,0,greeting
+1762,bạn gì ơi,greeting,0,greeting,0,greeting
+1763,trợ lý ơi bạn có đó chứ,greeting,0,greeting,0,greeting
+1764,chào trợ lý,greeting,0,greeting,0,greeting
+1766,hello,greeting,0,greeting,0,greeting
+1767,trợ lý ơi hỗ trợ mình với,greeting,0,greeting,0,greeting
+1768,ok chào trợ lý ảo,greeting,0,greeting,0,greeting
+1770,trợ lý có ở đó không,greeting,0,greeting,0,greeting
+1771,trợ lý ơi,greeting,0,greeting,0,greeting
+1772,alo em ơi,greeting,0,greeting,0,greeting
+1773,xin chào tôi cần hỗ trợ,greeting,0,greeting,0,greeting
+1774,alo,greeting,0,greeting,0,greeting
+1776,trợ lýyyyyyyy,greeting,0,greeting,0,greeting
+1777,chào trợ lý ảo,greeting,0,greeting,0,greeting
+1779,xin chào trợ lý béo,greeting,0,greeting,0,greeting
+1780,trợ líiiiiiiii,greeting,0,greeting,0,greeting
+1782,chào người anh em thiện lành,greeting,0,greeting,0,greeting
+1783,chào trợ lý nhé,greeting,0,greeting,0,greeting
+1784,chào bạn,greeting,0,greeting,0,greeting
+1785,xin chào,greeting,0,greeting,0,greeting
+1786,trợ lý có đó chứ mình cần bạn,greeting,0,greeting,0,greeting
+1788,alo trợ lý ơi,greeting,0,greeting,0,greeting

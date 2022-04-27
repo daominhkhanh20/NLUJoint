@@ -1,0 +1,501 @@
+text,tag,intent
+tôi muốn bay từ hải_phòng lúc 8 giờ 38 phút sáng và đến huế vào buổi sáng lúc 11 giờ 10 phút,O O O O B-fromloc.city_name O B-depart_time.time I-depart_time.time I-depart_time.time I-depart_time.time I-depart_time.time O O B-toloc.city_name O B-arrive_time.period_of_day I-arrive_time.period_of_day O B-arrive_time.time I-arrive_time.time I-arrive_time.time I-arrive_time.time,flight
+cho tôi biết tất_cả các chuyến bay khứ_hồi giữa điện_biên_phủ và đà_nẵng,O O O O O O O B-round_trip O B-fromloc.city_name O B-toloc.city_name,flight
+tôi muốn biết một_số thông_tin cho một chuyến bay từ huế đến phú_quốc của vietnam airlines,O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name,flight
+có những chuyến bay hạng hai nào giữa đà_lạt và hà_nội khởi_hành ngày 10 tháng 8 và trở về vào ngày 12 tháng 8,O O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O O O O B-return_date.day_number I-return_date.day_number B-return_date.month_name I-return_date.month_name,flight
+tôi sẽ bay từ hải_phòng đến vinh,O O O O B-fromloc.city_name O B-toloc.city_name,flight
+"ok , bạn có_thể cho tôi biết giá vé của các chuyến bay giữa huế và cà_mau được không",O O O O O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O,airfare
+từ quảng_ninh đến đà_nẵng,O B-fromloc.city_name O B-toloc.city_name,flight
+những chuyến bay sớm nhất phục_vụ bữa sáng từ quy nhơn đến vinh,O O O B-flight_mod I-flight_mod O B-meal_description I-meal_description O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay từ cần_thơ đến hà_nội khởi_hành trong khoảng từ 10 giờ sáng đến 2 giờ chiều,O O O O B-fromloc.city_name O B-toloc.city_name O O O O B-depart_time.start_time I-depart_time.start_time I-depart_time.start_time O B-depart_time.end_time I-depart_time.end_time I-depart_time.end_time,flight
+các chuyến bay muộn nhất khởi_hành từ hải_phòng đến phú_quốc,O O O B-flight_mod I-flight_mod O O B-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay từ thành_phố hồ_chí_minh đến florida,O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.state_name,flight
+tôi muốn biết giá vé hạng nhất trên một chuyến bay từ đà_nẵng đến hà_nội,O O O O O B-class_type I-class_type O O O O O B-fromloc.city_name O B-toloc.city_name,airfare
+"ok được đó , vậy thì hãy bay từ hà_nội vào sáng ngày 21 tháng 4 đến đà_lạt với giá vé một_chiều rẻ nhất",O O O O O O O O O B-fromloc.city_name O B-depart_time.period_of_day B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O B-toloc.city_name O O O B-round_trip B-cost_relative I-cost_relative,flight
+cho tôi biết giá của tất_cả các chuyến bay từ beirut đến washington dc,O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code,airfare
+các chuyến bay từ hà_nội đến phố_đông thượng hải khởi_hành sau 7 rưỡi sáng của vietnam airlines,O O O O B-fromloc.city_name O B-toloc.airport_name I-toloc.airport_name I-toloc.airport_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O B-airline_name I-airline_name,flight
+tôi đang quan_tâm đến một chuyến bay từ cần_thơ đi cà_mau,O O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+tôi muốn đặt trước một chuyến bay vào sáng sớm từ tuy_hoà đến điện_biên_phủ vào ngày 22 tháng 2 và trở về muộn vào tối ngày 22 tháng 2,O O O O O O O O B-depart_time.period_of_day B-depart_time.period_mod O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O O O O O B-return_time.period_of_day B-return_date.day_number I-return_date.day_number B-return_date.month_name I-return_date.month_name,flight
+tôi đang tìm một chuyến bay từ hà_nội đến rome với một điểm dừng ở moscow,O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O O O B-stoploc.city_name,flight
+những hạn_chế của ap68 là gì,O O O B-restriction_code O O,restriction
+có những loại phương_tiện giao_thông đường_bộ nào có sẵn ở quy nhơn,O O O O O O O O O O B-city_name I-city_name,ground_service
+chữ_viết tắt co có nghĩa là gì,O O B-airline_code O O O O,abbreviation
+một chuyến bay hạng nhất của vietnam airlines đến phú_quốc vào ngày thứ ba sắp tới,O O O B-class_type I-class_type O B-airline_name I-airline_name O B-toloc.city_name O O B-depart_date.day_name I-depart_date.day_name B-depart_date.date_relative I-depart_date.date_relative,flight
+liệt_kê cho tôi các chuyến bay từ hà_nội đến phú_quốc vào các ngày thứ_sáu,O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O B-depart_date.day_name,flight
+những chuyến bay khứ_hồi nào từ vinh đến quy nhơn khởi_hành vào một ngày thứ_bảy,O O O B-round_trip O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O B-depart_date.day_name,flight
+trên các chuyến bay của bamboo airways bay từ hải_phòng đến tây an trước 10 giờ sáng loại máy_bay nào được sử_dụng,O O O O O B-airline_name I-airline_name O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O O O O O,aircraft#flight
+tôi cần một chuyến bay không dừng từ cà_mau đến hà_nội hạ_cánh lúc 7 giờ tối,O O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name O O B-arrive_time.time I-arrive_time.time I-arrive_time.time,flight
+các chuyến bay khứ_hồi rẻ nhất từ huế đến cà_mau,O O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name,flight
+vietjet có chuyến bay từ huế đến phú_quốc không,B-airline_name O O O O B-fromloc.city_name O B-toloc.city_name O,flight
+tôi muốn một chuyến bay không dừng từ hà_nội đến berlin khởi_hành vào buổi chiều,O O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.period_of_day I-depart_time.period_of_day,flight
+có những hạng dịch_vụ nào được vietjet air phục_vụ trên các chuyến bay từ đà_lạt đến ninh ba,O O O O O O B-airline_name I-airline_name O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+tìm cho tôi chuyến bay rẻ nhất từ hải_phòng đến bangkok,O O O O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name,flight
+"ok tôi sẽ thử lần cuối , cho tôi biết loại máy_bay mà vietnam airlines sử_dụng cho chuyến bay từ huế đến phú_quốc vào buổi sáng trước 10 giờ",O O O O O O O O O O O O O B-airline_name I-airline_name O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_time.time_relative B-depart_time.time I-depart_time.time,aircraft
+cho tôi biết các chuyến bay của jetstar pacific khởi_hành ở tuy_hoà và hạ_cánh ở buôn_ma_thuột,O O O O O O O B-airline_name I-airline_name O O B-fromloc.city_name O O O B-toloc.city_name,flight
+các chuyến bay buổi sáng từ thành_phố vinh đến cà_mau vào thứ tư,O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+cho tôi thông_tin về các chuyến bay hạng nhất từ phú_quốc đến sydney khởi_hành vào buổi sáng thứ ba sau 8 giờ và trước 12 giờ trưa,O O O O O O O B-class_type I-class_type O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name B-depart_time.time_relative B-depart_time.time I-depart_time.time O B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight
+cách đắt nhất để tôi có_thể bay đến brasília ?,O B-cost_relative I-cost_relative O O O O O B-toloc.city_name O,flight
+cho tôi biết giá vé một_chiều rẻ nhất từ hà_nội đến welshpool,O O O O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name,airfare
+các chuyến bay từ hải_phòng các chuyến bay từ quy nhơn đến hải_phòng vào thứ hai,O O O O B-fromloc.city_name O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+liệt_kê giúp tôi các chuyến bay liên_tục từ điện_biên_phủ đến bình nhưỡng mà hạ_cánh trước nửa_đêm,O O O O O O B-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-arrive_time.time_relative B-arrive_time.period_of_day,flight
+tôi cần một chuyến bay đến paris khởi_hành từ hà_nội và có một điểm dừng ở doha,O O O O O O B-toloc.city_name O O B-fromloc.city_name O O O O O O B-stoploc.city_name,flight
+quy nhơn đến phú_quốc,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+hãng hàng_không nào có tên viết tắt là vna,O O O O O O O O B-airline_code,abbreviation
+tôi muốn có một chuyến bay giá rẻ từ norwich đến hà_nội vào ngày mùng 3 tháng 1,O O O O O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+những chuyến bay nào còn chỗ vào thứ_sáu từ busan đến hải_phòng,O O O O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi danh_sách các chuyến bay vào thứ_bảy và chủ_nhật từ đà_nẵng đến phú_quốc của vietnam airlines,O O O O O O O B-depart_date.day_name O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name,flight
+những chuyến bay từ quy nhơn đến thành_phố đà_lạt vào thứ_sáu có phục_vụ bữa trưa,O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_date.day_name O O B-meal_description I-meal_description,flight
+những chuyến bay từ toronto đến thành_phố hồ_chí_minh,O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+chuyến bay nào khởi_hành từ cà_mau đến hải_phòng vào buổi chiều ngày hai_mươi chín tháng sáu,O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+chuyến bay nào rời sân_bay vân_đồn đến côn_đảo và hạ_cánh lúc 10 giờ tối,O O O O B-fromloc.airport_name I-fromloc.airport_name O B-toloc.city_name O O O B-arrive_time.time I-arrive_time.time I-arrive_time.time,flight
+liệt_kê tổng_số chuyến bay đến tất_cả các sân_bay của bamboo airways,O O O O O O O O O B-airline_name I-airline_name,quantity
+cho tôi biết thời_gian khởi_hành của một chuyến bay từ cà_mau đến hải_phòng vào buổi chiều,O O O B-flight_time O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day,flight_time
+cho tôi các chuyến bay của các hãng hàng_không qatar từ hà_nội đến milan khởi_hành vào ngày 14 tháng sáu,O O O O O O O B-airline_name I-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+vui_lòng liệt_kê tất_cả các chuyến bay từ đà_lạt đến quy nhơn vào thứ hai,O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+cho tôi xem các chuyến bay từ côn_đảo đến quảng_ninh,O O O O O O O B-fromloc.city_name O B-toloc.state_name,flight
+vui_lòng cho tôi các chuyến bay từ cà_mau đến hải_phòng vào thứ tư và thứ năm,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name O B-depart_date.day_name I-depart_date.day_name,flight
+cho tôi biết các phương_tiện giao_thông đường_bộ ở đà_lạt vào sáng thứ hai,O O O O O O O O B-city_name O B-period_of_day B-day_name I-day_name,ground_service
+chuyến bay nào vietnam airlines bay từ hải_phòng đến cà_mau,O O O B-airline_name I-airline_name O O B-fromloc.city_name O B-toloc.city_name,flight
+tìm cho tôi chuyến bay khởi_hành sớm nhất tại hải_phòng và trở về muộn nhất ở quảng châu để tôi có_thể có_mặt ở quảng châu lâu nhất và trở về hải_phòng vào cùng ngày,O O O O O O B-flight_mod I-flight_mod O B-fromloc.city_name O O O B-flight_mod I-flight_mod O B-fromloc.city_name I-fromloc.city_name O O O O O B-toloc.city_name I-toloc.city_name O O O O O B-toloc.city_name O B-return_date.date_relative I-return_date.date_relative,flight
+cho tôi biết các chuyến bay từ pleiku đến hà_nội khởi_hành ngày 15 tháng 7,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+tôi muốn biết thời_gian của chuyến bay sớm nhất vào buổi sáng từ quy nhơn đến hà_nội vietnam airlines,O O O B-flight_time O O O B-flight_mod I-flight_mod O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-airline_name I-airline_name,flight_time
+cho tôi các chuyến bay từ hà_nội đến tuy_hoà,O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+vui_lòng liệt_kê lịch_trình chuyến bay từ hà_nội đến phú_quốc vào các đêm thứ_sáu,O O B-flight_time I-flight_time I-flight_time O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.period_of_day B-depart_date.day_name,flight_time
+mất bao_lâu để đi từ sân_bay quy nhơn đến trung_tâm thành_phố quy nhơn,O O O O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name O O O B-toloc.city_name I-toloc.city_name,distance
+"chắc_chắn rồi , tôi muốn xác_định xem máy_bay nào sẽ khởi_hành vào ngày 7 tháng 7 tại hải_phòng và đến thành_phố hồ_chí_minh vào ngày 7 tháng 7",O O O O O O O O O O O O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O B-fromloc.city_name O O B-toloc.city_name I-toloc.city_name O B-arrive_date.day_number I-arrive_date.day_number B-arrive_date.month_name I-arrive_date.month_name,aircraft
+đà_lạt đến hà_nội,B-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay và giá vé từ cà_mau đến đà_nẵng,O O O O O O O B-fromloc.city_name O B-toloc.city_name,airfare#flight
+các chuyến bay vietnam airlines quá_cảnh ở thành_phố hồ_chí_minh,O O O B-airline_name I-airline_name O O B-stoploc.city_name I-stoploc.city_name,flight
+có những chuyến bay nào còn trống vào buổi chiều ngày thứ tư từ huế đến phú_quốc,O O O O O O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name,flight
+giá vé khứ_hồi từ huế đến quy nhơn dưới 2 triệu,O O B-round_trip O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-cost_relative B-fare_amount I-fare_amount,airfare
+liệt_kê các chuyến bay hạng nhất từ hà_nội đến huế,O O O O B-class_type I-class_type O B-fromloc.city_name O B-toloc.city_name,flight
+giá vé từ đà_nẵng đến la vào thứ hai và thứ tư là bao_nhiêu,O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name O B-depart_date.day_name I-depart_date.day_name O O,airfare
+những chuyến bay nào bay từ bắc kinh đến đà_lạt,O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+vui_lòng cho tôi biết các chuyến bay từ đà_lạt đến vinh vào thứ hai,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+các chuyến bay đến hà_nội,O O O O B-toloc.city_name,flight
+cho tôi biết chuyến bay muộn nhất đến sân_bay london-stansted,O O O O O B-flight_mod I-flight_mod O B-toloc.airport_name I-toloc.airport_name,flight
+vietnam airlines có bao_nhiêu chuyến bay đêm hạng nhất,B-airline_name I-airline_name O O O O B-depart_time.period_of_day B-class_type I-class_type,quantity
+cho tôi lịch_trình của các chuyến bay từ hải_phòng đến edinburgh của vietnam airlines,O O B-flight_time O O O O O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name,flight_time
+cho tôi xem lịch_trình phương_tiện giao_thông đường_bộ ở cam_ranh vào buổi sáng thứ tư,O O O O O O O O B-city_name O B-period_of_day I-period_of_day B-day_name I-day_name,ground_service
+chuyến bay cuối_cùng từ hải_phòng đến cà_mau,O O B-flight_mod O B-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay nào bay từ tuy_hoà đến hải_phòng vào thứ hai thứ ba thứ tư thứ năm và thứ_sáu,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name B-depart_date.day_name I-depart_date.day_name B-depart_date.day_name I-depart_date.day_name B-depart_date.day_name I-depart_date.day_name O B-depart_date.day_name,flight
+cho tôi xem các chuyến bay từ hải_phòng đến quy nhơn,O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+tôi cần đến phú_quốc vào tối thứ tư từ đà_lạt,O O O B-toloc.city_name O B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name,flight
+từ đà_lạt đến thành_phố đà_nẵng trên chuyến bay của vietjet hạ_cánh vào khoảng 8 giờ tối mai,O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O B-airline_name O O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time I-arrive_time.time B-arrive_date.today_relative,flight
+tôi sẽ cần thuê một chiếc xe_hơi ở new york,O O O O O O B-transport_type O B-city_name I-city_name,ground_service
+cho tôi các chuyến bay từ huế đến hải_phòng vào thứ năm,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+tôi muốn đặt một chuyến bay từ viêng chăn đến hà_nội vào ngày mùng 8 tháng 4,O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+các chuyến bay từ tokyo đến phú_quốc vào ngày 21 tháng 9 năm 2020,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O B-depart_date.year,flight
+một chiếc limousine đi từ sân_bay đà_lạt về trung_tâm thành_phố đà_lạt có giá bao_nhiêu,O O B-transport_type O O B-fromloc.airport_name I-fromloc.airport_name O O B-toloc.city_name I-toloc.city_name O O O,ground_fare
+có chuyến bay nào từ hải_phòng đến phuket mà có một điểm dừng ở thành_phố hồ_chí_minh không,O O O O O B-fromloc.city_name O B-toloc.city_name O O O O O O B-stoploc.city_name I-stoploc.city_name O,flight
+thời_gian của các chuyến bay khởi_hành từ hà_nội đến phú_quốc,B-flight_time O O O O O O B-fromloc.city_name O B-toloc.city_name,flight_time
+từ đà_nẵng đến đồng_hới khởi_hành vào buổi sáng,O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.period_of_day I-depart_time.period_of_day,flight
+phi_cơ boeing 737 có_thể chứa bao_nhiêu hành_khách,O O B-aircraft_code O O O O,capacity
+tôi muốn một chuyến bay khởi_hành vào thứ_sáu từ rome đến hà_nội mà có một trạm dừng ở moscow,O O O O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O O O O B-stoploc.city_name,flight
+"cảm_ơn bạn vì thông_tin đó , bây_giờ tôi muốn biết thông_tin về một chuyến bay vào ngày 16 tháng 4 từ hải_phòng đến quy nhơn vào sáng sớm",O O O O O O O O O O O O O O O O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_time.period_of_day B-depart_time.period_mod,flight
+chuyến bay cuối_cùng từ hà_nội đến phú_quốc khởi_hành lúc mấy giờ,O O B-flight_mod O B-fromloc.city_name O B-toloc.city_name O O O B-flight_time,flight_time
+cho tôi chuyến bay rẻ nhất rời buôn_ma_thuột vào chủ_nhật sau 12 giờ trưa và đến côn_đảo,O O O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-depart_date.day_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O O B-toloc.city_name,flight
+có chuyến bay nào vào sáng mai khởi_hành từ điện_biên_phủ đến cà_mau không,O O O O O B-depart_time.period_of_day B-depart_date.today_relative O O B-fromloc.city_name O B-toloc.city_name O,flight
+chuyến bay rẻ nhất từ huế đến cần_thơ có giá vé là bao_nhiêu,O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O O O O O,airfare
+giá vé một_chiều rẻ nhất từ cần_thơ đến vinh rời đi vào thứ ba ngày 20 tháng 8 là bao_nhiêu,O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O O O B-depart_date.day_name I-depart_date.day_name B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O O,airfare
+chỉ cho tôi các chuyến bay từ huế đến cam_ranh khởi_hành sau 5 giờ chiều,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight
+chuyến bay hạng nhất muộn nhất trong ngày rời đà_lạt đến phú_quốc,O O B-class_type I-class_type B-flight_mod I-flight_mod O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi xem danh_sách các chuyến bay từ cần_thơ đến hà_nội vào ngày 3 tháng 8,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+hiển_thị các chuyến bay buổi sáng từ phú_quốc đến đà_nẵng,O O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay từ quảng_ninh đến tacoma,O O O O B-fromloc.city_name O B-toloc.city_name,flight
+liệt_kê tất_cả các chuyến bay không dừng giữa seoul và bình nhưỡng khởi_hành vào buổi chiều và hạ_cánh sớm sau 5 giờ chiều,O O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-depart_time.period_of_day I-depart_time.period_of_day O O O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time I-arrive_time.time,flight
+cho tôi tất_cả các chuyến bay của hãng hàng_không vietnam từ huế đến phú_quốc vào ngày mùng 1 tháng 9 năm 2020,O O O O O O O B-airline_name I-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name B-depart_date.year I-depart_date.year,flight
+có chuyến bay nào buổi sáng thứ tư giữa cần_thơ và hải_phòng không,O O O O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O,flight
+liệt_kê tất_cả các chuyến bay từ thanh_hoá đến đồng_hới vào thứ_bảy của vietnam airlines,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O B-airline_name I-airline_name,flight
+cho tôi danh_sách các chuyến bay vào ngày 27 tháng 12 từ đài_bắc đến singapore và giá vé tương_ứng,O O O O O O O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O B-fromloc.city_name O B-toloc.city_name O O O O,airfare#flight
+"được rồi , bạn có chuyến bay nào của vietnam airlines từ bradford đến hà_nội không",O O O O O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name O,flight
+hiển_thị các chuyến bay từ huế đến tokyo hạ_cánh trong khoảng từ 12 giờ đến 1 giờ,O O O O O B-fromloc.city_name O B-toloc.city_name O O O O B-arrive_time.start_time I-arrive_time.start_time O B-arrive_time.end_time I-arrive_time.end_time,flight
+liệt_kê tất_cả các chuyến bay liên_tục vào chủ_nhật từ hà_nội đến viêng chăn,O O O O O B-flight_stop O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+tôi muốn một chuyến bay một_chiều từ hải_phòng đến cà_mau,O O O O O B-round_trip O B-fromloc.city_name O B-toloc.city_name,flight
+có chuyến bay nào vào buổi chiều từ bangkok đến huế vào buổi tối không,O O O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O B-arrive_time.period_of_day I-arrive_time.period_of_day O,flight
+chuyến bay đầu_tiên nào từ moscow đến hà_nội có phục_vụ bữa trưa,O O B-flight_mod O O B-fromloc.city_name O B-toloc.city_name O O B-meal_description I-meal_description,flight
+liệt_kê danh_sách các chuyến bay giữa busan và huế,O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi một chuyến bay từ hải_phòng đến cà_mau vào buổi sáng trước 10 giờ sáng,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight
+liệt_kê các chuyến bay không dừng vào sáng sớm thứ ba từ đà_lạt đến cà_mau,O O O O B-flight_stop I-flight_stop O B-arrive_time.period_of_day B-arrive_time.period_mod B-arrive_date.day_name I-arrive_date.day_name O B-fromloc.city_name O B-toloc.city_name,flight
+giá vé khứ_hồi thấp nhất từ huế đến cần_thơ là bao_nhiêu,O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O O,airfare
+giúp tôi sắp_xếp một chuyến bay từ denver đến leeds của us air,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name,flight
+tôi muốn xem thông_tin về các chuyến bay từ hà_nội khởi_hành sau 12 giờ trưa và đến frankfurt vào thứ hai,O O O O O O O O O B-fromloc.city_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+cho tôi chuyến bay rẻ nhất từ vinh đến cà_mau vào thứ tư chuyến bay nào mà khởi_hành trước giữa trưa và có phục_vụ bữa sáng,O O O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name O O O O O B-depart_time.time_relative B-depart_time.time I-depart_time.time O O O B-meal_description I-meal_description,flight
+chuyến bay sớm nhất từ hà_nội đến phú_quốc,O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name,flight
+liệt_kê các chuyến bay từ đà_nẵng đến los angeles khởi_hành vào thứ năm sau 5 giờ chiều,O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-depart_date.day_name I-depart_date.day_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight
+liệt_kê các chuyến bay không dừng từ new york đến buôn_ma_thuột vào một ngày thứ_ba và có giá dưới 20 triệu,O O O O B-flight_stop I-flight_stop O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O B-depart_date.day_name O O O B-cost_relative B-fare_amount I-fare_amount,flight
+liệt_kê các chuyến bay từ huế đến phú_quốc hoặc từ huế đến sài_gòn,O O O O O B-fromloc.city_name O B-toloc.city_name B-or O B-fromloc.city_name O B-toloc.city_name,flight
+tôi cần tìm một chiếc máy_bay bay từ hải_phòng đến phú_quốc vào thứ_sáu,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name,aircraft
+han đại_diện cho từ gì,B-airport_code O O O O,abbreviation
+hiển_thị giá của tất_cả các chuyến bay từ hà_nội đến đà_lạt vào ngày 20 tháng 7,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,airfare
+những chuyến bay nào còn ghế từ hải_phòng đến cam_ranh vào tối muộn thứ hai hoặc sáng sớm thứ ba,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_time.period_mod B-depart_date.day_name I-depart_date.day_name B-or B-depart_time.period_of_day B-depart_time.period_mod B-depart_date.day_name I-depart_date.day_name,flight
+những chuyến bay nào từ washington dc đến toronto,O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name,flight
+tất_cả các chuyến bay từ boston đến washington dc vào ngày 12 tháng 11 trước 10 giờ sáng,O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight
+liệt_kê tất_cả các chuyến bay từ huế đến đà_lạt,O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+tôi cần một danh_sách các chuyến bay vào buổi chiều muộn từ hà_nội đến tokyo,O O O O O O O O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_time.period_mod O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi biết các hãng hàng_không có các chuyến bay đến hoặc đi từ sân_bay doncaster sheffield,O O O O O O O O O O O B-or O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name,airline
+bạn có chuyến bay nào từ bắc kinh đến chicago không,O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O,flight
+yn là dạng viết gọn của từ gì,B-fare_basis_code O O O O O O O,abbreviation
+các chuyến bay ngắn nhất từ kuala lumpur đến buôn_ma_thuột,O O O B-flight_mod I-flight_mod O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+giá vé cho các chuyến bay giữa cà_mau và dad là bao_nhiêu,O O O O O O O B-fromloc.city_name O B-toloc.airport_code O O,airfare
+liệt_kê giá vé của các chuyến bay của midway airlines từ boston đến philadelphia,O O O O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name,airfare
+giá vé khứ_hồi từ huế đến quy nhơn dưới 2 triệu,O O B-round_trip O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-cost_relative B-fare_amount I-fare_amount,airfare
+có chuyến bay không dừng nào của vietnam airlines khởi_hành từ đà_nẵng đến new york không,O O O B-flight_stop I-flight_stop O O B-airline_name I-airline_name O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O,flight
+tôi cần chi_phí cho một vé hạng nhất của vietnam airlines đi từ huế đến thành_phố hồ_chí_minh,O O O O O O B-class_type I-class_type O B-airline_name I-airline_name O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,airfare
+cho tôi xem giá vé từ đà_nẵng đến phú_quốc vào sáng thứ năm,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name,airfare
+cho tôi các chuyến bay khứ_hồi giữa cà_mau và thành_phố đà_nẵng,O O O O O B-round_trip O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+chỉ cho tôi tất_cả các chuyến bay từ huế đến hà_nội hạ_cánh vào vào ngày 10 tháng 5,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O B-arrive_date.day_number I-arrive_date.day_number B-arrive_date.month_name I-arrive_date.month_name,flight
+tìm giá vé một_chiều rẻ nhất từ hải_phòng đến phú_quốc,O O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name,airfare
+chỉ cho tôi các chuyến bay từ hải_phòng đến phú_quốc,O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+vui_lòng chỉ cho tôi các chuyến bay từ hải_phòng đến phú_quốc,O O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi biết các hãng hàng_không có chuyến bay khởi_hành từ sân_bay liên khương,O O O O O O O O O O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name,airline
+hiển_thị giá vé hạng thương_gia trên máy_bay của vietnam airlines từ hải_phòng đến toronto,O O O B-class_type I-class_type O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name,airfare
+chuyến bay muộn nhất rời đà_nẵng đến hà_nội,O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay từ hà_nội đến đồng_hới,O O O O B-fromloc.city_name O B-toloc.city_name,flight
+chuyến bay vn 7375 từ huế đến quy nhơn có phục_vụ bữa ăn_không,O O B-airline_code B-flight_number O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-meal I-meal,flight
+có những chuyến bay không dừng nào từ tokyo đến jakarta hạ_cánh trong khoảng từ 5 đến 6 giờ chiều,O O O O B-flight_stop I-flight_stop O O B-fromloc.city_name O B-toloc.city_name O O O O B-arrive_time.start_time O B-arrive_time.end_time I-arrive_time.end_time I-arrive_time.end_time,flight
+cho tôi các chuyến bay của hãng hàng_không vietnam airlines từ quy nhơn đến sài_gòn,O O O O O O B-airline_name I-airline_name I-airline_name I-airline_name O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+chỉ cho tôi các chuyến bay buổi tối từ cà_mau đến hà_nội vào các ngày thứ tư,O O O O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O O O B-depart_date.day_name I-depart_date.day_name,flight
+tôi muốn có một ghế hạng hai trên chuyến bay rời huế đến cà_mau,O O O O O B-class_type I-class_type O O O O B-fromloc.city_name O B-toloc.city_name,flight
+liệt_kê tất_cả các chuyến bay giữa đà_lạt và đà_nẵng,O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi biết các chuyến bay với giá vé qx giữa cà_mau và tokyo của vietnam airlines,O O O O O O O O O B-fare_basis_code O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name,flight
+có những chuyến bay vào buổi chiều nào giữa đà_lạt và thành_phố vinh,O O O O O B-depart_time.period_of_day I-depart_time.period_of_day O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+các chuyến bay và giá vé tương_ứng từ cần_thơ đến hạ_long,O O O O O O O O B-fromloc.city_name O B-toloc.city_name,airfare#flight
+bạn có_thể cho tôi biết có những hãng hàng_không nào có chuyến bay giữa huế và phú_quốc không,O O O O O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O,airline
+mỗi hãng hàng_không có bao_nhiêu chuyến bay với hạng đặt chỗ k,O O O O O O O O O O O B-fare_basis_code,quantity
+"tuyệt đấy , bây_giờ tôi muốn biết có chuyến bay nào từ hà_nội đến huế vào ngày 20 tháng 4 có giá vé rẻ nhất khởi_hành vào khoảng 5 giờ vào buổi sáng không",O O O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O O O B-cost_relative I-cost_relative O O B-depart_time.time_relative B-depart_time.time I-depart_time.time O B-depart_time.period_of_day I-depart_time.period_of_day O,flight
+cho tôi biết tất_cả các chuyến bay trực_tiếp từ phú_quốc đến hải_phòng khởi_hành trước giữa trưa,O O O O O O O B-connect O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time,flight
+tôi cần một chuyến bay vào thứ năm trước 8 giờ sáng từ tokyo đến thành_phố hồ_chí_minh,O O O O O O B-depart_date.day_name I-depart_date.day_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+liệt_kê cho tôi tất_cả các loại máy_bay,O O O O O O O,aircraft
+tôi muốn một chuyến bay của vietjet từ hải_phòng đến phú_quốc,O O O O O O B-airline_name O B-fromloc.city_name O B-toloc.city_name,flight
+hiển_thị các chuyến bay từ cần_thơ đến thanh_hoá,O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+sgn nằm ở thành_phố nào,B-airport_code O O O O,city
+có bao_nhiêu thành_phố mà vietnam airlines cung_cấp các chuyến bay hạng nhất,O O O O B-airline_name I-airline_name O O O O B-class_type I-class_type,quantity
+bạn có_thể vui_lòng cho tôi xem tất_cả các chuyến bay từ viêng chăn đến hà_nội được không,O O O O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O,flight
+những chuyến bay nào khởi_hành từ phú_quốc sau 4 giờ chiều đến hà_nội và nối chuyến ở sài_gòn,O O O O O O B-fromloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O B-toloc.city_name O O O O B-stoploc.city_name,flight
+tôi muốn xem các chuyến bay từ huế đến quy nhơn,O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+cho tôi xem các chuyến bay đi từ hà_nội đến newark new jersey quá_cảnh tại doha,O O O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_name I-toloc.state_name O O B-stoploc.city_name,flight
+tôi muốn biết thông_tin về các chuyến bay từ huế đến phú_quốc khởi_hành sau giữa trưa thứ tư,O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time B-depart_date.day_name I-depart_date.day_name,flight
+chỉ cho tôi các chuyến bay từ hải_phòng đến cần_thơ,O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi xem tất_cả các chuyến bay không dừng từ sài_gòn đến new york,O O O O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+cho tôi xem giá vé khứ_hồi từ hà_nội đến cà_mau,O O O O O B-round_trip O B-fromloc.city_name O B-toloc.city_name,airfare
+cho tôi biết giá vé một_chiều rẻ nhất từ cam_ranh đến hà_nội,O O O O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name,airfare
+bạn có_thể chỉ cho tôi tất_cả các chuyến bay trong tuần từ đồng_hới đến cà_mau được không,O O O O O O O O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name O O,flight
+tôi muốn bay từ hải_phòng đến quy nhơn vào thứ năm tới,O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_date.day_name I-depart_date.day_name B-depart_date.date_relative,flight
+"tôi đang lên kế_hoạch cho một chuyến đi đến cần_thơ và tôi sống ở huế , bạn có_thể giúp tôi không",O O O O O O O O O B-toloc.city_name O O O O B-fromloc.city_name O O O O O O,flight
+tôi muốn tìm chuyến bay rẻ nhất từ cam_ranh đến hà_nội,O O O O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name,flight
+tôi muốn đi từ cà_mau đến huế vào thứ ba,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+điện_biên_phủ đến cần_thơ ngày 23 tháng 7,B-fromloc.city_name O B-toloc.city_name B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+chỉ cho tôi các chuyến bay từ hải_phòng đến cà_mau,O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+những hãng hàng_không nào bay từ hà_nội đến huế,O O O O O O B-fromloc.city_name O B-toloc.city_name,airline
+"được rồi , chuyến bay có vé hạng nhất đi từ hà_nội đến huế , tôi muốn biết giá vé hạng nhất",O O O O O O O B-class_type I-class_type O O B-fromloc.city_name O B-toloc.city_name O O O O O O B-class_type I-class_type,airfare
+tôi muốn đặt một chuyến bay từ cần_thơ đến huế có giá vé hạng hai được giảm_giá,O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O B-class_type I-class_type O O,flight
+tôi có_thể bay từ hà_nội đến phú_quốc không,O O O O B-fromloc.city_name O B-toloc.city_name O,flight
+tôi muốn bay từ zurich đến hà_nội với ít_nhất một trạm dừng,O O O O B-fromloc.city_name O B-toloc.city_name O O B-flight_stop I-flight_stop I-flight_stop,flight
+có bao_nhiêu chuyến bay của bamboo airways khởi_hành từ hà_nội,O O O O O B-airline_name I-airline_name O O B-fromloc.city_name,quantity
+liệt_kê giúp tôi bất_kỳ chuyến bay nào còn chỗ khởi_hành ở oakland california vào thứ_ba và đến hà_nội vào thứ tư,O O O O O O O O O O O B-fromloc.city_name B-fromloc.state_name O B-depart_date.day_name O O B-toloc.city_name O B-arrive_date.day_name I-arrive_date.day_name,flight
+tôi muốn tìm một chuyến bay từ tuy_hoà đến thành_phố hạ_long tỉnh quảng_ninh khởi_hành vào buổi chiều thứ hai,O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-toloc.state_name I-toloc.state_name O O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name,flight
+có chuyến bay nào từ thành_phố hồ_chí_minh đến zurich với điểm dừng ở dubai không,O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O B-stoploc.city_name O,flight
+tôi muốn biết thông_tin các chuyến bay không dừng từ hải_phòng đến bắc kinh,O O O O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+"cho tôi tất_cả các chuyến bay từ thượng hải đến hà_nội vào thứ_bảy sau chủ_nhật , chuyến bay khởi_hành sau giữa trưa",O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name B-depart_date.date_relative B-depart_date.day_name O O O O B-depart_time.time_relative B-depart_time.time I-depart_time.time,flight
+các chuyến bay từ đà_lạt đến hà_nội,O O O O B-fromloc.city_name O B-toloc.city_name,flight
+bạn có chuyến bay nào từ phú_quốc đến đà_nẵng khoảng 8 giờ sáng không,O O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O,flight
+chuyến bay nào từ hải_phòng đến thành_phố vũng_tàu,O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+chuyến bay nào rẻ nhất từ hải_phòng đến hui,O O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.airport_code,flight
+có chuyến bay nào từ new york đến hà_nội có một trạm dừng ở tokyo không,O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O O B-stoploc.city_name O,flight
+chuyến bay sớm nhất từ tokyo đến washington dc vào ngày chủ_nhật,O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O B-depart_date.day_name,flight
+có chuyến bay động_cơ_phản_lực nào từ cần_thơ đến hà_nội vào ngày 17 tháng mười hai không,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name I-depart_date.month_name O,flight
+cho tôi các chuyến bay buổi sáng từ hải_phòng đến quy nhơn,O O O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+các chuyến bay hàng ngày từ đà_lạt đến côn_đảo,O O O B-flight_days I-flight_days O B-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay buổi tối từ đà_nẵng đến busan,O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name,flight
+hiển_thị cho tôi giá và thời_gian cho chuyến bay hạng nhất từ hà_nội đến đà_lạt vào mùa hè tới,O O O O O B-flight_time O O O B-class_type I-class_type O B-fromloc.city_name O B-toloc.city_name O O O O,airfare#flight_time
+loại máy_bay nào bay từ hải_phòng đến cần_thơ sau giữa trưa,O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time,aircraft
+tôi muốn biết hãng hàng_không vietnam airlines có những chuyến bay nào từ đà_lạt đến huế,O O O B-airline_name I-airline_name I-airline_name I-airline_name O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi biết các chuyến bay buổi sáng từ toronto,O O O O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name,flight
+có phương_tiện giao_thông đường_bộ nào có_thể sử_dụng tại sân_bay cát bi,O O O O O O O O B-airport_name I-airport_name I-airport_name,ground_service
+các chuyến bay từ hải_phòng đến moscow dừng ở đâu,O O O O B-fromloc.city_name O B-toloc.city_name B-flight_stop O O,airport
+cho tôi biết chuyến bay sớm nhất từ hải_phòng đến phú_quốc,O O O O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay từ hà_nội hoặc hph đến côn_đảo,O O O O B-fromloc.city_name B-or B-fromloc.airport_code O B-toloc.city_name,flight
+tìm giá vé một_chiều rẻ nhất từ hải_phòng đến phú_quốc,O O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name,airfare
+các chuyến bay từ washington dc đến copenhagen,O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name,flight
+cho tôi thông_tin về các chuyến bay từ thâm quyến đến washington dc vào thứ tư sau 4 giờ chiều và thứ năm trước 9 giờ sáng,O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_date.day_name I-depart_date.day_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O B-depart_date.day_name I-depart_date.day_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight
+các chuyến bay giữa manchester và washington dc,O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code,flight
+mã giá vé nào áp_dụng cho các chuyến bay từ huế đến phú_quốc,O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name,abbreviation
+có chuyến bay nào từ istanbul đến hà_nội mà có trạm dừng không,O O O O O B-fromloc.city_name O B-toloc.city_name O B-flight_stop I-flight_stop I-flight_stop O,flight
+liệt_kê thời_gian khởi_hành của các chuyến bay từ huế đến điện_biên_phủ muộn hơn 10 giờ và sớm hơn 2 giờ chiều,O B-flight_time I-flight_time O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative I-depart_time.time_relative B-depart_time.time I-depart_time.time O B-depart_time.time_relative I-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight_time
+có hãng hàng_không nào có các chuyến bay từ điện_biên_phủ đến quy nhơn khởi_hành trước 6 giờ 30 phút sáng không,O O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time I-depart_time.time I-depart_time.time O,airline
+hôm_nay vietnam airlines có bao_nhiêu chuyến bay hạng nhất,B-depart_date.today_relative B-airline_name I-airline_name O O O O B-class_type I-class_type,quantity
+cho tôi biết các chuyến bay còn chỗ từ phú_quốc đến vân_đồn vào thứ ba,O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+tôi ở buôn_ma_thuột và tôi muốn đi đến huế vào chủ_nhật,O O B-fromloc.city_name O O O O O B-toloc.city_name O B-depart_date.day_name,flight
+cho tôi biết các chuyến bay từ huế đến quy nhơn,O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+tôi muốn bay từ quảng_ninh đến cà_mau trên hãng hàng_không bamboo airways vào thời_gian muộn nhất có_thể vào buổi tối,O O O O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name I-airline_name I-airline_name O O B-flight_mod I-flight_mod O O B-depart_time.period_of_day I-depart_time.period_of_day,flight
+cho tôi xem tất_cả các chuyến bay từ đà_lạt đến thanh_hoá khởi_hành vào thứ hai sau 8 giờ sáng,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_name I-depart_date.day_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight
+có chuyến bay liên_tục nào khởi_hành từ huế và hạ_cánh ở hà_nội vào ngày mùng 7 tháng 7 không,O O O B-flight_stop O O O B-fromloc.city_name O O O B-toloc.city_name O B-arrive_date.day_number I-arrive_date.day_number I-arrive_date.day_number B-arrive_date.month_name I-arrive_date.month_name O,flight
+liệt_kê các chuyến bay khứ_hồi giữa hải_phòng và tokyo của vna,O O O O B-round_trip O B-fromloc.city_name O B-toloc.city_name O B-airline_code,flight
+các chuyến bay vào chủ_nhật từ osaka đến washington dc,O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code,flight
+có những chuyến bay nào vào chủ_nhật từ paris đến sài_gòn,O O O O O O B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name,flight
+chuyến bay nào từ đà_nẵng đến seoul vào thứ_bảy,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name,flight
+giá vé của chuyến bay vietnam airlines số_hiệu 1384 từ phú_quốc đến đà_lạt là bao_nhiêu,O O O O O B-airline_name I-airline_name O B-flight_number O B-fromloc.city_name O B-toloc.city_name O O,airfare
+chỉ cho tôi các chuyến bay từ sofia đến washington dc vào thứ năm,O O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_date.day_name I-depart_date.day_name,flight
+loại phương_tiện giao_thông đường_bộ nào sẵn dùng tại sân_bay tân_sơn nhất,O O O O O O O O B-airport_name I-airport_name I-airport_name,ground_service
+các chuyến bay từ đồng_hới đến điện_biên_phủ vào tối thứ tư,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name,flight
+chỉ cho tôi chuyến bay cuối_cùng từ liên khương,O O O O O B-flight_mod O B-fromloc.airport_name I-fromloc.airport_name,flight
+vui_lòng liệt_kê tất_cả các chuyến bay khởi_hành từ singapore đến đà_lạt,O O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+"tôi muốn bay từ thành_phố sài_gòn đến hà_nội vào ngày thứ tư tới , đến_nơi vào buổi tối và trở về vào ngày hôm sau",O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_name I-depart_date.day_name B-depart_date.date_relative O O O B-arrive_time.period_of_day I-arrive_time.period_of_day O O O O O B-return_date.date_relative I-return_date.date_relative,flight
+có những loại phương_tiện giao_thông đường_bộ nào ở hà_nội,O O O O O O O O B-city_name,ground_service
+tôi cần một chuyến bay từ hà_nội đến paris có một trạm dừng ở doha,O O O O O O B-fromloc.city_name O B-toloc.city_name O O O O O B-stoploc.city_name,flight
+chuyến bay nào muộn nhất khởi_hành từ cà_mau đến quy nhơn,O O O B-flight_mod I-flight_mod O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+cho tôi biết các chuyến bay từ cà_mau đến quy nhơn,O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+liệt_kê giúp tôi các chuyến bay đến sân_bay quốc_tế hồng_kiều thượng hải từ các sân_bay khác,O O O O O O O B-toloc.airport_name I-toloc.airport_name I-toloc.airport_name I-toloc.airport_name I-toloc.airport_name O O O O,flight
+hph là viết tắt của từ gì,B-airport_code O O O O O O,abbreviation
+chuyến bay nào từ huế đến thành_phố đà_lạt,O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+cho tôi biết giờ khởi_hành vào buổi sáng cho các chuyến bay của vietnam airlines vào ngày 20 tháng 9 từ zurich đến hà_nội,O O O B-flight_time I-flight_time O B-depart_time.period_of_day I-depart_time.period_of_day O O O O O B-airline_name I-airline_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O B-fromloc.city_name O B-toloc.city_name,flight_time
+chuyến bay sớm nhất cất_cánh từ toronto đến thành_phố đà_nẵng,O O B-flight_mod I-flight_mod O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+tôi muốn xem tất_cả các chuyến bay từ hà_nội đến havana,O O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+mã giá vé c nghĩa_là gì,O O O B-fare_basis_code O O,abbreviation
+vietnam airlines bay loại máy_bay nào trước 8 giờ sáng ngày mùng hai tháng 8 từ hải_phòng đến huế,B-airline_name I-airline_name O O O O B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O B-fromloc.city_name O B-toloc.city_name,aircraft
+chuyến bay từ huế đến phú_quốc vào buổi chiều,O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day,flight
+chuyến bay đầu_tiên từ hải_phòng đến sân_bay suvarnabhumi vào ngày_mai,O O B-flight_mod O B-fromloc.city_name O B-toloc.airport_name I-toloc.airport_name O B-depart_date.today_relative,flight
+tôi cần biết những chuyến bay nào khởi_hành từ cà_mau vào tối chủ_nhật và hạ_cánh ở hà_nội,O O O O O O O O O B-fromloc.city_name O B-depart_time.period_of_day B-depart_date.day_name O O O B-toloc.city_name,flight
+các chuyến bay từ thanh_hoá đến singapore vào thứ tư,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+giá vé rẻ nhất giữa huế và hải_phòng là bao_nhiêu,O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O O,airfare
+hãng hàng_không nào có hạng thương_gia,O O O O B-class_type I-class_type,airline
+tôi cần một chuyến bay từ phú_quốc đến thành_phố hồ_chí_minh và sau đó từ thành_phố hồ_chí_minh đến jakarta và từ jakarta đến hà_nội,O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-fromloc.city_name O B-toloc.city_name,flight
+có những chuyến bay nào giữa washington dc và sofia rời khỏi washington sau 6 giờ chiều ngày thứ tư,O O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O B-fromloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O B-depart_date.day_name I-depart_date.day_name,flight
+loại máy_bay nào mà vietjet air sử_dụng để bay từ cà_mau đến huế trước 6 giờ chiều,O O O O B-airline_name I-airline_name O O O O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,aircraft
+tôi muốn biết các chuyến bay còn trống từ hải_phòng đến huế hạ_cánh ở huế vào 9 giờ vào buổi sáng ngày thứ tư hoặc trước 9 giờ vào buổi sáng ngày thứ tư,O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O B-toloc.city_name O B-arrive_time.time I-arrive_time.time O B-arrive_time.period_of_day I-arrive_time.period_of_day O B-arrive_date.day_name I-arrive_date.day_name B-or B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time O B-arrive_time.period_of_day I-arrive_time.period_of_day O B-arrive_date.day_name I-arrive_date.day_name,flight
+phương_tiện giao_thông đường_bộ nào có sẵn tại sân_bay đà_nẵng,O O O O O O O B-airport_name I-airport_name,ground_service
+cho tôi các chuyến bay từ cà_mau đến hà_nội huế và đà_lạt,O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.city_name O B-toloc.city_name,flight
+có những chuyến bay nào từ hải_phòng đến bắc kinh,O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+các chuyến bay từ huế đến cần_thơ vào thứ năm,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+tôi có_thể có danh_sách các chuyến bay đi từ hải_phòng đến huế vào ngày 29 tháng 7 không,O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O,flight
+có những chuyến bay không nghỉ nào giữa kuala lumpur và bucharest hạ_cánh sau giữa trưa và trước 8 giờ tối,O O O O B-flight_stop I-flight_stop O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time I-arrive_time.time,flight
+vui_lòng liệt_kê thời_gian bay từ hải_phòng đến cần_thơ,O O B-flight_time I-flight_time O B-fromloc.city_name O B-toloc.city_name,flight_time
+chuyến bay khởi_hành từ tokyo đến thành_phố đà_nẵng,O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+liệt_kê các hạng ghế khác nhau mà một hãng hàng_không cung_cấp,O O O O O O O O O O O,airfare
+cho tôi biết có những phương_tiện giao_thông đường_bộ nào giữa sân_bay cát bi và trung_tâm thành_phố hải_phòng,O O O O O O O O O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name O O B-toloc.city_name I-toloc.city_name,ground_service
+giao_thông đường_bộ ở huế,O O O B-city_name,ground_service
+giá của các chuyến bay từ cà_mau đến đà_lạt vào buổi sáng là bao_nhiêu,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day O O,airfare
+mất bao_lâu để bay từ hải_phòng đến cà_mau,O O O O O B-fromloc.city_name O B-toloc.city_name,distance
+liệt_kê giúp tôi các chuyến bay khởi_hành vào chiều thứ_sáu từ điện_biên_phủ đến đà_lạt của vietnam airlines,O O O O O O O O B-depart_time.period_of_day B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name,flight
+có chuyến bay của vietnam airlines vào buổi tối từ đà_lạt đến phú_quốc không,O O O O B-airline_name I-airline_name O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name O,flight
+phương_tiện giao_thông đường_bộ nào có sẵn ở huế,O O O O O O O B-city_name,ground_service
+cho tôi xem giá vé từ đà_lạt đến phú_quốc,O O O O O O B-fromloc.city_name O B-toloc.city_name,airfare
+tôi muốn thuê một chiếc xe_hơi ở cần_thơ,O O O O O B-transport_type O B-city_name,ground_service
+tôi muốn tìm một chuyến bay đi từ hà_nội đến london có một điểm dừng ở hongkong và có phục_vụ bữa trưa,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O O O B-stoploc.city_name O O O B-meal_description I-meal_description,flight
+cho tôi xin các chuyến bay từ cà_mau đến hải_phòng vào chiều thứ tư và sáng thứ năm,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name O B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name,flight
+liệt_kê tất_cả các chuyến bay khởi_hành từ sài_gòn và đến thanh_hoá,O O O O O O O B-fromloc.city_name O O B-toloc.city_name,flight
+các chuyến bay từ quảng_ninh đến đà_nẵng,O O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi các chuyến bay từ bắc kinh đến sài_gòn vào sáng thứ_bảy,O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_date.day_name,flight
+hãng hàng_không cx là gì,O O B-airline_code O O,abbreviation
+tôi cần một chuyến bay tối nay từ los angeles đến đà_nẵng với một điểm dừng ở thành_phố hồ_chí_minh và tôi muốn ăn tối,O O O O O B-depart_date.today_relative I-depart_date.today_relative O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O O B-stoploc.city_name I-stoploc.city_name O O O B-meal_description I-meal_description,flight
+chuyến bay muộn nhất khởi_hành từ huế và hạ_cánh ở cần_thơ vào thứ hai tới,O O B-flight_mod I-flight_mod O O B-fromloc.city_name O O O B-toloc.city_name O B-arrive_date.day_name I-arrive_date.day_name B-arrive_date.date_relative,flight
+liệt_kê giúp tôi các chuyến bay cất_cánh và hạ_cánh ở sân_bay quốc_tế nội bài,O O O O O O O O O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name,flight
+dịch_vụ xe limousine ở hải_phòng,O O B-transport_type O B-city_name,ground_service
+mã giá vé y có nghĩa là gì,O O O B-fare_basis_code O O O O,abbreviation
+có chuyến bay vietnam airlines nào rời huế không,O O O B-airline_name I-airline_name O O B-fromloc.city_name O,flight
+"vào thứ năm , tôi muốn một chuyến bay từ buôn_ma_thuột đến hà_nội",O B-depart_date.day_name I-depart_date.day_name O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+khi nào máy_bay rời hải_phòng,O O O O B-fromloc.city_name,flight_time
+có những chuyến bay nào vào buổi sáng thứ tư từ cà_mau đến quy nhơn,O O O O O O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+cho tôi biết tất_cả các chuyến bay từ phú_quốc đến hải_phòng thanh_hoá hoặc hà_nội,O O O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.city_name B-or B-toloc.city_name,flight
+loại máy_bay nào được sử_dụng trên chuyến bay đầu_tiên từ quy nhơn đến phú_quốc vào buổi sáng,O O O O O O O O B-flight_mod O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day,aircraft
+các chuyến bay từ hải_phòng đến tokyo,O O O O B-fromloc.city_name O B-toloc.city_name,flight
+liệt_kê các chuyến bay buổi sáng có giá 3 triệu từ cà_mau đến hải_phòng,O O O O B-depart_time.period_of_day I-depart_time.period_of_day O O B-fare_amount I-fare_amount O B-fromloc.city_name O B-toloc.city_name,flight
+tất_cả các chuyến bay từ hà_nội đến new york,O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+hiển_thị các chuyến bay từ huế đến tokyo,O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+hiển_thị các chuyến bay từ thành_phố hồ_chí_minh đến hà_nội,O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+tôi muốn một chuyến bay muộn vào ngày_mai từ singapore đến đà_nẵng có phục_vụ bữa tối,O O O O O B-depart_time.period_mod O B-depart_date.today_relative O B-fromloc.city_name O B-toloc.city_name O O B-meal_description I-meal_description,flight
+cho tôi xem tất_cả các mức giá của hạng phổ_thông từ hà_nội đến đà_lạt,O O O O O O O O B-economy I-economy O B-fromloc.city_name O B-toloc.city_name,airfare
+tôi cần một chuyến bay từ montreal quebec đến san diego california khởi_hành vào chủ_nhật này,O O O O O O B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name I-toloc.city_name B-toloc.state_name O O B-depart_date.day_name B-depart_date.date_relative,flight
+cho tôi chuyến bay một_chiều rẻ nhất từ phú_quốc đến hải_phòng rời phú_quốc sau 9 giờ tối,O O O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O B-fromloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight
+vietnam airlines có chuyến bay giữa hải_phòng và huế không,B-airline_name I-airline_name O O O O B-fromloc.city_name O B-toloc.city_name O,flight
+tôi muốn bay từ singapore đến đà_lạt trên một chuyến bay của bamboo airways vào buổi tối muộn,O O O O B-fromloc.city_name O B-toloc.city_name O O O O O B-airline_name I-airline_name O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_time.period_mod,flight
+các chuyến bay từ thanh_hoá đến singapore vào đêm thứ tư,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name,flight
+chỉ cho tôi các chuyến bay từ cam_ranh đến los angeles,O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+bạn có_thể hiển_thị tôi các chuyến bay buổi tối vào thứ tư từ hà_nội đến cà_mau một lần nữa được không,O O O O O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O O O,flight
+các chuyến bay và giá vé tương_ứng từ điện_biên_phủ đến viêng chăn vào buổi sáng thứ hai,O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name,airfare#flight
+những chuyến bay hạng nhất nào còn chỗ vào ngày 20 tháng 7 năm 2021 từ palermo đến hà_nội,O O O B-class_type I-class_type O O O O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name B-depart_date.year I-depart_date.year O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi xem tất_cả các chuyến bay từ cần_thơ đến hà_nội vào ngày_mai có phục_vụ bữa ăn,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.today_relative O O B-meal I-meal,flight
+chỉ cho tôi tất_cả các chuyến bay giữa quy nhơn và huế,O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay từ đồng_hới đến huế,O O O O B-fromloc.city_name O B-toloc.city_name,flight
+tất_cả các chuyến bay khứ_hồi từ cần_thơ đến đà_nẵng sau 12 giờ trưa dưới 5 triệu,O O O O B-round_trip O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time B-cost_relative B-fare_amount I-fare_amount,flight
+"cảm_ơn , vậy chuyến bay cuối_cùng trở về từ hà_nội đến rạch_giá là gì",O O O O O B-flight_mod O O O B-fromloc.city_name O B-toloc.city_name O O,flight
+chỉ cho tôi các chuyến bay từ rạch_giá đến hải_phòng,O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+mã giá vé q có nghĩa là gì,O O O B-fare_basis_code O O O O,abbreviation
+cho tôi các chuyến bay đến hà_nội từ quy nhơn vào khoảng 4 giờ,O O O O O O B-toloc.city_name O B-fromloc.city_name I-fromloc.city_name O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time,flight
+giá vé rẻ nhất từ hà_nội đến đà_lạt với bất_kỳ hạng ghế nào,O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O O O O O,airfare
+cho tôi tất_cả các chuyến bay không dừng từ hà_nội tới luxembourg đến vào chủ_nhật,O O O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name O O B-arrive_date.day_name,flight
+sa là gì,B-days_code O O,abbreviation
+cho tôi biết các chuyến bay từ hải_phòng đến phú_quốc,O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+mã giá vé qo nghĩa_là gì,O O O B-fare_basis_code O O,abbreviation
+tôi cần thông_tin về các chuyến bay từ đà_lạt đến hải_phòng rời đà_lạt vào sáng sớm,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-fromloc.city_name O B-depart_time.period_of_day B-depart_time.period_mod,flight
+chuyến bay sớm nhất vào thứ năm từ jakarta đến washington dc,O O B-flight_mod I-flight_mod O B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code,flight
+có những chuyến bay nào vào thứ_bảy đến phú_quốc từ đà_lạt,O O O O O O B-depart_date.day_name O B-toloc.city_name O B-fromloc.city_name,flight
+tôi muốn bay từ hải_phòng đến phú_quốc,O O O O B-fromloc.city_name O B-toloc.city_name,flight
+vietnam airlines có bao_nhiêu chuyến bay từ hải_phòng đến cà_mau,B-airline_name I-airline_name O O O O O B-fromloc.city_name O B-toloc.city_name,quantity
+jetstar có chuyến bay nào từ quảng_ninh đến kuala lumpur không,B-airline_name O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O,flight
+hiển_thị cho tôi tất_cả các mức giá hạng phổ_thông từ melbourne đến hà_nội,O O O O O O O B-economy I-economy O B-fromloc.city_name O B-toloc.city_name,airfare
+và chi_phí để đi từ sân_bay bournemouth đến trung_tâm thành_phố,O O O O O B-fromloc.airport_name I-fromloc.airport_name O O O,ground_fare
+tất_cả các chuyến bay trước 10 giờ sáng từ hải_phòng đến huế,O O O O B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi biết các chuyến bay đi từ oslo đến thành_phố hồ_chí_minh với một điểm dừng ở amsterdam,O O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-flight_stop I-flight_stop I-flight_stop O B-stoploc.city_name,flight
+chỉ cho tôi chuyến bay sớm nhất vào thứ tư từ hà_nội đến cam_ranh,O O O O O B-flight_mod I-flight_mod O B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name,flight
+tôi muốn đặt chuyến bay một_chiều rẻ nhất từ cần_thơ đến huế vào ngày 20 tháng 7,O O O O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+tdh nghĩa_là gì,B-airport_code O O,abbreviation
+cho tôi biết tất_cả các chuyến bay từ viêng chăn đến côn_đảo,O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+bạn có chuyến bay nào từ thành_phố đà_nẵng đến buôn_ma_thuột không,O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O,flight
+chuyến bay sớm nhất từ hải_phòng đến cà_mau,O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name,flight
+tôi muốn một chuyến bay vào ngày_mai từ thành_phố đà_lạt đến vân_đồn vào buổi sáng,O O O O O O B-depart_date.today_relative O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day,flight
+cho tôi biết tất_cả các chuyến bay từ hải_phòng đến tuy_hoà,O O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi các chuyến bay đến hà_nội vào ngày 15 tháng 6 khởi_hành từ huế hoặc đà_lạt,O O O O O O B-toloc.city_name O B-arrive_date.day_number I-arrive_date.day_number B-arrive_date.month_name I-arrive_date.month_name O O B-fromloc.city_name B-or B-fromloc.city_name,flight
+cho tôi biết các chuyến bay từ sân_bay london-luton đến các sân_bay khác,O O O O O O O B-fromloc.airport_name I-fromloc.airport_name O O O O,flight
+chuyến bay sớm nhất mà tôi có_thể bay được từ hà_nội đến hải_phòng,O O B-flight_mod I-flight_mod O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+giá vé khứ_hồi tiết_kiệm của hãng bamboo airways từ hải_phòng đến phú_quốc là bao_nhiêu,O O B-round_trip B-class_type O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name O O,airfare
+cho tôi biết các chuyến bay từ helsinki đến hải_phòng vào tối thứ hai,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name,flight
+tôi muốn một chuyến bay từ cà_mau đến huế,O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi tất_cả các chuyến bay từ quảng_ninh đến viêng chăn,O O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+từ đà_lạt đến toronto,O B-fromloc.city_name O B-toloc.city_name,flight
+cam_ranh đến côn_đảo,B-fromloc.city_name O B-toloc.city_name,flight
+liệt_kê tất_cả các chuyến bay của hãng hàng_không vietnam airlines rời đồng_hới vào thứ tư và dừng ở thanh_hoá,O O O O O O B-airline_name I-airline_name I-airline_name I-airline_name O B-fromloc.city_name O B-depart_date.day_name I-depart_date.day_name O O O B-stoploc.city_name,flight
+cho tôi xem tất_cả các chuyến bay từ cần_thơ đến hà_nội vào ngày_mai,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.today_relative,flight
+có chuyến bay trực_tiếp không dừng từ huế đến cần_thơ vào sáng ngày 31 tháng 8 không,O O O B-connect B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O,flight
+hãng hàng_không nào cung_cấp mức giá rẻ nhất đi từ đà_lạt đến hà_nội vào ngày 4 tháng 7,O O O O O O B-cost_relative I-cost_relative O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,airline
+jetstar có đường_bay tới viêng chăn không,B-airline_name O O O B-city_name I-city_name O,flight
+cho tôi tất_cả các chuyến bay từ quy nhơn đến phú_quốc,O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+giao_thông đường_bộ ở huế,O O O B-city_name,ground_service
+cho tôi xin tất_cả các chuyến bay từ hải_phòng đến đà_lạt cả trực_tiếp và nối chuyến hạ_cánh trước giữa trưa,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O O O O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time,flight
+hiển_thị các chuyến bay từ huế đến đà_lạt vào thứ_bảy,O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name,flight
+và các chuyến bay từ sài_gòn đến tokyo khởi_hành sau 5 giờ chiều,O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,flight
+ok và ngày mùng 4 tháng 5 tôi muốn đi từ cà_mau đến huế khởi_hành vào sáng sớm khoảng 8 giờ,O O O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O O O O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.period_of_day B-depart_time.period_mod B-depart_time.time_relative B-depart_time.time I-depart_time.time,flight
+tất_cả các chuyến bay từ bình nhưỡng đến washington dc vào ngày 11 tháng 11,O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+các chuyến bay vào buổi sáng sớm từ hải_phòng đến huế,O O O O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_time.period_mod O B-fromloc.city_name O B-toloc.city_name,flight
+chuyến bay rẻ nhất từ huế đến cần_thơ khởi_hành vào ngày 28 tháng 9,O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+chuyến bay từ đà_lạt đến oakland california vào thứ hai,O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_name O B-depart_date.day_name I-depart_date.day_name,flight
+tôi muốn bay từ đà_lạt đến phú_quốc vào thứ_bảy và đến phú_quốc trước 4 giờ chiều,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O B-toloc.city_name B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time I-arrive_time.time,flight
+chuyến bay buổi sáng rời bangkok và đến hải_phòng vào buổi chiều,O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name O O B-toloc.city_name O B-arrive_time.period_of_day I-arrive_time.period_of_day,flight
+tôi muốn xem các chuyến bay từ hà_nội đến cà_mau hạ_cánh trước giữa trưa,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time,flight
+tìm giúp tôi chuyến bay sớm nhất khởi_hành từ cà_mau đến hải_phòng và chuyến trở về muộn nhất từ cà_mau để tôi có_thể ở cà_mau trong khoảng thời_gian dài nhất nhưng trở về hải_phòng cùng ngày,O O O O O B-flight_mod I-flight_mod O O B-fromloc.city_name O B-toloc.city_name O O O O B-flight_mod I-flight_mod O B-fromloc.city_name O O O O B-toloc.city_name O O O O O O O O B-toloc.city_name B-return_date.date_relative I-return_date.date_relative,flight
+vui_lòng cho tôi vé máy_bay khứ_hồi rẻ nhất từ cà_mau đến điện_biên_phủ vào ngày mùng 1 tháng 8,O O O O O B-round_trip B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,airfare
+tôi muốn biết thông_tin về các chuyến bay từ amsterdam đến oakland california vào buổi chiều thứ_sáu,O O O O O O O O O B-fromloc.city_name O B-toloc.city_name B-toloc.state_name O B-depart_time.period_of_day I-depart_time.period_of_day B-depart_date.day_name,flight
+có những chuyến bay buổi chiều nào từ cần_thơ đến đà_nẵng vào một ngày trong tuần,O O O O B-depart_time.period_of_day I-depart_time.period_of_day O O B-fromloc.city_name O B-toloc.city_name O O B-flight_mod I-flight_mod I-flight_mod,flight
+hiển_thị giao_thông đường_bộ ở hà_nội,O O O O B-city_name,ground_service
+vui_lòng chỉ cho tôi các hãng hàng_không có các chuyến bay từ oslo đến hà_nội có điểm dừng ở istanbul,O O O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O O B-stoploc.city_name,airline
+đà_lạt đến hà_nội,B-fromloc.city_name O B-toloc.city_name,flight
+xe cho thuê ở washington dc,B-transport_type I-transport_type I-transport_type O B-city_name B-state_code,ground_service
+vietnam airlines có bay đến phú_quốc từ quy nhơn không,B-airline_name I-airline_name O O O B-toloc.city_name O B-fromloc.city_name I-fromloc.city_name O,flight
+cung_cấp giúp tôi loại máy_bay được sử_dụng để bay từ cà_mau đến huế,O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name,aircraft
+cho tôi các chuyến bay từ huế đến hà_nội,O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+hạng giá vé h là gì,O O O B-fare_basis_code O O,abbreviation
+chuyến bay sớm nhất từ hà_nội đến phú_quốc vào thứ_sáu có phục_vụ bữa sáng,O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O B-meal_description I-meal_description,flight
+có những chuyến bay nào từ cà_mau đến hà_nội vào sáng sớm ngày thứ năm,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_time.period_mod O B-depart_date.day_name I-depart_date.day_name,flight
+có loại phương_tiện giao_thông mặt_đất nào ở đà_lạt,O O O O O O O B-city_name,ground_service
+tôi có_thể có danh_sách các chuyến bay hạng nhất vào thứ hai từ phú_quốc đến cam_ranh khởi_hành vào giữa trưa và sau đó không,O O O O O O O B-class_type I-class_type O B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.time I-depart_time.time O B-depart_time.time_relative I-depart_time.time_relative O,flight
+một chuyến bay liên_tục hàng ngày từ hải_phòng đến cam_ranh của bamboo airways có giá là bao_nhiêu,O O O B-flight_stop B-flight_days I-flight_days O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name O O O O,airfare
+tôi muốn đi từ cam_ranh đến cà_mau vào khoảng sau 5 giờ chiều bạn có_thể cho tôi biết các chuyến bay phù_hợp được không,O O O O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O O O O O O O O O O O,flight
+mã giá vé yn nghĩa_là gì,O O O B-fare_basis_code O O,abbreviation
+các sân_bay ở new york,O O O B-city_name I-city_name,airport
+"tôi muốn sắp_xếp cho hai người bạn bay đến los angeles vào tối thứ_bảy tới , một người đến từ đà_lạt và người kia đến từ đà_nẵng",O O O O O O O O O B-toloc.city_name I-toloc.city_name O B-arrive_time.period_of_day B-arrive_date.day_name B-arrive_date.date_relative O O O O O B-fromloc.city_name O O O O O B-fromloc.city_name,flight
+cho tôi xem tất_cả các chuyến bay qua đêm từ washington dc đến madrid và liệt_kê giá vé của chúng,O O O O O O O B-flight_mod I-flight_mod O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O O O O O,airfare#flight
+có những loại phương_tiện giao_thông đường_bộ nào ở cà_mau,O O O O O O O O B-city_name,ground_service
+các chuyến bay từ cần_thơ đến hà_nội hạ_cánh trong khoảng từ 4 đến 5 giờ chiều,O O O O B-fromloc.city_name O B-toloc.city_name O O O O B-arrive_time.start_time O B-arrive_time.end_time I-arrive_time.end_time I-arrive_time.end_time,flight
+mã giá vé qw nghĩa_là gì,O O O B-fare_basis_code O O,abbreviation
+cho biết các chuyến bay từ new york đến dartmouth,O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+tôi cần thông_tin về giao_thông đường_bộ ở denver colorado,O O O O O O O B-city_name B-state_name,ground_service
+liệt_kê các chuyến bay từ quy nhơn đến phú_quốc của vietnam airlines,O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name,flight
+cho tôi biết các hãng hàng_không có các chuyến bay đến hoặc đi từ sân_bay quốc_tế incheon,O O O O O O O O O O O B-or O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name,airline
+liệt_kê các chuyến bay không dừng từ phú_quốc đến tokyo khởi_hành vào buổi chiều,O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.period_of_day I-depart_time.period_of_day,flight
+hãng hàng_không nào có đường_bay ở huế cần_thơ và cà_mau,O O O O O O B-city_name B-city_name O B-city_name,airline
+hãng hàng_không vietnam airlines có bao_nhiêu chuyến bay hạng nhất,B-airline_name I-airline_name I-airline_name I-airline_name O O O O B-class_type I-class_type,quantity
+vui_lòng hiển_thị các chuyến bay đến quy nhơn từ huế,O O O O O O B-toloc.city_name I-toloc.city_name O B-fromloc.city_name,flight
+bây_giờ hãy cho tôi xem các chuyến bay từ cần_thơ đến hà_nội,O O O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+chỉ cho tôi các chuyến bay từ thanh_hoá đến singapore vào đêm thứ tư hoặc sáng thứ năm,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name B-or B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name,flight
+tôi muốn bay trên các chuyến bay của vietnam airlines từ cà_mau đến melbourne,O O O O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name,flight
+mã giá vé f là gì,O O O B-fare_basis_code O O,abbreviation
+các chuyến bay của hãng hàng_không vietnam airlines vào sáng ngày 20 tháng 9,O O O O B-airline_name I-airline_name I-airline_name I-airline_name O B-depart_time.period_of_day B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+cho biết tất_cả các hãng hàng_không có chuyến bay giữa huế và đà_lạt,O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name,airline
+giá vé rẻ nhất từ kuala lumpur đến đà_nẵng,O O B-cost_relative I-cost_relative O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,airfare
+vietnam airlines có bao_nhiêu chuyến bay với loại mã dịch_vụ f,B-airline_name I-airline_name O O O O O O O O B-fare_basis_code,quantity
+tìm một chuyến bay không dừng giữa hải_phòng và hàng châu và đến hàng châu vào khoảng 5 giờ chiều,O O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-toloc.city_name I-toloc.city_name O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time I-arrive_time.time,flight
+cần_thơ đến hà_nội vào ngày mùng 1 tháng 1,B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+cho tôi biết chi_phí và thời_gian của các chuyến bay từ phú_quốc đến cam_ranh,O O O O O B-flight_time O O O O O B-fromloc.city_name O B-toloc.city_name,airfare#flight_time
+những hãng hàng_không nào có chuyến bay từ hải_phòng đến jakarta,O O O O O O O O B-fromloc.city_name O B-toloc.city_name,airline
+có những loại phương_tiện giao_thông đường_bộ nào ở đà_lạt,O O O O O O O O B-city_name,ground_service
+sân_bay ở dallas fort worth cách dallas bao_xa,O O B-fromloc.airport_name I-fromloc.airport_name I-fromloc.airport_name O B-fromloc.city_name O,distance
+liệt_kê tất_cả các chuyến bay một_chiều từ tampa florida đến phnom penh có giá rẻ nhất,O O O O O B-round_trip O B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name I-toloc.city_name O O B-cost_relative I-cost_relative,flight
+chỉ cho tôi các chuyến bay từ quy nhơn đến hà_nội,O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+giao_thông đường_bộ ở sài_gòn,O O O B-city_name,ground_service
+vui_lòng liệt_kê tất_cả các chuyến bay từ cà_mau đến hà_nội vào thứ tư và thứ năm,O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name O B-depart_date.day_name I-depart_date.day_name,flight
+chuyến bay vn 1083 từ quy nhơn đến huế có khởi_hành vào các ngày thứ_bảy không,O O B-airline_code B-flight_number O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O O B-depart_date.day_name O,flight
+"tôi muốn đặt một chuyến bay đi từ hà_nội đến paris vào ngày 26 tháng 5 , tôi muốn dừng lại ở moscow trên đường",O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name O O O O O O B-stoploc.city_name O O,flight
+tôi muốn bay từ hải_phòng đến cà_mau tôi muốn có giá vé rẻ nhất,O O O O B-fromloc.city_name O B-toloc.city_name O O O O O B-cost_relative I-cost_relative,flight
+cho tôi biết các chuyến bay từ quảng_ninh đến dili,O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+có những chuyến bay nào vào chiều chủ_nhật còn chỗ từ osaka đến hà_nội,O O O O O O B-depart_time.period_of_day B-depart_date.day_name O O O B-fromloc.city_name O B-toloc.city_name,flight
+giải_thích sự hạn_chế của ap 80,O O O O B-restriction_code I-restriction_code,restriction
+tôi muốn đi từ hà_nội đến phú_quốc với một điểm dừng chân ở huế,O O O O B-fromloc.city_name O B-toloc.city_name O O O O O O B-stoploc.city_name,flight
+thông_tin về chuyến bay từ phú_quốc đến quy nhơn,O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+chuyến bay buổi sáng ngắn nhất từ manila đến thành_phố hồ_chí_minh,O O B-depart_time.period_of_day I-depart_time.period_of_day B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+các chuyến bay từ hải_phòng đến hà_nội vào ngày 15 tháng 10 năm 2020,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name B-depart_date.year I-depart_date.year,flight
+có những chuyến bay nào vào tối thứ tư từ huế đến sgn,O O O O O O B-depart_time.period_of_day B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name O B-toloc.airport_code,flight
+cho tôi danh_sách các chuyến bay của american airlines từ dartmouth đến dc vào ngày 20 tháng 7,O O O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.state_code O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+bamboo airways 269 rời hải_phòng lúc 4 giờ 28 phút sẽ hạ_cánh ở chu lai lúc mấy giờ,B-airline_name I-airline_name B-flight_number O B-fromloc.city_name O B-depart_time.time I-depart_time.time I-depart_time.time I-depart_time.time O O O B-toloc.city_name I-toloc.city_name O O B-flight_time,flight_time
+tôi muốn biết thông_tin về các chuyến bay khởi_hành vào sáng sớm ngày thứ hai từ cà_mau đến hà_nội,O O O O O O O O O O B-depart_time.period_of_day B-depart_time.period_mod O B-depart_date.day_name I-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi các chuyến bay từ quảng_ninh đến côn_đảo,O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+có những chuyến bay nào khởi_hành từ kuala lumpur đến huế,O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+cho tôi xem giá vé của các chuyến bay từ hà_nội đến đà_lạt,O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name,airfare
+các chuyến bay từ huế đến phú_quốc,O O O O B-fromloc.city_name O B-toloc.city_name,flight
+hãng hàng_không nào có các chuyến bay từ phú_quốc đến hà_nội mà đi qua ở thành_phố hồ_chí_minh,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O O O B-stoploc.city_name I-stoploc.city_name,airline
+tất_cả các chuyến bay từ washington dc đến frankfurt vào ngày 12 tháng 11,O O O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+giá vé khứ_hồi từ cần_thơ đến quy nhơn dưới 3 triệu đồng,O O B-round_trip O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-cost_relative B-fare_amount I-fare_amount I-fare_amount,airfare
+hiển_thị các chuyến bay không dừng một_chiều từ new york đến hà_nội vào một ngày thứ ba có giá dưới 30 triệu đồng,O O O O B-flight_stop I-flight_stop B-round_trip O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O B-depart_date.day_name I-depart_date.day_name O O B-cost_relative B-fare_amount I-fare_amount I-fare_amount,flight
+tôi muốn các chuyến bay của các hãng hàng_không vietnam airlines từ quy nhơn đến huế đến trước 11 giờ 45 sáng,O O O O O O O O O B-airline_name I-airline_name O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time I-arrive_time.time I-arrive_time.time,flight
+hiển_thị giá vé hạng thương_gia từ phú_quốc đến huế của hãng hàng_không vietnam airlines,O O O B-class_type I-class_type O B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name I-airline_name I-airline_name,airfare
+chuyến bay sớm nhất giữa nội bài và bwi,O O B-flight_mod I-flight_mod O B-fromloc.airport_name I-fromloc.airport_name O B-toloc.airport_code,flight
+mô_tả sân_bay cần_thơ,O B-airport_name I-airport_name,airport
+cho tôi biết các chuyến bay của bamboo airways từ cần_thơ đến busan nối chuyến ở sài_gòn,O O O O O O O B-airline_name I-airline_name O B-fromloc.city_name O B-toloc.city_name B-connect I-connect O B-stoploc.city_name,flight
+liệt_kê tất_cả các chuyến bay không dừng vào thứ ba trước giữa trưa từ viêng chăn đến hà_nội,O O O O O B-flight_stop I-flight_stop O B-arrive_date.day_name I-arrive_date.day_name B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+doha đến hà_nội vào thứ hai,B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+liệt_kê giúp tôi các chuyến bay và giá vé tương_ứng của tất_cả các hãng hàng_không từ portsmouth đến hà_nội,O O O O O O O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name,airfare#flight
+hãng hàng_không nào sử_dụng mã hp,O O O O O B-airline_code,abbreviation
+tìm một chuyến bay từ phú_quốc đến hải_phòng vào thứ tư,O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+bạn có_thể cho tôi biết về việc sắp_xếp phương_tiện di_chuyển đường_bộ từ sân_bay đà_lạt đến trung_tâm thành_phố đà_lạt được không,O O O O O O O O O O O O B-fromloc.airport_name I-fromloc.airport_name O O B-toloc.city_name I-toloc.city_name O O,ground_service
+danh_sách tất_cả các chuyến bay từ thành_phố hồ_chí_minh đến portsmouth vào ngày mùng 2 tháng 8,O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+cho tôi biết các chuyến bay buổi sáng từ viêng chăn đến hà_nội,O O O O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+"bất_cứ chuyến bay nào từ hà_nội hoặc hải_phòng , có trạm dừng ở sài_gòn và sẽ đến singapore",O O O O O B-fromloc.city_name B-or B-fromloc.city_name O O O O O B-stoploc.city_name O O O B-toloc.city_name,flight
+cho tôi biết các chuyến bay từ hải_phòng đến huế,O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+cho tôi các chuyến bay từ đà_nẵng đến bangkok,O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+tôi cần một chuyến bay từ new york đến thành_phố hồ_chí_minh vào thứ năm ngày mùng 6 tháng 5,O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_date.day_name I-depart_date.day_name B-depart_date.day_number I-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+quy nhơn đến phú_quốc,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,flight
+chuyến bay sớm nhất từ hải_phòng đến phú_quốc,O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name,flight
+có dịch_vụ xe limousine ở sân_bay đà_nẵng không,O O B-transport_type I-transport_type O B-fromloc.airport_name I-fromloc.airport_name O,ground_service
+giao_thông đường_bộ ở hải_phòng,O O O B-city_name,ground_service
+chuyến bay sớm nhất từ hải_phòng đến phú_quốc có phục_vụ bữa ăn,O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name O O B-meal I-meal,flight
+mã qw nghĩa_là gì,O B-fare_basis_code O O,abbreviation
+vna là hãng hàng_không nào,B-airline_code O O O O,abbreviation
+cần bao_nhiêu tiền cho một chiếc xe cho thuê ở london,O O O O O O B-transport_type I-transport_type I-transport_type O B-city_name,ground_fare
+cho tôi các chuyến bay khởi_hành vào thứ_bảy hoặc chủ_nhật từ thanh_hoá đến đồng_hới,O O O O O O O B-depart_date.day_name B-or B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name,flight
+tôi quan_tâm đến các chuyến bay từ đà_lạt đến cà_mau,O O O O O O O B-fromloc.city_name O B-toloc.city_name,flight
+các chuyến bay từ đà_lạt đến côn_đảo vào thứ tư,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+có chuyến bay không dừng từ huế đến phú_quốc không,O O O B-flight_stop I-flight_stop O B-fromloc.city_name O B-toloc.city_name O,flight
+hiển_thị tất_cả các chuyến bay từ phú_quốc đến hải_phòng vào ngày 8 tháng 8,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number I-depart_date.day_number B-depart_date.month_name I-depart_date.month_name,flight
+hãng hàng_không nào có các chuyến bay giữa quy nhơn và quảng_ninh,O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name,airline
+tôi muốn đi từ hải_phòng đến cà_mau vào thứ hai,O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name,flight
+chuyến bay tiếp_theo từ huế đến phú_quốc sau chuyến bay vietnam airlines 1059 là gì,O O B-flight_mod O B-fromloc.city_name O B-toloc.city_name B-mod O O B-airline_name I-airline_name B-flight_number O O,flight
+cho tôi biết chuyến bay rẻ nhất từ buôn_ma_thuột đến côn_đảo sau giữa trưa ngày chủ_nhật,O O O O O B-cost_relative I-cost_relative O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time O B-depart_date.day_name,flight
+loại máy_bay nào được sử_dụng để bay từ cà_mau đến huế trước 12 giờ trưa,O O O O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time,aircraft
+chỉ cho tôi tất_cả các chuyến bay từ hải_phòng đến cà_mau khởi_hành từ cà_mau sau trưa ngày_mai,O O O O O O O O B-fromloc.city_name O B-toloc.city_name O O B-fromloc.city_name B-depart_time.time_relative B-depart_time.time B-depart_date.today_relative,flight
+thuê một chiếc xe_hơi ở florence mất bao_nhiêu tiền,O O O B-transport_type O B-city_name O O O,ground_fare
+chuyến bay vn 270 từ huế đến quy nhơn sử_dụng loại máy_bay nào,O O B-airline_code B-flight_number O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O,aircraft
+liệt_kê tất_cả các chuyến bay từ hải_phòng đến cà_mau trước 5 giờ sáng vào thứ năm,O O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_time.time_relative B-depart_time.time I-depart_time.time I-depart_time.time O B-depart_date.day_name I-depart_date.day_name,flight
+tôi muốn có chuyến bay sớm nhất từ đà_lạt đến hải_phòng,O O O O O B-flight_mod I-flight_mod O B-fromloc.city_name O B-toloc.city_name,flight
+chỉ cho tôi các chuyến bay vietnam airlines cất_cánh từ cà_mau vào buổi sáng,O O O O O O B-airline_name I-airline_name O O B-fromloc.city_name O B-depart_time.period_of_day I-depart_time.period_of_day,flight
+chuyến bay nào từ thành_phố đà_nẵng đến quảng_ninh,O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.state_name,flight
+cho tôi xem danh_sách các chuyến bay giữa quy nhơn và huế khởi_hành vào buổi chiều,O O O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-depart_time.period_of_day I-depart_time.period_of_day,flight
+giá vé hạng hai một_chiều từ cà_mau đến hải_phòng là bao_nhiêu,O O B-class_type I-class_type B-round_trip O B-fromloc.city_name O B-toloc.city_name O O,airfare
+có bao_nhiêu giá vé một_chiều để đi từ gevena đến hà_nội,O O O O B-round_trip O O O B-fromloc.city_name O B-toloc.city_name,quantity
+tôi muốn biết một_số thông_tin về các chuyến bay rời thanh_hoá đến cần_thơ vào buổi chiều,O O O O O O O O O O B-fromloc.city_name O B-toloc.city_name O B-arrive_time.period_of_day I-arrive_time.period_of_day,flight
+có những chuyến bay nào từ cần_thơ đến hải_phòng vào thứ tư của tuần tới,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name O O B-depart_date.date_relative,flight
+có chuyến bay nào của hãng hàng_không vietjet air đi từ hải_phòng đến huế không,O O O O O B-airline_name I-airline_name I-airline_name I-airline_name O O B-fromloc.city_name O B-toloc.city_name O,flight
+các chuyến bay buổi chiều từ đà_lạt đến cà_mau,O O O B-depart_time.period_of_day I-depart_time.period_of_day O B-fromloc.city_name O B-toloc.city_name,flight
+thông_tin về các chuyến bay từ hà_nội đến quy nhơn,O O O O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name,flight
+những chuyến bay nào đi từ cà_mau đến manila vào thứ ba mà hạ_cánh vào khoảng 2 giờ rưỡi chiều,O O O O O O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name I-depart_date.day_name O O O B-arrive_time.time_relative B-arrive_time.time I-arrive_time.time I-arrive_time.time I-arrive_time.time,flight
+cho tôi biết các loại phương_tiện giao_thông đường_bộ ở cam_ranh,O O O O O O O O O B-city_name,ground_service
+bạn có chuyến bay nào từ newark new jersey đến ontario california mà nối chuyến ở phoenix không,O O O O O O B-fromloc.city_name B-fromloc.state_name I-fromloc.state_name O B-toloc.city_name B-toloc.state_name O O O O B-stoploc.city_name O,flight

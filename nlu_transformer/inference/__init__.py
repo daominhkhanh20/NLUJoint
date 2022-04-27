@@ -1,0 +1,1 @@
+from nlu_transformer.inference.infer_joint import InferenceJoint
