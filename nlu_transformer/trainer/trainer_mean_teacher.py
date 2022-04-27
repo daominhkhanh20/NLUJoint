@@ -121,12 +121,12 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
         )
 
     def evaluate(self, loader: DataLoader, **kwargs):
-        if kwargs.get('mode', None) == 'best':
-            mode_best = True
+        if kwargs.get('mean_teacher', False):
+            mean_teacher = True
         else:
-            mode_best = False
+            mean_teacher = False
         logger.info('************START EVALUATE************')
-        if not mode_best:
+        if not mean_teacher:
             self.model.eval()
         else:
             self.best_model.eval()
@@ -146,9 +146,9 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
                     sample['token_type_ids'],
                     sample['intent_label_ids'],
                     sample['slot_label_ids'],
-                    sample['all_slot_mask']
+                    sample['all_slot_mask'],
                 ]
-                if not mode_best:
+                if not mean_teacher:
                     outputs = self.model(*input_tensor)
                 else:
                     outputs = self.best_model(*input_tensor)
@@ -182,7 +182,7 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
         list_intent_truth = [self.list_intents[idx] for idx in list_intent_truth]
         list_intent_preds = [self.list_intents[idx] for idx in list_intent_preds]
 
-        if not mode_best and self.epoch_current > self.epoch_report:
+        if not mean_teacher and self.epoch_current > self.epoch_report:
             print(classification_report(list_intent_truth, list_intent_preds))
             print(classification_report(all_slot_truth, all_slot_preds))
 
@@ -209,11 +209,12 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
     def train_one_epoch(self, data_loader: DataLoader, **kwargs):
         train_loss = 0
         global_steps = 0
-        if kwargs.get('mode', None) == 'best':
-            mode_best = True
+        if kwargs.get('mean_teacher', False):
+            mean_teacher = True
             self.best_model.train()
+            list_index_accept = []
         else:
-            mode_best = False
+            mean_teacher = False
             self.model.train()
 
         logger.info(f"Len loader for training: {len(data_loader)}")
@@ -231,8 +232,8 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
                 sample['all_slot_mask'],
                 sample['list_index']
             ]
-            if mode_best:
-                outputs = self.best_model(*input_tensor)
+            if mean_teacher:
+                outputs = self.best_model(*input_tensor, turn_on_mode_ensemble_filtering=True)
             else:
                 outputs = self.model(*input_tensor)
             loss, (intent_logits, slot_logits) = outputs[:2]
@@ -241,9 +242,11 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
             train_loss += loss.item()
             loss.backward()
 
-            intent_preds = torch.argmax(intent_logits, dim=1)
-            intent_truth = sample['intent_labels_id']
-
+            if mean_teacher:
+                intent_preds = torch.argmax(intent_logits, dim=1)
+                intent_truth = sample['intent_labels_id']
+                temp_idx_accept = sample['list_index'][intent_preds == intent_truth]
+                list_index_accept.append(temp_idx_accept)
 
             if (step + 1) % self.args.num_accumulate_gradient == 0:
                 torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.args.max_clip_norm)
@@ -252,9 +255,12 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
                 self.optimizer.zero_grad()
                 global_steps += 1
 
-        return train_loss / global_steps
+        if not mean_teacher:
+            return train_loss / global_steps
+        else:
+            return train_loss / global_steps, torch.cat(list_index_accept).detach().cpu().numpy().tolist()
 
-    def fit_mean_teacher(self):
+    def fit(self):
         logger.info('************START TRAINING************')
         train_epoch_0_loss = self.train_one_epoch(self.train_loader)
         logger.info(f"Train loss in epoch 0: {train_epoch_0_loss}")
@@ -267,16 +273,18 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
             logger.info(f"Current epoch: {self.epoch_current}")
             self.best_model.load_state_dict(self.model.state_dict())
             filter_loader = self.train_loader
-            _, list_index_correct = self.train_one_epoch(filter_loader, mode='best')
+            train_model_best_loss, list_index_correct = self.train_one_epoch(filter_loader, mean_teacher=True)
             logger.info(f"Len list index_correct: {len(list_index_correct)}")
             if len(list_index_correct) > 200:
                 filter_dataset = self.datasource.make_train_dataset(list_train_features=self.list_train_feature,
                                                                     list_index_accept=list_index_correct)
                 filter_loader = self.make_dataloader(filter_dataset)
-            self.train_one_epoch(filter_loader)
+            train_filter_dataloader_loss = self.train_one_epoch(filter_loader)
             self.epoch_current += 1
-            _, current_model_acc = self.evaluate(self.val_loader)
-            _, best_model_acc = self.evaluate(self.val_loader, mode='best')
+            current_model_val_loss, current_model_acc = self.evaluate(self.val_loader)
+            best_model_val_loss, best_model_acc = self.evaluate(self.val_loader, mean_teacher=True)
+            logger.info(f"Best model: train loss = {train_model_best_loss}, val loss = {best_model_val_loss}")
+            logger.info(f"Current model in data filter: train loss = {train_filter_dataloader_loss}, val loss = {current_model_val_loss}")
             logger.info(f"Current model: {current_model_acc} Best model: {best_model_acc}")
 
         self.save_model(self.epoch_current)

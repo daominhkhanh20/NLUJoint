@@ -31,7 +31,7 @@ class JointAtisCollate:
             'intent_label_ids': torch.tensor(intent_label_ids, dtype=torch.long),
             'slot_label_ids': pad_sequence(slot_label_ids, padding_value=self.pad_token_label_id, batch_first=True),
             'all_slot_mask': pad_sequence(all_slot_mask, padding_value=self.pad_token_label_id, batch_first=True),
-            'list_index': list_index
+            'list_index': torch.tensor(list_index, dtype=torch.long)
         }
         return data
 

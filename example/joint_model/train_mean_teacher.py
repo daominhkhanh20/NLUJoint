@@ -52,7 +52,10 @@ if args.continue_train:
         n_intent_label=nlu_datasource.n_intents,
         n_slot_label=nlu_datasource.n_slots,
         update_loss=args.update_loss,
-        loss_acc_coef=args.loss_acc_coef
+        loss_acc_coef=args.loss_acc_coef,
+        efi_coef=args.ensemble_filtering_intent_coef,
+        efs_coef=args.ensemble_filtering_slot_coef,
+        mean_teacher=True
     )
 
 else:
@@ -65,7 +68,10 @@ else:
         n_intent_label=len(nlu_datasource.train_processor.list_intents),
         n_slot_label=len(nlu_datasource.train_processor.list_slots),
         update_loss=args.update_loss,
-        loss_acc_coef=args.loss_acc_coef
+        loss_acc_coef=args.loss_acc_coef,
+        efi_coef=args.ensemble_filtering_intent_coef,
+        efs_coef=args.ensemble_filtering_slot_coef,
+        mean_teacher=True
     )
 
 
