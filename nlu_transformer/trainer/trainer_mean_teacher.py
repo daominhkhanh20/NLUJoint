@@ -244,7 +244,7 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
 
             if mean_teacher:
                 intent_preds = torch.argmax(intent_logits, dim=1)
-                intent_truth = sample['intent_labels_id']
+                intent_truth = sample['intent_label_ids']
                 temp_idx_accept = sample['list_index'][intent_preds == intent_truth]
                 list_index_accept.append(temp_idx_accept)
 
@@ -283,6 +283,9 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
             self.epoch_current += 1
             current_model_val_loss, current_model_acc = self.evaluate(self.val_loader)
             best_model_val_loss, best_model_acc = self.evaluate(self.val_loader, mean_teacher=True)
+            if best_model_acc > current_model_acc and best_model_acc < 0.7:
+                current_model_acc = best_model_acc
+
             logger.info(f"Best model: train loss = {train_model_best_loss}, val loss = {best_model_val_loss}")
             logger.info(f"Current model in data filter: train loss = {train_filter_dataloader_loss}, val loss = {current_model_val_loss}")
             logger.info(f"Current model: {current_model_acc} Best model: {best_model_acc}")

@@ -74,7 +74,7 @@ class JointAtisDatasetMeanTeacher(Dataset):
         self.list_index_accept = list_index_accept
 
     def __len__(self):
-        return len(self.features)
+        return len(self.list_index_accept)
 
     def __getitem__(self, idx):
         return {

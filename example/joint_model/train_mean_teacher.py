@@ -16,7 +16,7 @@ parser.add_argument('--attention_embedding_size', type=int, default=200)
 parser.add_argument('--use_crf', default=False, type=lambda x: str(x).lower() == 'true')
 parser.add_argument('--intent_loss_coef', type=float, default=0.2)
 parser.add_argument('--pretrained_model_name', type=str, default='vinai/phobert-base')
-parser.add_argument('--learning_rate', type=float, default=1e-5)
+parser.add_argument('--learning_rate', type=float, default=5e-5)
 parser.add_argument('--num_warmup_steps', type=int, default=50)
 parser.add_argument('--continue_train', default=False, type=lambda x: str(x).lower() == 'true')
 parser.add_argument('--path_pretrained', type=str, default=None)
@@ -35,6 +35,7 @@ parser.add_argument('--max_clip_norm', type=float, default=1.0)
 parser.add_argument('--epoch_save', type=int, default=30)
 parser.add_argument('--update_loss', default=False, type=lambda x: x.lower() == 'true')
 parser.add_argument('--loss_acc_coef', type=float, default=1.0)
+parser.add_argument('--is_save_best', default=False, type=lambda x: x.lower() == 'true')
 parser.add_argument('--ensemble_filtering_intent_coef', type=float, default=0.2)
 parser.add_argument('--ensemble_filtering_slot_coef', type=float, default=0.2)
 
@@ -56,7 +57,7 @@ if args.continue_train:
         efi_coef=args.ensemble_filtering_intent_coef,
         efs_coef=args.ensemble_filtering_slot_coef,
         mean_teacher=True,
-        n_sample_train=len(nlu_datasource.train_processor.list_intents)
+        n_sample_train=len(nlu_datasource.train_processor.intents)
     )
 
 else:
@@ -73,7 +74,7 @@ else:
         efi_coef=args.ensemble_filtering_intent_coef,
         efs_coef=args.ensemble_filtering_slot_coef,
         mean_teacher=True,
-        n_sample_train=len(nlu_datasource.train_processor.list_intents)
+        n_sample_train=len(nlu_datasource.train_processor.intents)
     )
 
 

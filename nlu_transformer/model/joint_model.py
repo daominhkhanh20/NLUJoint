@@ -65,7 +65,7 @@ class JointModel(RobertaPreTrainedModel, ABC):
         if self.mean_teacher:
             logger.info('Initialize mean teacher model')
             self.n_sample_train = kwargs.get('n_sample_train')
-            self.before_intent_logits = torch.zeros((self.n_sample_train, self.n_intent_label))
+            self.before_intent_logits = torch.zeros((self.n_sample_train, self.n_intent_label)).to(device)
 
         if use_crf:
             self.crf = CRF(num_tags=self.n_slot_label, batch_first=True)
@@ -76,7 +76,7 @@ class JointModel(RobertaPreTrainedModel, ABC):
                 intent_label_ids: Tensor = None,
                 slot_label_ids: Tensor = None,
                 all_slot_mask: Tensor = None,
-                list_index: List = None,
+                list_index: Tensor = None,
                 turn_on_mode_ensemble_filtering: bool = False):
         outputs = self.roberta(
             input_ids,
@@ -98,7 +98,9 @@ class JointModel(RobertaPreTrainedModel, ABC):
         # intent loss
         if intent_label_ids is not None:
             if self.mean_teacher and turn_on_mode_ensemble_filtering:
-                intent_logits = self.efi_coef * self.before_intent_logits[list_index] + (1 - self.efi_coef) * intent_logits
+                # print(list_index.size())
+                # print(self.before_intent_logits.size())
+                intent_logits = self.efi_coef * self.before_intent_logits[list_index, :] + (1 - self.efi_coef) * intent_logits
             if self.contribution_intent_loss_level is not None:
                 intent_loss_fn = nn.CrossEntropyLoss(weight=self.contribution_intent_loss_level)
             else:
