@@ -44,9 +44,6 @@ class JointModel(RobertaPreTrainedModel, ABC):
         self.contribution_slot_loss_level = contribution_slot_loss_level
         self.update_loss = update_loss
         self.loss_acc_coef = loss_acc_coef
-        self.efi_coef = efi_coef
-        self.efs_coef = efs_coef
-        self.mean_teacher = kwargs.get('mean_teacher', False)
         self.intent_classifier = IntentClassifier(
             n_intent_labels=self.n_intent_label,
             input_dims=config.hidden_size,
@@ -62,10 +59,6 @@ class JointModel(RobertaPreTrainedModel, ABC):
             attention_embedding_size=attention_embedding_size,
             dropout=self.dropout
         )
-        if self.mean_teacher:
-            logger.info('Initialize mean teacher model')
-            self.n_sample_train = kwargs.get('n_sample_train')
-            self.before_intent_logits = torch.zeros((self.n_sample_train, self.n_intent_label)).to(device)
 
         if use_crf:
             self.crf = CRF(num_tags=self.n_slot_label, batch_first=True)
@@ -76,8 +69,7 @@ class JointModel(RobertaPreTrainedModel, ABC):
                 intent_label_ids: Tensor = None,
                 slot_label_ids: Tensor = None,
                 all_slot_mask: Tensor = None,
-                list_index: Tensor = None,
-                turn_on_mode_ensemble_filtering: bool = False):
+    ):
         outputs = self.roberta(
             input_ids,
             attention_mask,
@@ -97,10 +89,6 @@ class JointModel(RobertaPreTrainedModel, ABC):
         total_loss = 0
         # intent loss
         if intent_label_ids is not None:
-            if self.mean_teacher and turn_on_mode_ensemble_filtering:
-                # print(list_index.size())
-                # print(self.before_intent_logits.size())
-                intent_logits = self.efi_coef * self.before_intent_logits[list_index, :] + (1 - self.efi_coef) * intent_logits
             if self.contribution_intent_loss_level is not None:
                 intent_loss_fn = nn.CrossEntropyLoss(weight=self.contribution_intent_loss_level)
             else:
