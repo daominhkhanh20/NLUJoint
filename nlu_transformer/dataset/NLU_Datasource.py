@@ -131,7 +131,9 @@ class DataSourceMeanTeacher(object):
         else:
             dev_dataset = None
 
-        return cls(train_processor=train_processor, val_dataset=dev_dataset, pad_token_id=pad_token_id)
+        return cls(train_processor=train_processor, val_dataset=dev_dataset, pad_token_id=pad_token_id,
+                   contribution_intent_loss_level=train_processor.contribution_intent_loss_level,
+                   contribution_slot_loss_level=train_processor.contribution_slot_loss_level)
 
     def make_train_dataset(self, list_train_features: List[InputFeature],
                            list_index_accept: List = None):

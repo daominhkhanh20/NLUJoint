@@ -226,7 +226,6 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
         global_steps = 0
         self.model.train()
 
-        logger.info(f"Len loader for training: {len(data_loader)}")
         for step, sample in tqdm(enumerate(data_loader), total=len(data_loader)):
             for key in sample.keys():
                 if key != 'list_index':
@@ -264,6 +263,7 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
         _, current_model_acc = self.evaluate(self.val_loader)
         self.epoch_current += 1
         best_model_acc = current_model_acc
+        final_best_acc = -1
 
         while self.epoch_current < self.args.n_epochs and current_model_acc >= best_model_acc:
             logger.info(f"Current epoch: {self.epoch_current}")
@@ -279,7 +279,10 @@ class TrainerJointModelMeanTeacher(TrainerBase, ABC):
             self.epoch_current += 1
             current_model_val_loss, current_model_acc = self.evaluate(self.val_loader)
             best_model_val_loss, best_model_acc, _ = self.evaluate(self.val_loader, mean_teacher=True)
-            if current_model_acc < best_model_acc < 0.7:
+            if current_model_acc < best_model_acc < 0.9:
+                if best_model_acc > final_best_acc:
+                    self.save_model(self.epoch_current)
+                    final_best_acc = best_model_acc
                 current_model_acc = best_model_acc
 
             logger.info(f"Best model: train loss = {train_model_best_loss}, val loss = {best_model_val_loss}")

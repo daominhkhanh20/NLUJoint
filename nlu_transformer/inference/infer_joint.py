@@ -30,7 +30,7 @@ class InferenceJoint:
 
         slots_preds = torch.argmax(slots_logit, dim=-1)  # 1 * seq_len
         slot_prob = torch.softmax(slots_logit, dim=-1).squeeze(dim=0)
-        print(slot_prob.size())
+        # print(slot_prob.size())
 
         list_slot_preds = []
         list_index = []
@@ -41,7 +41,7 @@ class InferenceJoint:
                     list_slot_preds.append(self.list_slots[slots_preds[i][j]])
                     list_index.append(j)
 
-        print(torch.max(slot_prob[list_index, :], dim=1))
+        # print(torch.max(slot_prob[list_index, :], dim=1))
 
         return self.list_intents[intent_pred], list_slot_preds
 
