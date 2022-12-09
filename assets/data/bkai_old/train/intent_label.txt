@@ -1,9 +1,0 @@
-smart.home.increase.level
-smart.home.device.onoff
-smart.home.set.percentage
-smart.home.increase.percentage
-smart.home.check.status
-smart.home.decrease.level
-smart.home.decrease.percentage
-smart.home.set.color
-smart.home.set.level
