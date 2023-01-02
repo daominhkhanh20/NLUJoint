@@ -1,19 +1,32 @@
 import argparse
+import json
+import os
 
-import pandas as pd
-from tqdm import tqdm
+import torch
+from sentence_transformers import SentenceTransformer
 
-parser = argparse.ArgumentParser()
-parser.add_argument('--path_folder_data', type=str, default='assets/data/bkai')
-parser.add_argument('--mode', type=str, default='dev')
-args = parser.parse_args()
-data = pd.read_csv(f"{args.path_folder_data}/{args.mode}/{args.mode}.csv")
-sents = data['text'].values.tolist()
-intent_labels = data['intent'].values.tolist()
-slot_labels = data['tag'].values.tolist()
+# from src.utils import get_intent_labels, is_float
+
+
+    
+def construct_sentence_embedding(args):
+    with open(args.description_path, "r") as json_file:
+        description = json.load(json_file)
+        json_file.close()
+
+    intent_list = get_intent_labels(args)
+    intent2des = {}
+    for label in intent_list:
+        intent2des[label] = description[label]
+
+    sentence_bert = SentenceTransformer(args.sentence_bert_path)
+    intent_embeddings = sentence_bert.encode(
+        list(intent2des.values()), convert_to_tensor=True
+    ).cpu()
+    torch.save(intent_embeddings, args.intent_embedding_path)
+
 
 def deduplicate_data(sents, intents, slots):
-    print('deduplicate')
     new_inputs, new_intents, new_slots = [], [], []
     set_sents = list()
     for sent, intent, slot in zip(sents, intents, slots):
@@ -35,10 +48,9 @@ def is_float(element):
     except ValueError:
         return False
     
-def fixed_label():
+def fixed_label(sents, slot_labels, intent_labels):
     print("Before: Number: ", len(sents))
-    older_intents, older_slots = [], []
-    new_sents, new_slot_labels, new_labels, is_diff = [], [], [], []
+    new_sents, new_slot_labels, new_labels = [], [], []
     for sent, slot, label in zip(sents, slot_labels, intent_labels):
         # fix intent
         new_label = None
@@ -139,84 +151,41 @@ def fixed_label():
         new_sents.append(sent)
         new_slot_labels.append(new_slot)
         new_labels.append(new_label)
-        older_intents.append(label)
-        older_slots.append(" ".join(slot))
-        if new_slot != " ".join(slot):
-            is_diff.append(2)
-        elif label != new_label:
-            is_diff.append(1)
-        else:
-            is_diff.append(0)
-    new_sents, new_slot_labels, new_labels = deduplicate_data(new_sents, new_slot_labels, new_labels)
-    return new_sents, new_slot_labels, new_labels, is_diff, older_slots, older_intents
 
-def fix_label2():
-    relabel_intents = []
-
-    decrease_words = ['giảm', 'hạ', 'xuống']
-    increase_words = ['tăng', 'thêm']
-    level_words = ['mức']
-    check_words = ['kiểm tra', 'kiểm soát', 'quét', 'mở hay đóng', 'đóng hay mở', 'bật hay tắt', 'tắt hay bật', 'check',
-                'bật hoặc tắt', 'tắt hoặc bật', 'còn bật', 'mở ah', 'đã đóng', 'đã tắt', 'chưa đóng', ' được mở',
-                'mở hoặc đóng', 'đóng hoặc mở', 'đang tắt', 'bật ah', 'đóng ah', 'được tắt']
-    on_off_words = ['bật', 'mở', 'tắt', 'đóng']
-    set_words = ['cài đặt', 'đặt']
-    color_words = ['xanh', 'đỏ', 'tím', 'vàng', 'lục', 'lam', 'chàm', 'hồng', 'tía', 'trắng', 'đen', 'cam', 'màu']
-
-    is_diff = []
+    # de duplicate
+    sents, slot_labels, intent_labels = deduplicate_data(new_sents, new_slot_labels, new_labels)
+    return sents, slot_labels, intent_labels
 
 
-    def is_true(sent, list_word):
-        word_split = sent.split(" ")
-        for word in list_word:
-            if (len(word.split(" ")) == 1 and word in word_split) or (len(word.split(" ")) > 1 and word in sent):
-                return True
-        return False
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
 
+    parser.add_argument(
+        "--sentence_bert_path", default="pretrained-models/retrieval-miniLM-L12", type=str
+    )
+    # parser.add_argument("--sentence_bert_path", default="all-MiniLM-L12-v2", type=str)
+    parser.add_argument(
+        "--intent_embedding_path", default="data/syllable-level/intent_embedding.pt", type=str
+    )
+    parser.add_argument(
+        "--description_path", default="data/syllable-level/description.json", type=str
+    )
+    parser.add_argument("--fixed_label", default=True)
+    parser.add_argument("--fixed_seq_in_path", default="fixed_train/seq.in", type=str)
+    parser.add_argument("--fixed_seq_out_path", default="fixed_train/seq.out", type=str)
+    parser.add_argument("--fixed_label_path", default="fixed_train/label", type=str)
 
-    for sentence, intent in tqdm(zip(sents, intent_labels), total=len(sents)):
-        is_percent_exist = 'phần trăm' in sentence
-        if not is_true(sentence, on_off_words) and is_true(sentence,
-                                                        decrease_words + increase_words) and not is_percent_exist:
-            if intent != 'smart.home.decrease.level' and is_true(sentence, decrease_words):
-                relabel_intents.append('smart.home.decrease.level')
-            elif intent != 'smart.home.increase.level' and is_true(sentence, increase_words) and not is_true(sentence, decrease_words):
-                relabel_intents.append('smart.home.increase.level')
-            else:
-                relabel_intents.append(intent)
-        elif is_true(sentence, check_words):
-            if is_true(sentence, on_off_words) and intent == 'smart.home.set.level':
-                relabel_intents.append(intent)
-            else:
-                if intent != 'smart.home.check.status':
-                    relabel_intents.append('smart.home.check.status')
-                else:
-                    relabel_intents.append(intent)
-        elif is_true(sentence, set_words) and not is_true(sentence, color_words) and not is_percent_exist:
-            if intent != 'smart.home.set.level':
-                relabel_intents.append('smart.home.set.level')
-            else:
-                relabel_intents.append(intent)
-        elif is_true(sentence, on_off_words) and not is_true(sentence, level_words) and not is_true(sentence, increase_words) \
-                and not is_true(sentence, color_words) and not is_percent_exist:
-            if intent != 'smart.home.device.onoff':
-                relabel_intents.append('smart.home.device.onoff')
-            else:
-                relabel_intents.append(intent)
-        else:
-            relabel_intents.append(intent)
+    parser.add_argument("--data_dir", default="assets/data/bkai/", type=str)
+    parser.add_argument("--seq_in_path", default="train_dev/seq.in", type=str)
+    parser.add_argument("--seq_out_path", default="train_dev/seq.out", type=str)
+    parser.add_argument("--label_path", default="train_dev/label", type=str)
+    parser.add_argument("--intent_label_file", default="intent_label.txt", type=str)
+    parser.add_argument("--slot_label_file", default="slot_label.txt", type=str)
 
-        if intent != relabel_intents[-1]:
-            is_diff.append(True)
-        else:
-            is_diff.append(0)
-            
-            
+    args = parser.parse_args()
+    # construct_sentence_embedding(args)
 
-sents, all_slots, relabel_intents, is_diff, older_slots, older_intents = fixed_label()
-print(len(sents))
-print(len(all_slots))
-print(len(relabel_intents))
-print(len(is_diff))
-df = pd.DataFrame({'text': sents, 'is_diff': is_diff, 'relabel_intent': relabel_intents,'tag': all_slots, 'older_intents': older_intents, 'orlder_tag': older_slots})
-df.to_csv(f"{args.path_folder_data}/{args.mode}/relabel_{args.mode}.csv", index=False)
+    if args.fixed_label:
+        print('test')
+        fixed_label(args)
+
