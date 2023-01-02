@@ -41,4 +41,4 @@ def read_file(path):
 def load_label(path, header=None):
     df = pd.read_csv(path, header=header)
     df.rename(columns={0: 'intent', 1: 'slot'}, inplace=True)
-    return df['0'].values.tolist(), df['1'].values.tolist()
+    return df['intent'].values.tolist(), df['slot'].values.tolist()
