@@ -56,7 +56,7 @@ class InferenceJoint:
             for idx, sentence in tqdm(enumerate(texts), total=len(texts)):
                 intent, slots = self.inference_one_sentence(sentence)
                 assert len(slots) == len(sentence.split(" "))
-                slot = " ".join(slots)
+                slot = " " + " ".join(slots)
                 list_intents.append(intent)
                 list_slots.append(slot)
             return list_intents, list_slots
