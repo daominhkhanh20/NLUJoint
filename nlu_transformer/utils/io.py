@@ -1,6 +1,7 @@
 import json
 import os
 import glob
+import pandas as pd 
 from nlu_transformer.utils.process import preprocess_text
 
 
@@ -36,3 +37,7 @@ def read_file(path):
         sentence.strip()
         for sentence in open(path, 'r')
     ]
+
+def load_label(path, header=None):
+    df = pd.read_csv(path, header=header)
+    return df['0'].values.tolist(), df['1'].values.tolist()

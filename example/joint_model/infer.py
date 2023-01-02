@@ -10,9 +10,9 @@ import os
 import pandas as pd
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--path_save_model', type=str, required=False, default='models/bkai/bert-base-multilingual-cased')
+parser.add_argument('--path_save_model', type=str, required=False, default=None)
 parser.add_argument('--mode', type=str, default='test')
-parser.add_argument('--path_folder_dev', type=str, default='assets/data/bkai/dev')
+parser.add_argument('--path_folder_test', type=str, default="assets/data/test_set")
 parser.add_argument('--epoch', type=int, default=-1)
 parser.add_argument('--sent', type=str, required=False)
 parser.add_argument('--path_file_predict', type=str, required=False, default='assets/data/bkai/test/seq.in')
@@ -126,10 +126,5 @@ elif args.mode == 'test':
         print(f"Sentence: {args.sent}")
         print(f"Intent: {intents_results}")
         print(f"Slot: {slots_results}")
-    elif args.path_file_predict is not None:
-        sentences = read_file(args.path_file_predict)
-        intent_preds, slot_preds = infer.inference(sentences)
-        df = pd.DataFrame({'intent': intent_preds, 'slot': slot_preds})
-        df.to_csv(f"{args.path_save_model}/results.csv", index=False, header=False)
-        os.chdir(f"{args.path_save_model}")
-        os.system(f'zip results.zip results.csv')
+    elif args.path_folder_test is not None:
+        infer.evalute_test()

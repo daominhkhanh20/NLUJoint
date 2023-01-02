@@ -6,6 +6,7 @@ from nlu_transformer.trainer import TrainerJointModel
 from nlu_transformer.utils import *
 from nlu_transformer.model import JointModel
 from nlu_transformer.dataset import DataSource
+from nlu_transformer.inference import InferenceJoint
 
 
 parser = argparse.ArgumentParser()
@@ -22,6 +23,7 @@ parser.add_argument('--continue_train', default=False, type=lambda x: str(x).low
 parser.add_argument('--path_pretrained', type=str, default=None)
 parser.add_argument('--path_save_model', type=str, default='models')
 parser.add_argument('--path_folder_data', type=str, default='assets/data/bkai')
+parser.add_argument('--path_test_set', type=str, default='assets/data/test_set')
 parser.add_argument('--is_train_aug', default=False, type=lambda x: x.lower() == 'true')
 parser.add_argument('--is_relabel', default=False, type=lambda x: x.lower() == 'true')
 parser.add_argument('--batch_size', type=int, default=32)
@@ -87,4 +89,4 @@ trainer = TrainerJointModel(
     optimizer_state=optimizer_state
 )
 
-# trainer.fit()
+trainer.fit()

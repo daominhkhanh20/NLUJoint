@@ -1,4 +1,6 @@
 import torch
+import os 
+from nlu_transformer.utils.io import * 
 from nlu_transformer.utils.process import make_input_model
 from transformers import AutoTokenizer
 from tqdm import tqdm
@@ -54,7 +56,20 @@ class InferenceJoint:
             for idx, sentence in tqdm(enumerate(texts), total=len(texts)):
                 intent, slots = self.inference_one_sentence(sentence)
                 assert len(slots) == len(sentence.split(" "))
-                slot = " " + " ".join(slots)
+                slot = " ".join(slots)
                 list_intents.append(intent)
                 list_slots.append(slot)
             return list_intents, list_slots
+    
+    def evalute_test(self, path_folder: str):
+        for folder_test in os.listdir(path_folder):
+            current_path = os.path.join(path_folder, folder_test)
+            list_sentence = read_file(os.path.join(current_path, 'seq.in'))
+            ground_truth_intents, ground_truth_slots = load_label(os.path.join(current_path, 'ground_truth.csv'))
+            pred_intents, pred_slots = self.inference(list_sentence)
+            cnt = 0
+            for idx in range(len(pred_intents)):
+                if ground_truth_intents[idx] == pred_intents[idx] and ground_truth_slots[idx] == pred_slots[idx]:
+                    cnt += 1
+            print(f"Accuracy for {folder_test}: {cnt/ len(pred_intents)}")
+        
