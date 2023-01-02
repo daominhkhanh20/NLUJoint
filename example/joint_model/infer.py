@@ -126,5 +126,6 @@ elif args.mode == 'test':
         print(f"Sentence: {args.sent}")
         print(f"Intent: {intents_results}")
         print(f"Slot: {slots_results}")
-    elif args.path_folder_test is not None:
-        infer.evalute_test()
+        
+elif args.mode == 'evaluate_test':
+    infer.evalute_test(path_folder=args.path_folder_test)
