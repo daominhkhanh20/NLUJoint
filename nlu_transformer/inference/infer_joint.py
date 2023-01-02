@@ -69,7 +69,7 @@ class InferenceJoint:
             pred_intents, pred_slots = self.inference(list_sentence)
             cnt = 0
             for idx in range(len(pred_intents)):
-                if ground_truth_intents[idx] == pred_intents[idx] and ground_truth_slots[idx] == pred_slots[idx]:
+                if ground_truth_intents[idx].strip() == pred_intents[idx].strip() and ground_truth_slots[idx].strip() == pred_slots[idx].strip():
                     cnt += 1
             print(f"Accuracy for {folder_test}: {cnt/ len(pred_intents)}")
         
