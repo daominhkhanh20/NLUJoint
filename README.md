@@ -1,15 +1,5 @@
 # Smart Home Intent Detection and Slot Filling
 
-## Members
-
-Nguyen Hoang Dang - 20194423
-
-Do Quoc An - 20194414
-
-Ha Vu Thanh Dat - 20194424
-
-Pham Nhu Thuan - 20194456
-
 ## Installation
 
 - Python version == 3.8
