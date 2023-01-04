@@ -151,7 +151,7 @@ def fixed_label():
     return new_sents, new_slot_labels, new_labels, is_diff, older_slots, older_intents
 
 def fix_label2():
-    relabel_intents = []
+    relabel_intents, is_confuse = [], []
 
     decrease_words = ['giảm', 'hạ', 'xuống']
     increase_words = ['tăng', 'thêm']
@@ -176,6 +176,10 @@ def fix_label2():
 
     for sentence, intent in tqdm(zip(sents, intent_labels), total=len(sents)):
         is_percent_exist = 'phần trăm' in sentence
+        if not is_percent_exist and 'percentage' in intent:
+            is_confuse.append(1111111111111111)
+        else:
+            is_confuse.append(0)
         if not is_true(sentence, on_off_words) and is_true(sentence,
                                                         decrease_words + increase_words) and not is_percent_exist:
             if intent != 'smart.home.decrease.level' and is_true(sentence, decrease_words):
@@ -210,13 +214,15 @@ def fix_label2():
             is_diff.append(True)
         else:
             is_diff.append(0)
+        if is_diff[-1] == 0 and is_confuse[-1] == 1111111111111111:
+            if "thay đổi" in sentence:
+                relabel_intents[-1] = "smart.home.set.level" 
+                is_diff[-1] = True
+            print(sentence, '---',intent)
+    return sents, slot_labels, relabel_intents, is_diff, slot_labels, intent_labels, is_confuse
             
             
 
-sents, all_slots, relabel_intents, is_diff, older_slots, older_intents = fixed_label()
-print(len(sents))
-print(len(all_slots))
-print(len(relabel_intents))
-print(len(is_diff))
-df = pd.DataFrame({'text': sents, 'is_diff': is_diff, 'relabel_intent': relabel_intents,'tag': all_slots, 'older_intents': older_intents, 'orlder_tag': older_slots})
+sents, all_slots, relabel_intents, is_diff, older_slots, older_intents, is_confuse = fix_label2()
+df = pd.DataFrame({'text': sents, 'is_diff': is_diff, 'relabel_intent': relabel_intents,'older_intents': older_intents, 'is_confuse': is_confuse,'tag': all_slots, 'orlder_tag': older_slots})
 df.to_csv(f"{args.path_folder_data}/{args.mode}/relabel_{args.mode}.csv", index=False)
