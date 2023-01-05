@@ -1,0 +1,151 @@
+Dạng dữ liệu (Dataset format)
+
+Dữ liệu đầu vào sẽ là 1 câu lệnh của người dùng. Cụ thể, câu lệnh sử dụng tiếng Việt và chưa được phân tách ở mức từ
+
+Input data will be a user's utterance. To be specific, the utterance is in Vietnamese and has not been segmented into words
+
+Ví dụ: tắt giúp mình cái đèn đứng 3 ở phòng ngủ con
+
+For example: please turn of the third light bulb in my son's bedroom
+
+Đầu ra (Output):
+
+Ý định của người dùng sẽ thuộc 1 trong 9 nhóm ý định sau:
+
+User's intent will be in 1 in 9 intent classes
+
+smart.home.check.status: Kiểm tra trạng thái của thiết bị
+
+smart.home.check.status: Check for status of the device/appliance
+
+Ví dụ: Tôi muốn xem bóng đèn ngoài hiên bật hay tắt
+
+For example: I want to know whether the light bulb on the balcony is on or off
+
+smart.home.decrease.level: Giảm thiết bị theo mức độ
+
+smart.home.decrease.level: Decrease operation level of device/appliance by level
+
+Ví dụ: Giảm tốc độ quạt về mức 3
+
+For example: Decrease the level of the fan to third level
+
+smart.home.decrease.percentage: Giảm thiết bị theo phần trăm
+
+smart.home.decrease.percentage: Decrease operation level of device/appliance by percentage
+
+Ví dụ: Giảm độ sáng đèn 30%
+
+For example: Decrease light brightness by 30%
+
+smart.home.device.onoff: Bật tắt thiết bị
+
+smart.home.device.onoff: Turn on/off device/appliance
+
+Ví dụ: Tôi muốn bật đèn phòng ngủ
+
+For example: I want to turn on light in bedroom
+
+smart.home.increase.level: Tăng thiết bị theo mức độ
+
+smart.home.increase.level: Increase operation level of device/appliance by level
+
+Ví dụ: Tăng bóng đèn phòng ngủ lên mức độ 3
+
+For example: Increase light brightness to level 3
+
+smart.home.increase.percentage: Tăng thiết bị theo phần trăm
+
+smart.home.increase.percentage: Increase operation level of device/appliance by percentage
+
+Ví dụ: Tăng bóng đèn phòng ngủ lên 50%
+
+For example: Increase light brightness by 50%
+
+smart.home.set.percentage: Bật thiết bị ở mức phần trăm nhất định
+
+smart.home.set.percentage: Turn on device/appliance at certain percentage of operation level
+
+Ví dụ: Bật quạt chạy 70% vận tốc tối đa
+
+For example: Turn on fan at 70% max speed
+
+smart.home.set.color: Thay đổi màu sắc của thiết bị
+
+smart.home.set.color: Change color of device/appliance
+
+Ví dụ: Thay đổi đèn phòng ngủ sang màu xanh
+
+For example: Change color of light in bedroom to blue
+
+smart.home.set.level: Bật thiết bị ở cấp độ nhất định
+
+smart.home.set.level: Turn on device/appliance at certain operation level
+
+Ví dụ: Bật đèn ngủ ở mức độ 3
+
+For example: Turn on light in bedroom at the third level
+
+Các từ trong câu sẽ thuộc các loại slot dưới đây, tuy nhiên lưu ý rằng các slot được đánh nhãn dưới dạng BIO:
+
+Words in user's utterance will be classified in one of these slot types, however, please note that slot are labeled in BIO format
+
+change-valuesyspercentage: mức độ tăng/giảm hoạt động của thiết bị tính theo phần trăm
+
+change-valuesyspercentage: percentage of operation level that user wishes to increase/decrasee
+
+change-valuesysnumber: mức độ tăng/giảm hoạt động của thiết bị tính theo mức
+
+change-valuesysnumber: level of operation level that user wishses to increase/decreae
+
+commandcommand: yêu cầu của người dùng (tăng, giảm, bật, tắt, ...)
+
+commandcommand: user's command (increase, decrease, turn on, turn off, ...)
+
+sysnumbersysnumber: giá trị số bất kì trong câu
+
+sysnumbersysnumber: random scalar value in user's utterance
+
+floornumberfloornumber: tầng mà thiết bị đang được đặt
+
+floornumberfloornumber: the floor where device/appliance is set up
+
+colorsyscolor: màu sắc mà người dùng muốn thiết bị đổi sang (màu chưa có trong hệ thống)
+
+colorsyscolor: the color that user wishes the device to be changed to (color not included in smart hoome system)
+
+syscolorsyscolor: màu sắc mà người dùng muốn thiết bị đổi sang (màu đã có trong hệ thống)
+
+colorsyscolor: the color that user wishes the device to be changed to (color included in smart hoome system)
+
+statusstatus: giá trị bật/tắt của thiết bị
+
+statusstatus: on/off status of device/appliance
+
+roomroom: phòng của thiết bị
+
+roomroom: room of device/appliance
+
+devicedevice: loại thiết bị
+
+devicedevice: type of device/appliance
+
+allall: có áp dụng lệnh lên mọi thiết bị tương tự không
+
+allall: whether to apply command to all similar device
+
+final-valuesysnumber: mức độ hoạt động mà người dùng muốn đặt cho tiết bị
+
+final-valuesysnumber: operation level that user want to set to the device/appliance
+
+final-valuesyspercentage: mức độ hoạt động mà người dùng muốn đặt cho thiết bị tính theo phần trăm
+
+final-valuesyspercentage: operation level that user want to set to the device/appliance in percentage
+
+Dự liệu huấn luyện (Training data)
+
+Tập dữ liệu huấn luyện và tập kiểm thử được cung cấp cho thí sinh sẽ lần lượt bao gồm 1790 và 392 câu lệnh. 
+
+Training set and dev set provided will contain 1790 and 392 user's commands respectively.
+
+Training set
