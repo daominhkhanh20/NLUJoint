@@ -1,7 +1,7 @@
-smart.home.increase.percentage, O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice O O 
-smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice I-devicedevice 
-smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice 
-smart.home.increase.percentage, O O O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice I-devicedevice 
+smart.home.increase.level, O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice O O 
+smart.home.increase.level, O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice I-devicedevice 
+smart.home.increase.level, O O O B-devicedevice I-devicedevice I-devicedevice 
+smart.home.increase.level, O O O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice I-devicedevice 
 smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O B-roomroom I-roomroom I-roomroom I-roomroom O B-floornumberfloornumber I-floornumberfloornumber I-floornumberfloornumber O 
 smart.home.increase.percentage, O O O B-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
 smart.home.increase.percentage, O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
@@ -13,24 +13,24 @@ smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevi
 smart.home.increase.percentage, O O O O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
 smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O B-roomroom I-roomroom I-roomroom O B-floornumberfloornumber I-floornumberfloornumber I-floornumberfloornumber O 
 smart.home.increase.percentage, O O O O O O B-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
-smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice 
-smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice 
+smart.home.increase.level, O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice 
+smart.home.increase.level, O O O B-devicedevice I-devicedevice I-devicedevice 
 smart.home.increase.percentage, O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
 smart.home.increase.percentage, O B-devicedevice I-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O O 
 smart.home.increase.percentage, O O O O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
 smart.home.increase.percentage, O O O O O O B-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
 smart.home.increase.percentage, O O O O O O O O B-devicedevice I-devicedevice 
 smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
-smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice 
+smart.home.increase.level, O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice 
 smart.home.increase.percentage, O O O O O O O O O B-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
-smart.home.increase.percentage, O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice I-devicedevice O O 
-smart.home.increase.percentage, O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice O O 
+smart.home.increase.level, O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice I-devicedevice O O 
+smart.home.increase.level, O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice O O 
 smart.home.increase.level, O O O O O O O O B-devicedevice I-devicedevice 
 smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 
 smart.home.increase.level, O O O O O O O O B-devicedevice I-devicedevice I-devicedevice 
-smart.home.increase.percentage, O O O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice 
+smart.home.increase.level, O O O O O O O O B-devicedevice I-devicedevice I-devicedevice I-devicedevice 
 smart.home.increase.percentage, O B-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O O 
-smart.home.increase.percentage, O O O O O O B-devicedevice I-devicedevice O O 
+smart.home.increase.level, O O O O O O B-devicedevice I-devicedevice O O 
 smart.home.increase.percentage, O B-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O O 
 smart.home.increase.percentage, O B-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O O 
 smart.home.increase.percentage, O O O B-devicedevice I-devicedevice I-devicedevice O B-change-valuesyspercentage I-change-valuesyspercentage I-change-valuesyspercentage O 

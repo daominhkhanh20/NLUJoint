@@ -70,8 +70,8 @@ class InferenceJoint:
             if 'test' not in folder_test:
                 continue
             current_path = os.path.join(path_folder, folder_test)
-            list_sentence = read_file(os.path.join(current_path, 'seq.in'))
-            ground_truth_intents, ground_truth_slots = load_label(os.path.join(current_path, 'ground_truth.csv'))
+            df_label = pd.read_csv(os.path.join(current_path, 'label.csv'))
+            list_sentence, ground_truth_intents, ground_truth_slots = df_label['sent'].values.tolist(),df_label['intent'].values.tolist(), df_label['slot'].values.tolist()
             pred_intents, pred_slots = self.inference(list_sentence)
             cnt = 0
             tmp_sentence, tmp_truth, tmp_pred = [], [], []
