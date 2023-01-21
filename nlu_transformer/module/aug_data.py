@@ -168,7 +168,7 @@ class ArgumentData(object):
 
 
 aug = ArgumentData.init_attribute(path_folder_data='assets/data/bkai/train', remove_number=False,
-                                  max_argument_sentence=50, is_relabel=True)
+                                  max_argument_sentence=10, is_relabel=True)
 # for slot in aug.chunk_slots:
 #     print(slot)
 aug.generate_data(path_save_data='assets/data/bkai/train_aug', write_csv=True)
